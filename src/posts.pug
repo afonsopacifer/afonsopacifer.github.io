@@ -6,7 +6,29 @@ block page_infos
 
 block content
 
-	h1 posts
+	section.container
 
-	//- for post in articles
-	//- 	span=post.name
+		h1(class="heading-lv1") Posts 
+			<i class="em em-smile"></i>
+			<i class="em em-pencil"></i>
+			<i class="em em-coffee"></i>
+
+		h2(class="heading-lv2") 2016
+
+		for post16 in articles_2016
+				article.article
+					span(class="text-date")=post16.date
+					a(href=post16.url class="text-link")
+						h3(class="heading-lv3")=post16.name
+					a(href=post16.url class="sub-heading")
+						|Avaible on #{span=post16.local} in #{span=post16.lang}
+
+		h2(class="heading-lv2") 2015
+
+		for post15 in articles_2015
+				article.article
+					span(class="text-date")=post15.date
+					a(href=post15.url class="text-link")
+						h3(class="heading-lv3")=post15.name
+					a(href=post15.url class="sub-heading")
+						|Avaible on #{span=post15.local} in #{span=post15.lang}

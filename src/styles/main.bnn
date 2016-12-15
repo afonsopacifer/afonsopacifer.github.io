@@ -11,6 +11,7 @@ html, body {
 body {
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
 }
 
 #aside {
@@ -38,4 +39,49 @@ body {
 .container {
   bnn-width: 700px;
   bnn-position: center;
+}
+
+.article {
+  margin: 25px 0;
+}
+
+.heading-lv1 {
+  margin: 30px 0;
+  font-weight: 700;
+}
+
+.heading-lv1 .em {
+  width: 20px;
+}
+.heading-lv2 {
+  border-bottom: 5px solid #a100f4;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.heading-lv3 {
+  margin: 10px 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.sub-heading {
+  color: #b9b9b9;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.text-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.text-date {
+  color: #b9b9b9;
+  float: right;
+  font-size: 12px;
+  font-weight: 300;
 }
