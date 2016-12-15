@@ -1,9 +1,41 @@
 @import 'vendors/normalize.min.bnn';
 
 :root {
-  --color: #000:
+  --aside-width: 200px:
 }
 
-.element {
-  color: var(--color);
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aside {
+  bnn-size: 230px 100%;
+  background-color: #f442a7;
+  position: fixed;
+  animation: colorize 2s infinite alternate;
+}
+
+@keyframes colorize {
+  from { background-color: #f442a7;}
+  to { background-color: #42d4f4;}
+}
+
+.perfil-picture {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#content {
+  margin-left: 230px;
+  flex: 1;
+}
+
+.container {
+  bnn-width: 700px;
+  bnn-position: center;
 }

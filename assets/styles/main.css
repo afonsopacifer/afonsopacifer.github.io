@@ -217,6 +217,48 @@ html {
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-.element {
-  color: #000:;
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aside {
+  width: 230px;
+  height: 100%;
+  background-color: #f442a7;
+  position: fixed;
+  animation: colorize 2s infinite alternate;
+}
+
+@keyframes colorize {
+  from {
+    background-color: #f442a7;
+  }
+
+  to {
+    background-color: #42d4f4;
+  }
+}
+
+.perfil-picture {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#content {
+  margin-left: 230px;
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
