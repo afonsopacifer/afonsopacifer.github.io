@@ -1,0 +1,32 @@
+doctype html
+html(lang="en" prefix="og: http://ogp.me/ns#")
+
+	head
+
+		//- head metas
+		//- ===========================================
+		include ./../includes/head-metas.pug
+
+		//- ===========================================
+		link(rel="stylesheet" href="assets/styles/main.css")
+
+		//- Fonts
+		link(href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css')
+
+	body(data-senna)
+
+		//- header
+		//- ===========================================
+		include ./../includes/aside.pug
+
+		//- main
+		//- ===========================================
+		main(id="content" data-senna-surface)
+			block content
+
+		//- bottom requests
+		//- ===========================================
+		//- include ./../includes/analytics.html
+
+		script(type="text/javascript" src="assets/scripts/vendors/senna-min.js")
+		script(type="text/javascript" src="assets/scripts/main.js" async)

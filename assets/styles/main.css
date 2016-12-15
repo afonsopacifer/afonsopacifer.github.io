@@ -1,3 +1,222 @@
+td,
+th {
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+textarea {
+  overflow: auto;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+pre {
+  overflow: auto;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+img {
+  border: 0;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+small {
+  font-size: 80%;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+dfn {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 .element {
   color: #000:;
 }
