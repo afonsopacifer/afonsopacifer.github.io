@@ -54,8 +54,8 @@ body {
     calc(var(--highlight-opacity)/3)
   );
 
-  --background-default: #fff;
-  --text-deafult: #000;
+  --background-default: #161616;
+  --text-deafult: #ffffff;
   --complementary: #c9c9c9;
 
 }
@@ -233,6 +233,11 @@ body {
   font-size: 0.8em;
   font-weight: 300;
   margin-left: var(--internal-spacing)
+}
+
+.star-count {
+  width: 100px;
+  height: 20px;
 }
 
 /* Links

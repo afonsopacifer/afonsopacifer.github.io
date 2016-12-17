@@ -15,8 +15,14 @@ block content
 		for talk16 in talks_2016
 				article.article
 					span(class="text-date")=talk16.date
-					a(href=talk16.url class="text-link" target="_blank")
-						h3(class="heading-lv3")=talk16.event
+
+					if talk16.video
+						a(href=talk16.video class="text-link" target="_blank")
+							h3(class="heading-lv3")=talk16.event
+					else
+						a(href=talk16.slides class="text-link" target="_blank")
+							h3(class="heading-lv3")=talk16.event
+
 					p.sub-heading
 						|#{span=talk16.theme} <br>
 						|Attendance: #{span=talk16.attendees} <br>
