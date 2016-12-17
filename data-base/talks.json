@@ -1,5 +1,5 @@
 {
-  "talks":[
+  "talks_2016":[
     {
       "event":"Front in Floripa",
       "theme":"Diga adeus aos pré/pós processadores CSS",
@@ -9,8 +9,7 @@
       "local":"Hotel Maria do Mar - ",
       "address":"Florianópolis - SC",
       "slides":"https://speakerdeck.com/afonsopacifer/pos-processadores",
-      "video": "",
-      "year": "2016"
+      "video": ""
     },
     {
       "event":"Rio Dev Day",
@@ -21,8 +20,7 @@
       "local":"Estácio de Sá - ",
       "address":"Rio de Janeiro - RJ",
       "slides":"https://speakerdeck.com/afonsopacifer/desmistificando-o-css4-ou-nao",
-      "video": "",
-      "year": "2016"
+      "video": "https://www.youtube.com/watch?v=47DYkx_WvrE&t=1906s"
     },
     {
       "event":"Front in Vale",
@@ -33,8 +31,7 @@
       "local":"Faro Hotel - ",
       "address":"São José dos campos - SP",
       "slides":"https://speakerdeck.com/afonsopacifer/as-entrelinhas-do-css",
-      "video": "",
-      "year": "2016"
+      "video": ""
     },
     {
       "event":"Meetup CSS SP",
@@ -44,8 +41,7 @@
       "dateschema":"2016-06-30",
       "local":"Google - ",
       "address":"São Paulo - SP",
-      "slides":"https://speakerdeck.com/afonsopacifer/como-desenhar-com-css-me-trouxe-ate-o-google-1",
-      "year":"2016"
+      "slides":"https://speakerdeck.com/afonsopacifer/como-desenhar-com-css-me-trouxe-ate-o-google-1"
     },
     {
       "event":"Sampa JS",
@@ -55,8 +51,7 @@
       "dateschema":"2016-06-25",
       "local":"PUC - ",
       "address":"São Paulo - SP",
-      "slides":"https://speakerdeck.com/afonsopacifer/ast-abstract-syntax-tree",
-      "year":"2016"
+      "slides":"https://speakerdeck.com/afonsopacifer/ast-abstract-syntax-tree"
     },
     {
       "event":"Front in Rio HTML Edition",
@@ -66,8 +61,7 @@
       "dateschema":"2016-05-14",
       "local":"Unirio - ",
       "address":"Urca, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/o-que-ha-de-novo-no-html5-dot-1",
-      "year":"2016"
+      "slides":"https://speakerdeck.com/afonsopacifer/o-que-ha-de-novo-no-html5-dot-1"
     },
     {
       "event":"#3 FEMUG RJ",
@@ -77,10 +71,11 @@
       "dateschema":"2016-01-23",
       "local":"Estácio - ",
       "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language",
-      "year":"2016"
+      "slides":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language"
 
-    },
+    }
+  ],
+  "talks_2015":[
     {
       "event":"Semana Acadêmica UFF",
       "theme":"Software Livre: Eu escolho você!",
@@ -89,8 +84,7 @@
       "dateschema":"2015-11-26",
       "local":"UFF - ",
       "address":"Niterói - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce"
     },
     {
       "event":"XV FEUCTEC",
@@ -100,8 +94,7 @@
       "dateschema":"2015-10-28",
       "local":"FEUC - ",
       "address":"Campo Grande, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -111,8 +104,7 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
@@ -122,8 +114,7 @@
       "dateschema":"2015-10-22",
       "local":"UFRRJ - ",
       "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
     },
     {
       "event":"#1 FEMUG RJ",
@@ -133,8 +124,7 @@
       "dateschema":"2015-10-10",
       "local":"Web Radar - ",
       "address":"Botafogo, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk"
     },
     {
       "event":"#3 BarraJS",
@@ -144,8 +134,7 @@
       "dateschema":"2015-07-25",
       "local":"LEO - ",
       "address":"Barra da Tijuca, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-grid-layout",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
     },
     {
       "event":"#15 RioJS",
@@ -155,8 +144,7 @@
       "dateschema":"2015-07-18",
       "local":"He:labs - ",
       "address":"Glória, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/flexbox",
-      "year":"2015"
+      "slides":"https://speakerdeck.com/afonsopacifer/flexbox"
     }
   ]
 }

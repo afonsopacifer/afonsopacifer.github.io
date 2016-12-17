@@ -6,6 +6,38 @@ block page_infos
 
 block content
 
-	h1 talks
+	section.container
 
-	
+		h1(class="heading-lv1") Talks
+
+		h2(class="heading-lv2") 2016
+
+		for talk16 in talks_2016
+				article.article
+					span(class="text-date")=talk16.date
+					a(href=talk16.url class="text-link" target="_blank")
+						h3(class="heading-lv3")=talk16.event
+					p.sub-heading
+						|#{span=talk16.theme} <br>
+						|Attendance: #{span=talk16.attendees} <br>
+						|#{span=talk16.local}#{span=talk16.address} <br>
+						a(href=talk16.slides target="_blank" class="text-link") Slides 
+						if talk16.video
+							| / 
+							a(href=talk16.video target="_blank" class="text-link") video
+
+		h2(class="heading-lv2") 2015
+
+		for talk15 in talks_2015
+				article.article
+					span(class="text-date")=talk15.date
+					a(href=talk15.url class="text-link" target="_blank")
+						h3(class="heading-lv3")=talk15.event
+					p.sub-heading
+						|#{span=talk15.theme} <br>
+						|Attendance: #{span=talk15.attendees} <br>
+						|#{span=talk15.local}#{span=talk15.address} <br>
+						a(href=talk15.slides target="_blank" class="text-link") Slides 
+						if talk15.video
+							| / 
+							a(href=talk15.video target="_blank" class="text-link") video

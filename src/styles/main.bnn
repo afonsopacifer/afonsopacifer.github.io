@@ -241,7 +241,7 @@ body {
 .text-link {
   color: var(--highlight);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   transition: color .1s;
 }
 
