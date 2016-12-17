@@ -23,7 +23,11 @@ gulp.task('pug', () => {
 // ===========================================
 gulp.task('banana', () => {
   gulp.src('src/styles/main.bnn')
-    .pipe(banana())
+    .pipe(banana({
+      bnnVariable : false,
+      bnnImport : false,
+      compress : true
+    }))
     .pipe(gulp.dest('assets/styles/'))
     .pipe(connect.reload());
 });

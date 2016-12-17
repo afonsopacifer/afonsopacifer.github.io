@@ -8,10 +8,10 @@ block content
 
 	section.container
 
-		h1(class="heading-lv1") Posts 
-			<i class="em em-smile"></i>
-			<i class="em em-pencil"></i>
-			<i class="em em-coffee"></i>
+		h1(class="heading-lv1") Posts
+			//- <i class="em em-smile"></i>
+			//- <i class="em em-pencil"></i>
+			//- <i class="em em-coffee"></i>
 
 		h2(class="heading-lv2") 2016
 
@@ -21,7 +21,7 @@ block content
 					a(href=post16.url class="text-link")
 						h3(class="heading-lv3")=post16.name
 					a(href=post16.url class="sub-heading")
-						|Avaible on #{span=post16.local} in #{span=post16.lang}
+						|Avaible on #{span=post16.local} [#{span=post16.lang}]
 
 		h2(class="heading-lv2") 2015
 
@@ -31,4 +31,4 @@ block content
 					a(href=post15.url class="text-link")
 						h3(class="heading-lv3")=post15.name
 					a(href=post15.url class="sub-heading")
-						|Avaible on #{span=post15.local} in #{span=post15.lang}
+						|Avaible on #{span=post15.local} [#{span=post15.lang}]
