@@ -222,6 +222,11 @@ body {
   text-decoration: none;
 }
 
+.paragraph {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
 .text-date {
   color: var(--complementary);
   float: right;
