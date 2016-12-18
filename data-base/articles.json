@@ -1,12 +1,21 @@
 {
   "articles_2016":[
     {
+      "name":"Retrospectiva 2016: O Ano das 100 coisas dev",
+      "date":"Dez 31 2016",
+      "description":"",
+      "url":"/retrospectiva-2016.html",
+      "local":"afonsopacifer's Blog",
+      "lang":"pt-br"
+    },
+    {
       "name":"template",
       "date":"Dez 16 2016",
       "description":"",
       "url":"/template.html",
       "local":"afonsopacifer's Blog",
-      "lang":"pt-br"
+      "lang":"pt-br",
+      "draft":"true"
     },
     {
       "name":"luz camera ação! - introdução a modelagem 3D com three.js",
