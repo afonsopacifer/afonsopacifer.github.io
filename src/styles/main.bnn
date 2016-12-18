@@ -278,18 +278,20 @@ body {
 .blog h2 {
   color: var(--highlight);
   font-weight: 300;
-  margin-top: var(--external-spacing);
+  margin-top: calc(var(--external-spacing)*2);
 }
 
 .blog h3 {
   font-weight: 300;
-  border-left: 4px solid var(--highlight);
-  padding-left: var(--internal-spacing);
+  margin-top: var(--external-spacing);
 }
 .blog blockquote {
   padding-left: var(--internal-spacing);
   color: var(--complementary);
   border-left: 3px solid var(--highlight);
+  margin-top: var(--external-spacing);
+  margin-bottom: var(--external-spacing);
+  margin-left: 0;
 }
 
 .blog p {
@@ -334,7 +336,7 @@ body {
 .blog pre {
   margin-top: var(--external-spacing);
   margin-bottom: var(--external-spacing);
-  display: inline-block;
+  display: block;
   padding: var(--internal-spacing)
 }
 

@@ -1,0 +1,63 @@
+extends ../layouts/blog.pug
+
+block page_infos
+	-var title = ""
+	-var description = ""
+
+block content
+
+	:markdown-it(linkify langPrefix='highlight-')
+
+		# SMACSS: O primeiro lenhador
+
+		> Esse artigo foi fácilitado pelo projeto **CSShortcut**, para se aprofundar e aprender alguns **segredos do SMACSS** além de muitas outras técnicas para tornar seu **CSS ultra descolado**, não exitem em dar uma olhada na proposta do **curso** em csshortcut.github.io
+
+		## O que é?
+
+		> **TIP:** Não é uma biblioteca que você faz download e instala.
+
+		SMACSS basicamente é uma **medotologia** para manter seu **CSS organizado**.
+
+		Criado por Jonathan Snook, o SMACSS ou **S**calable and **M**odular **A**rchiteture for **CSS** pode ser descrito mais como um guia de estilos do que um framework rígido, a ideia aqui é ser algo bem flexivél.
+
+		Sua assência vem da necessidade de padrões para tornar seu CSS **fácil de criar** e **escalável** tanto para **projetos pequenos quanto grandes**.
+
+		## Como funciona?
+
+		SMACSS tem seu potêncial quase que totalmente voltado para a separação do seu código em cinco siferentes categorias cada uma com uma responsábilidade. Entender qual parte do seu código vai se encaixar em qual categoria é importante, mas o segredo está em pensar de forma ***SMACSS FIRST***, um termo que criei para explicar sobre como lidar e construir suas aplicações de forma realmente a tirar proveito do SMACSS.
+
+		## As categorias existentes
+
+		Como disse antes são cinco categorias para vidir seu código, são elas:
+
+		### Base
+
+		São as configirações **default** do seu estilo, o básico que prepara o caminho para os demais estilos. Temos como grande exemplo os [CSS Resets](#).
+
+		### Layout
+
+		São os estilos que definem as **seções** da sua página. Geralmente temos os [Grids](*) nessa categoria.
+
+		### Module
+
+		São os **componentes** da página. Aqui temos todos os componentes que podem ser desde seu **header** até um **botão**, desde que seja desacoplado do Layout e **reutilizavél**.
+
+		### State
+
+		Aqui ficam os estados, tanto dos componentes quanto do layout. Coisas como se está **ativo** ou **inativo** e **aberto** ou **fechado** por exemplo. Tudo é organizado e isoladas aqui para fácilitar a reutilização de estados entre diferentes partes da página.
+
+		### Theme
+
+		> **TIP:** Essa categoria não é obrigatória em seu projeto.
+
+		São **alterações** do tema deafult de sua página, como mudar os estilos para determinada situação ou necessidade. Geralmente são regras que **sobresquervem** as demais para redefinir os estilos.
+
+		## Padrões de nomenclatura
+
+		## O pensamento *SMACS FIRST*
+
+		## Exemplo de estrutura
+
+		## Recado do facilitador
+
+		Para exemplos práticos e maiores explicações com dicas sobre como implementar essa e outras metogologias além de muito mais contéudo sobre como organizar seu CSS, recomendo que de uma olhada na grade do curso de organização de CSS do CSShortcut e se for interesante entrar para a galera descolada que manja dos paranaûes.
