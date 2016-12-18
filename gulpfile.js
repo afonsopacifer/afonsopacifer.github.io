@@ -10,7 +10,7 @@ const connect = require('gulp-connect');
 // Compile Jade
 // ===========================================
 gulp.task('pug', () => {
-	gulp.src(['src/**.pug'])
+	gulp.src(['src/**.pug','src/blog/**.pug'])
 		  .pipe(data(file => require('./data-base/talks.json')))
 		  .pipe(data(file => require('./data-base/projects.json')))
 		  .pipe(data(file => require('./data-base/articles.json')))

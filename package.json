@@ -15,5 +15,8 @@
     "gulp-connect": "^2.3.1",
     "gulp-data": "^1.2.1",
     "gulp-pug": "^3.2.0"
+  },
+  "dependencies": {
+    "jstransformer-markdown-it": "^2.0.0"
   }
 }

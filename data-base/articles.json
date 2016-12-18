@@ -1,13 +1,20 @@
 {
   "articles_2016":[
     {
+      "name":"template",
+      "date":"Dez 16 2016",
+      "description":"",
+      "url":"/template.html",
+      "local":"afonsopacifer's Blog",
+      "lang":"pt-br"
+    },
+    {
       "name":"luz camera ação! - introdução a modelagem 3D com three.js",
       "date":"Nov 30 2016",
       "description":"Hoje vamos entender os conceitos básicos que envolvem esse mundo e criar nosso primeiro modelo 3D, e claro, com muito javascript porque somos desses ;)",
       "url":"http://codepen.io/afonsopacifer/post/introducao-a-modelagem-3d-com-three-js",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Como foi a #FrontWeekSP para um comedor de biscoito?",
@@ -15,8 +22,7 @@
       "description":"Esse é um relato das coisas maravilhosas que aconteceram comigo nessa semana que entrou para a história da comunidade mundial de desenvolvedores Front-End.",
       "url":"https://medium.com/@afonsopacifer/um-relato-sobre-como-foi-a-frontweeksp-para-um-comedor-de-biscoito-85e936052bd#.ucnpbahra",
       "local":"Medium",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Como foi o Sampa.JS para um carioca que curte CSS?",
@@ -24,8 +30,7 @@
       "description":"Fala galera, esse é apenas o relato de um carioca que que teve a oportunidade de participar do já tradicional Sampa.JS, e de cara quero dizer que voltarei nos próximos anos COM CERTEZA!",
       "url":"https://medium.com/@afonsopacifer/como-foi-o-sampa-js-para-um-carioca-que-curte-css-3702665c60cc#.82wcbksfk",
       "local":"Medium",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Iniciando seus testes unitários em componentes ReactJS",
@@ -33,8 +38,7 @@
       "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
       "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
       "local":"Medium",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Pensando em URLs no Github",
@@ -42,8 +46,7 @@
       "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando.",
       "url":"https://medium.com/@afonsopacifer/pensando-em-urls-no-github-3517d97249d0#.un4beit6n",
       "local":"Medium",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #10 - Hora do Finn",
@@ -51,8 +54,7 @@
       "description":"Foi realmente incrível passar esses últimos dias com vocês, recebi tantos feedbacks positivos, vi tantos desenhos irados e conheci muita gente boa. Só tenho a agracer o carinho de todos!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-10-hora-do-finn",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #9 - Flexbox básico",
@@ -60,8 +62,7 @@
       "description":"Flexbox é um modulo da CSS3 que define um novo box model otimizado para interfaces, ou seja, agora temos uma especificação focada em interfaces, nada de floats ou tabelas aqui.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-9-flexbox",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #8 - Animações (parte 2)",
@@ -69,8 +70,7 @@
       "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-8-animacoes-parte-2",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #7 - Pseudo-elementos",
@@ -78,8 +78,7 @@
       "description":"Abordaremos basicamente os pseudo-elementos ::after e ::before, hoje aprenderemos que esses caras são muito importantes para a qualidade de nossos desenhos.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-7-pseudo-elementos",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #6 - Sombras",
@@ -87,8 +86,7 @@
       "description":"Sombras com CSS são bem fáceis de criar e entender, tão fáceis, que a partir de hoje você meu caro leitor, nunca mais vai precisar de nenhum box-shadow generator em sua vida ;)",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-6-sombras",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #5 - Animações (parte 1)",
@@ -96,8 +94,7 @@
       "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #4 - Desenhando com amor",
@@ -105,8 +102,7 @@
       "description":"Agora que tal juntarmos tudo para desenhar algo que represente o motivo desta série de posts existir? Vamos la!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-4-desenhando-com-amor",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #3 - Transformações ",
@@ -114,8 +110,7 @@
       "description":"Agora sim! Vamos conhecer umas das melhores features do CSS3, o que vai literalmente transformar sua percepção da linguagem :D",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-3-transformacoes",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #2 - Posicionamento",
@@ -123,8 +118,7 @@
       "description":"Agora que sabemos como criar formas básicas, podemos dar o próximo passo e preparar nossa folha de papel em branco para posicionarmos nossas formas e montar nosso desenho, a princípio usaremos apenas o bom e velho position, mas nos próximos artigos veremos flexbox e outras coisinhas legais sobre posicionamento.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-2-posicionamento",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     },
     {
       "name":"Hora de aventura com CSS #1 - Formas básicas",
@@ -132,8 +126,7 @@
       "description":"Depois de muito tempo sem fazer nada legal, resolvi pegar uma noite e fazer algo para me distrair e acabei criando o Jake apenas com CSS, depois de mostrar para a galera no facebook recebi alguns pedidos para ensinar os macetes para fazer essas coisas fofas com CSS.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-1-formas-basicas",
       "local":"Codepen",
-      "lang":"pt-br",
-      "year":"2016"
+      "lang":"pt-br"
     }
   ],
   "articles_2015":[

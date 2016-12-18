@@ -26,8 +26,14 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		//- main
 		//- ===========================================
 		main(id="content" data-senna-surface)
-			section.container
+			section.container.blog
 				block content
+
+				span.comment Leave your comment
+
+				div(id="disqus_thread" class="disqus")
+
+				include ./../includes/disqus.html
 
 		//- bottom requests
 		//- ===========================================

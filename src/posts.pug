@@ -6,26 +6,25 @@ block page_infos
 
 block content
 
-	section.container
+	h1(class="heading-lv1") Posts
 
-		h1(class="heading-lv1") Posts
+	h2(class="heading-lv2") 2016
 
-		h2(class="heading-lv2") 2016
+	for post16 in articles_2016
+		if !post16.draft
+			article.article
+				span(class="text-date")=post16.date
+				a(href=post16.url class="text-link" target="_blank")
+					h3(class="heading-lv3")=post16.name
+				a(href=post16.url class="sub-heading" target="_blank")
+					|Avaible on #{span=post16.local} [#{span=post16.lang}]
 
-		for post16 in articles_2016
-				article.article
-					span(class="text-date")=post16.date
-					a(href=post16.url class="text-link" target="_blank")
-						h3(class="heading-lv3")=post16.name
-					a(href=post16.url class="sub-heading" target="_blank")
-						|Avaible on #{span=post16.local} [#{span=post16.lang}]
+	h2(class="heading-lv2") 2015
 
-		h2(class="heading-lv2") 2015
-
-		for post15 in articles_2015
-				article.article
-					span(class="text-date")=post15.date
-					a(href=post15.url class="text-link" target="_blank")
-						h3(class="heading-lv3")=post15.name
-					a(href=post15.url class="sub-heading" target="_blank")
-						|Avaible on #{span=post15.local} [#{span=post15.lang}]
+	for post15 in articles_2015
+		article.article
+			span(class="text-date")=post15.date
+			a(href=post15.url class="text-link" target="_blank")
+				h3(class="heading-lv3")=post15.name
+			a(href=post15.url class="sub-heading" target="_blank")
+				|Avaible on #{span=post15.local} [#{span=post15.lang}]
