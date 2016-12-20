@@ -1,0 +1,150 @@
+extends ../layouts/blog.pug
+
+block page_infos
+	-var title = "Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first."
+	-var description = ""
+	-var date = "Dez 24 2016"
+
+block content
+
+	:markdown-it(linkify langPrefix='highlight-')
+
+		# Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.
+
+		- Não é tutorial
+		- Link do projeto finalisado
+		- Você está navegando nele ;)
+
+		## Motivação
+
+		Meu [antigo site](https://github.com/afonsopacifer/my-personal-website) era lindo, utilizava coisas muitos legais como Jade, [PostCSS](http://postcss.org/) e um sistema engenhoso de configuração utilizando arquivos JSON, além de possuir uma stack de testes redondinha com [Karma](https://karma-runner.github.io/1.0/index.html) e seus amigos. Mesmo consumindo os dados de um JSON e gerando as paginas estáticas, tive um grande problema em manter tudo atualizado pois utilizava imagens para cada novo item inserido (eu preciso inserir muita coisa rs), além disso ficou pesado e a complexidade do CSS quase me fez perder o controle (só não perdi pq o [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) não deixou <3).
+
+		### O Problema da Stack antiga
+
+		Nenhuma, mas eu tomei a decisão de criar um boilerplate antes de construir o site, o que gerou muita coisa desnecessária (testes em um site estático foi bizarro) e somado as decisões de de design fizeram o meu site ficar bem desatualizado ao longo dos meses, a solução para mim era obvia, jogar tudo fora e começar do zero, mas dessa vez iria criar primeiro o site e depois extrair um boilerplate.
+
+		> O boilerplate citado acima é o [slush-tangerine](https://github.com/afonsopacifer/slush-tangerine) e está disponível no [npm](https://www.npmjs.com/package/slush-tangerine) e [github](https://github.com/afonsopacifer/slush-tangerine) ;)
+
+		### Novas decisões
+
+		Aproveitando que iria reescrever tudo, apesar de não ter mais do que algumas horas antes de dormir por uns dias para faze-lo, decidi continuar com o esquema de gerar tudo estático mas dessa vez queria criar uma [SPA (Single Page Application)](https://en.wikipedia.org/wiki/Single-page_application) que deveria ser [Offline First](http://offlinefirst.org/), até porque, estamos no século XXI né lek rsrs.
+
+		## Template engine e estrutura básica com Pug
+
+		Como não tinha o que reclamar do meu template engine favorito Jade, continue porém com seu novo nome, [Pug](https://pugjs.org/api/getting-started.html). Aqui inspirado pela arquitetura do [Jekyll](https://jekyllrb.com/) usei a seguinte estrutura.
+
+		![Rascunho da estrutura básica do do projeto com pug](/assets/img/posts/psychedelic/psychedelic-pug.jpg)
+
+		- `assets/` - Todas as imagens, `.svg`, `.css` (compilado), `.js`(compilado), etc...
+		- `src/` - Arquivos `.pug`, `.bnn` e `.js`(es6)
+		- `src/blog/` - Todos os artigos do blog.
+		- `src/blog/post.pug` - Exemplo de artigo.
+		- `src/includes/` - Partes reutilizavéis do projeto, como `header`, `aside`, etc...
+		- `src/layouts/` - Templates básicos do projeto.
+		- `src/scripts/` - Arquivos `.js` antes de serem trasnpilados.
+		- `src/styles/` - Arquivos `.bnn` antes de serem compilados para `.css`.
+		- `src/index.pug` - Página inicial.
+		- `post.html` - Exemplo de artigo compilado.
+		- `index.html` - Página inicial compilada.
+
+		Como temos a estrutura das páginas separadas nas pastas `layouts/` e `includes/`, podemos construir nosso `index.pug` e as demais paginas focando apenas no conteúdo, algo assim:
+
+		```pug
+		extends ./layouts/default.pug
+
+		block page_infos
+		  -var title = "Título da página"
+		  -var description = "Exemplo de descrição"
+
+		block content
+
+		  h1 Hello Psychedelic
+		```
+
+		> Usamos as variáveis `title` e `description` para informar ao template quais são as informações especificas sobre a página para montar seus meta dados corretamente <3
+
+
+		Com essa estrutura eu já temos o poder de organizar muito bem o projeto. Adicionand o bom e velho de guerra [Gulp](http://gulpjs.com/) usando o [gulp-pug](https://github.com/pugjs/gulp-pug), para dar watch e fazer os builds, temos práticamente um gerador estático pronto para ação.
+
+		## Base da dados estática com json + gulp-data
+
+		Como toda boa aplicação, precisamos construir e consumir nossos dados para montar as views, nesse caso como além de blog temos um site pessoal, nossos dados são:
+
+		- Lista de [artigos](https://github.com/afonsopacifer/afonsopacifer.github.io/blob/master/data-base/articles.json)
+		- Lista de [palestras](https://github.com/afonsopacifer/afonsopacifer.github.io/blob/master/data-base/talks.json)
+		- Lista de [videos](https://github.com/afonsopacifer/afonsopacifer.github.io/blob/master/data-base/videos.json)
+		- Lista de [projetos](https://github.com/afonsopacifer/afonsopacifer.github.io/blob/master/data-base/projects.json)
+
+		### **Criando** a base de dados
+
+		Cada lista tem seus tipos de dados específicos, para organizar isso tudo, criamos a pasta `data-base`
+		e lá dentro criamos os [arquivos JSON](https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base) contendo esses dados, dessa forma para adicionar, por exemplo, um video a base de dados, basta editar o JSON correspondente e temos um **update**.
+
+		### **Consumindo** a base de dados
+
+		Para consumir o conteúdo dos arquivos JSON e deixa-los disponíveis para exibição, vamos utilizar o [gulp-data](https://github.com/colynb/gulp-data), basta adiciona-lo a pipeline do Gulp e apontar para os arquivos a serem lidos.
+
+		```js
+		gulp.task('pug', () => {
+		  gulp.src(['src/**.pug','src/blog/**.pug'])
+		    .pipe(data(file => require('./data-base/talks.json')))
+		    .pipe(data(file => require('./data-base/projects.json')))
+		    .pipe(data(file => require('./data-base/articles.json')))
+		    .pipe(data(file => require('./data-base/videos.json')))
+		    .pipe(pug())
+		    .pipe(gulp.dest('./'))
+		    .pipe(connect.reload());
+		});
+		```
+
+		Pronto, temos nossos dados disponíveis na aplicação.
+
+		### **Exibindo** os dados com Pug
+
+		Com os dados disponíveis precisamos apenas **itera-los** utilizando um simples `for`, assim exibimos a lista de dados vindas do JSON e compilados tudo para suas respectivas paginas html **estáticas**.
+
+		Criamos os arquivos `.pug` em `src/` para cada pagina que iremos criar e iteramos em seus respectivos dados como no exemplo abaixo.
+
+		```pug
+		for video16 in videos_2016
+		  article
+		    span=video16.date
+		    a(href=video16.url)
+		      h3=video16.theme
+		    a(href=video16.url)
+		      |Duration #{span=video16.time} [#{span=video16.lang}]
+		```
+
+		> **Tip:** Na listagem de posts, podemos usar um `if` para filtrar um artigo especificado como "draft" por exemplo.
+
+		```pug
+		for post16 in articles_2016
+		  if !post16.draft
+		```
+
+		## Blog posts em markdown com jstransformer
+		- Pug + sennajs
+
+		## Single Page App com sennaJS
+		- Pug + sennajs
+
+		## Offline First com Service Workers
+		- sw
+		- babel
+
+		## Estilo hibrido com bananacss
+		- bananacss + gulp-banana
+
+		## Psicodelia com CSS Variables + Forgotten Events
+		- CSS Variables
+		- Mouse
+		- Ambient Light API
+
+		## Coisinhas
+		- emojicss
+		- disqus no layout
+
+		## Build e Deploy
+
+		## Bonûs
+		- Boilerplate com Stcak isolada para estudos.

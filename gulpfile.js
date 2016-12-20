@@ -47,7 +47,7 @@ gulp.task('babel', () => {
 // Watch
 // ===========================================
 gulp.task('watch', () => {
-	gulp.watch(['src/**/**.pug'], ['pug']);
+	gulp.watch(['src/**/**.pug','data-base/**.json'], ['pug']);
 	gulp.watch(['src/styles/**/**.bnn'], ['banana']);
   gulp.watch(['src/scripts/**.js'], ['babel']);
 });

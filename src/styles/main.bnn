@@ -213,6 +213,7 @@ body {
   padding: 0;
   font-size: 1.4em;
   font-weight: 300;
+  line-height: 35px;
 }
 
 .sub-heading {
@@ -320,7 +321,7 @@ body {
 
 .blog strong {
   color: var(--highlight);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .blog a  {
@@ -337,7 +338,26 @@ body {
   margin-top: var(--external-spacing);
   margin-bottom: var(--external-spacing);
   display: block;
-  padding: var(--internal-spacing)
+  padding: var(--internal-spacing);
+  background-color:  #2a2a2a;
+}
+
+.blog pre code {
+
+}
+
+.blog code {
+  padding: 2px;
+  background-color:  #2a2a2a;
+  display: inline-block;
+  font-weight: 300;
+}
+
+.blog img {
+  width: 100%;
+  max-width: 700px;
+  margin-top: var(--external-spacing);
+  margin-bottom: var(--external-spacing);
 }
 
 .comment {
