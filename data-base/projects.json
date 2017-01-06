@@ -1,14 +1,6 @@
 {
   "projects_2016":[
     {
-      "name":"gorilla",
-      "user":"floripajs",
-      "description":"Generate vanilla plugin faster.",
-      "url":"https://github.com/floripajs/gorilla",
-      "date": "https://github.com/floripajs/gorilla",
-      "date": "December 2016"
-    },
-    {
       "name":"scrollindo.js",
       "user":"afonsopacifer",
       "description":"Simple abstraction for scroll interactions.",

@@ -3,15 +3,13 @@ extends ../layouts/blog.pug
 block page_infos
 	-var title = ""
 	-var description = ""
-	-var date = "Dez 26 2016"
+	-var date = "Jan 09 2017"
 
 block content
 
 	:markdown-it(linkify langPrefix='highlight-')
 
 		# SMACSS: O primeiro lenhador
-
-		> Esse artigo foi fácilitado pelo projeto **CSShortcut**, para se aprofundar e aprender alguns **segredos do SMACSS** além de muitas outras técnicas para tornar seu **CSS ultra descolado**, não exitem em dar uma olhada na proposta do **curso** em csshortcut.github.io
 
 		## Ouça o conteúdo do artigo em formato de Podcast <3
 
@@ -57,10 +55,25 @@ block content
 
 		## Padrões de nomenclatura
 
+		SMACSS só possui alguns padrões para escrita de classes, porém o mais importante é a utilização do prefixo `is-` quando lidamos com alguma mudança de estado em nas camadas de `module` ou `layout`.
+
+		exemplo:
+
+		```CSS
+		.is-disabled {
+		  opacity: .5;
+		  pointer-events: none;
+		}
+		```
+
+		O código acima pode ser utilizado para manipular o estado de qualquer elemento da interface e tem sua intenção como regra de estado clara graças ao prefixo.
+
 		## O pensamento *SMACS FIRST*
 
 		## Exemplo de estrutura
 
-		## Recado do facilitador
+		## Conclusão
 
-		Para exemplos práticos e maiores explicações com dicas sobre como implementar essa e outras metogologias além de muito mais contéudo sobre como organizar seu CSS, recomendo que de uma olhada na grade do curso de organização de CSS do CSShortcut e se for interesante entrar para a galera descolada que manja dos paranaûes.
+		## Recadinho
+
+		> Esse artigo foi fácilitado pelo projeto **CSShortcut**, para se aprofundar e aprender alguns **segredos do SMACSS** além de muitas outras técnicas para tornar seu **CSS ultra descolado**, não exitem em dar uma olhada na proposta do **curso** em csshortcut.github.io

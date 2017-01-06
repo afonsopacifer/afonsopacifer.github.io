@@ -1,20 +1,39 @@
 {
+  "articles_2017":[
+  {
+    "name":"Atomic Design: Da ciência a alquimia",
+    "date":"Jan 11 2017",
+    "description":"",
+    "url":"/atomic-design-da-ciencia-a-alquimia.html",
+    "local":"Blog",
+    "lang":"pt-br"
+  },
+  {
+    "name":"BEM: A árvore de lego",
+    "date":"Jan 10 2017",
+    "description":"",
+    "url":"/bem-a-arvore-de-lego.html",
+    "local":"Blog",
+    "lang":"pt-br"
+  },
+  {
+    "name":"SMACSS: O primeiro lenhador",
+    "date":"Jan 09 2017",
+    "description":"",
+    "url":"/smacss-o-primeiro-lenhador.html",
+    "local":"Blog",
+    "lang":"pt-br"
+  }
+  ],
   "articles_2016":[
     {
-      "name":"Retrospectiva 2016: O Ano das 100 coisas dev",
-      "date":"Dez 31 2016",
+      "name":"template",
+      "date":"Dez 16 2016",
       "description":"",
-      "url":"/retrospectiva-2016.html",
+      "url":"/template.html",
       "local":"afonsopacifer's Blog",
-      "lang":"pt-br"
-    },
-    {
-      "name":"SMACSS: O primeiro lenhador",
-      "date":"Dez 26 2016",
-      "description":"",
-      "url":"/smacss-o-primeiro-lenhador.html",
-      "local":"afonsopacifer's Blog",
-      "lang":"pt-br"
+      "lang":"pt-br",
+      "draft":"true"
     },
     {
       "name":"Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.",
@@ -22,13 +41,14 @@
       "description":"",
       "url":"/psychedelic-stack.html",
       "local":"afonsopacifer's Blog",
-      "lang":"pt-br"
+      "lang":"pt-br",
+      "draft":"true"
     },
     {
-      "name":"template",
-      "date":"Dez 16 2016",
+      "name":"Retrospectiva 2016: O Ano das 100 coisas dev",
+      "date":"Dez 31 2016",
       "description":"",
-      "url":"/template.html",
+      "url":"/retrospectiva-2016.html",
       "local":"afonsopacifer's Blog",
       "lang":"pt-br",
       "draft":"true"

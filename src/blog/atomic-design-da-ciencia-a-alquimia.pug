@@ -1,0 +1,14 @@
+extends ../layouts/blog.pug
+
+block page_infos
+	-var title = ""
+	-var description = ""
+	-var date = "Jan 11 2017"
+
+block content
+
+	:markdown-it(linkify langPrefix='highlight-')
+
+		# Atomic Design: Da ciência a alquimia
+
+		> Esse artigo foi fácilitado pelo projeto **CSShortcut**, para se aprofundar e aprender alguns **segredos do SMACSS** além de muitas outras técnicas para tornar seu **CSS ultra descolado**, não exitem em dar uma olhada na proposta do **curso** em csshortcut.github.io

@@ -33,9 +33,9 @@ body {
   /* Design */
 
   /* Color Palette */
-  --highlight-R: 0;
-  --highlight-G: 0;
-  --highlight-B: 0;
+  --highlight-R: 255;
+  --highlight-G: 255;
+  --highlight-B: 255;
   --highlight-opacity: 1;
 
   --highlight-RGB:
@@ -54,7 +54,7 @@ body {
     calc(var(--highlight-opacity)/3)
   );
 
-  --background-default: #161616;
+  --background-default: #1d1d1d;
   --text-deafult: #ffffff;
   --complementary: #c9c9c9;
 
@@ -123,12 +123,12 @@ body {
 }
 
 .social-link svg {
-  transition: fill .1s;
-  fill: var(--highlight-light);
+  transition: opacity .1s;
+  fill: var(--highlight);
 }
 
 .social-link svg:hover {
-  fill: var(--highlight);
+  opacity: .7;
 }
 
 /* Menu
@@ -286,6 +286,13 @@ body {
   font-weight: 300;
   margin-top: var(--external-spacing);
 }
+
+.blog h3:before {
+  content:"★";
+  color: var(--highlight);
+  margin-right: var(--internal-spacing);
+}
+
 .blog blockquote {
   padding-left: var(--internal-spacing);
   color: var(--complementary);
@@ -339,7 +346,7 @@ body {
   margin-bottom: var(--external-spacing);
   display: block;
   padding: var(--internal-spacing);
-  background-color:  #2a2a2a;
+  background-color:  #1d1d1d;
 }
 
 .blog pre code {
@@ -348,9 +355,10 @@ body {
 
 .blog code {
   padding: 2px;
-  background-color:  #2a2a2a;
+  background-color: #1d1d1d;
   display: inline-block;
   font-weight: 300;
+  color: var(--complementary);
 }
 
 .blog img {

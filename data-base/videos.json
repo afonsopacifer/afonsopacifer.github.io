@@ -1,6 +1,15 @@
 {
   "videos_2016":[
     {
+      "theme":"Live #01 - Organização do CSS, variáveis nativas e mais. ",
+      "time":"1:39:40",
+      "date":"Dez 22 2016",
+      "dateschema":"2016-12-22",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=-zeLj8F4iP0",
+      "lang": "pt-br"
+    },
+    {
       "theme":"#018 - Iniciando com Acessibilidade Web",
       "time":"11:31",
       "date":"Dez 04 2016",
