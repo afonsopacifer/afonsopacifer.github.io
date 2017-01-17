@@ -1,0 +1,289 @@
+{
+  "projects_2016":[
+    {
+      "name":"scrollindo.js",
+      "user":"afonsopacifer",
+      "description":"Simple abstraction for scroll interactions.",
+      "url":"https://afonsopacifer.github.io/scrollindo.js/",
+      "date": "December 2016"
+    },
+    {
+      "name":"slush-banana",
+      "user":"bananacss",
+      "description":"Generator for BananaCSS Projects.",
+      "url":"https://github.com/bananacss/slush-banana",
+      "date": "August 2016"
+    },
+    {
+      "name":"slush-gulp-plugin",
+      "user":"bananacss",
+      "description":"A slush generator for gulp plugins.",
+      "url":"https://github.com/afonsopacifer/slush-gulp-plugin",
+      "date": "August 2016"
+    },
+    {
+      "name":"gulp-banana",
+      "user":"bananacss",
+      "description":"Gulp plugin for compile Banana code to CSS.",
+      "url":"https://github.com/bananacss/gulp-banana",
+      "date": "August 2016"
+    },
+    {
+      "name":"css-ast-iterations",
+      "user":"bananacss",
+      "description":"Provide a very simple API for complex iterations on the CSS abstract syntax tree (AST).",
+      "url":"https://github.com/bananacss/css-ast-iterations",
+      "date": "August 2016"
+    },
+    {
+      "name":"banana-style-guide",
+      "user":"bananacss",
+      "description":"Banana NodeJS code style guide.",
+      "url":"https://github.com/bananacss/banana-style-guide",
+      "date": "August 2016"
+    },
+    {
+      "name":"bananacss",
+      "user":"bananacss",
+      "description":"The brazilian CSS superset writen in NodeJS.",
+      "url":"https://github.com/bananacss/bananacss",
+      "date": "July 2016"
+    },
+    {
+      "name":"vue-meditation",
+      "user":"afonsopacifer",
+      "description":"Timer for meditation built with Vue.JS",
+      "url":"https://afonsopacifer.github.io/vue-meditation/",
+      "date": "July 2016"
+    },
+    {
+      "name":"slush-node-cli",
+      "user":"afonsopacifer",
+      "description":"A slush generator for Nodejs CLI programs.",
+      "url":"https://github.com/afonsopacifer/slush-node-cli",
+      "date": "June 2016"
+    },
+    {
+      "name":"friday",
+      "user":"afonsopacifer",
+      "description":"Shell Script to help with daily tasks.",
+      "url":"https://github.com/afonsopacifer/friday",
+      "date": "June 2016"
+    },
+    {
+      "name":"awesome-firebase",
+      "user":"afonsopacifer",
+      "description":"A curated list of Firebase.",
+      "url":"https://github.com/afonsopacifer/awesome-firebase",
+      "date": "June 2016"
+    },
+    {
+      "name":"skip-to-content",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Skip to Content.",
+      "url":"https://github.com/afonsopacifer/skip-to-content",
+      "date": "June 2016"
+    },
+    {
+      "name":"hamburguer-menu",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Off-canvas Menu.",
+      "url":"https://github.com/afonsopacifer/hamburguer-menu",
+      "date": "June 2016"
+    },
+    {
+      "name":"github-corner",
+      "user":"afonsopacifer",
+      "description":"A Polymer element for Github Corner.",
+      "url":"https://github.com/afonsopacifer/github-corner",
+      "date": "June 2016"
+    },
+    {
+      "name":"react-unit-test-example",
+      "user":"afonsopacifer",
+      "description":"Exemplo de teste unitário em componentes ReactJS.",
+      "url":"https://github.com/afonsopacifer/react-unit-test-example",
+      "date": "May 2016"
+    },
+    {
+      "name":"slush-react-start",
+      "user":"afonsopacifer",
+      "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
+      "url":"https://github.com/afonsopacifer/slush-react-start",
+      "date": "April 2016"
+    },
+    {
+      "name":"react-pomodoro",
+      "user":"afonsopacifer",
+      "description":"Pomodoro timer for developers.",
+      "url":"http://afonsopacifer.github.io/react-pomodoro/",
+      "date": "April 2016"
+    },
+    {
+      "name":"react-comments",
+      "user":"afonsopacifer",
+      "description":"A React comment feed.",
+      "url":"http://afonsopacifer.github.io/react-comments/",
+      "date": "April 2016"
+    },
+    {
+      "name":"da-vinci-css",
+      "user":"afonsopacifer",
+      "description":"Creating shapes and drawings with CSS.",
+      "url":"https://github.com/afonsopacifer/da-vinci-css",
+      "date": "April 2016"
+    },
+    {
+      "name":"css-magic",
+      "user":"afonsopacifer",
+      "description":"An illusion created only with CSS.",
+      "url":"https://github.com/afonsopacifer/css-magic",
+      "date": "March 2016"
+    },
+    {
+      "name":"egg-emergency",
+      "user":"afonsopacifer",
+      "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
+      "url":"http://afonsopacifer.github.io/egg-emergency/",
+      "date": "January 2016"
+    }
+
+  ],
+  "projects_2015":[
+    {
+      "name":"open-source-boilerplate",
+      "user":"afonsopacifer",
+      "description":"A template to help you create open source projects more organized.",
+      "url":"https://github.com/afonsopacifer/open-source-boilerplate",
+      "date": "December 2015"
+    },
+    {
+      "name":"SPA-example",
+      "user":"afonsopacifer",
+      "description":"Exemplo de uma SPA utilizando Jquery e History API.",
+      "url":"https://github.com/afonsopacifer/SPA-example",
+      "date": "November 2015"
+    },
+    {
+      "name":"pacificator",
+      "user":"afonsopacifer",
+      "description":"Adds a standard syntax and indentation to css.",
+      "url":"https://github.com/afonsopacifer/pacificator",
+      "date": "October 2015"
+    },
+    {
+      "name":"microscope",
+      "user":"afonsopacifer",
+      "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
+      "url":"https://github.com/afonsopacifer/microscope",
+      "date": "October 2015"
+    },
+    {
+      "name":"marcando-de-batom",
+      "user":"janasouza",
+      "description":"Docpad Blog",
+      "url":"https://github.com/janasouza/marcando-de-batom",
+      "date": "October 2015"
+    },
+    {
+      "name":"slush-tangerine",
+      "user":"afonsopacifer",
+      "description":"Front-End boilerplate with tangerine flavor.",
+      "url":"https://github.com/afonsopacifer/slush-tangerine",
+      "date": "October 2015"
+    },
+    {
+      "name":"open-source-checklist",
+      "user":"afonsopacifer",
+      "description":"A guide to help you remember important things when creating an open source project ;D",
+      "url":"http://afonsopacifer.github.io/open-source-checklist/",
+      "date": "October 2015"
+    },
+    {
+      "name":"busca-starter-kit",
+      "user":"busca-dev",
+      "description":"Front-End Boilerplate :)",
+      "url":"https://github.com/busca-dev/busca-starter-kit",
+      "date": "August 2015"
+    },
+    {
+      "name":"write-code-every-day",
+      "user":"raphamorim",
+      "description":"wA project to honor those developers who believed in the challenge.",
+      "url":"http://raphamorim.io/write-code-every-day/",
+      "date": "July 2015"
+    },
+    {
+      "name":"commit-wars",
+      "user":"afonsopacifer",
+      "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
+      "url":"https://github.com/afonsopacifer/commit-wars",
+      "date": "June 2015"
+    },
+    {
+      "name":"learning-css-grid-layout",
+      "user":"afonsopacifer",
+      "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
+      "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
+      "date": "June 2015"
+    },
+    {
+      "name":"front-end-checklist",
+      "user":"afonsopacifer",
+      "description":"work in progress.",
+      "url":"https://github.com/afonsopacifer/front-end-checklist",
+      "date": "June 2015"
+    },
+    {
+      "name":"afonsopacifer.github.io",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"afonsopacifer.github.io",
+      "date": "June 2015"
+    },
+    {
+      "name":"flex-grid-framework",
+      "user":"afonsopacifer",
+      "description":"The Flex Semantic Grid focusing on performance.",
+      "url":"https://afonsopacifer.github.io/flex-grid-framework/",
+      "date": "June 2015"
+    },
+    {
+      "name":"dev-notes",
+      "user":"afonsopacifer",
+      "description":"Anotações de um Dev Front-End.",
+      "url":"https://github.com/afonsopacifer/dev-notes",
+      "date": "June 2015"
+    },
+    {
+      "name":"pumpkin",
+      "user":"afonsopacifer",
+      "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
+      "url":"https://github.com/afonsopacifer/pumpkin",
+      "date": "May 2015"
+    },
+    {
+      "name":"awesome-flexbox",
+      "user":"afonsopacifer",
+      "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
+      "url":"https://github.com/afonsopacifer/awesome-flexbox",
+      "date": "May 2015"
+    },
+    {
+      "name":"my-personal-website",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"https://github.com/afonsopacifer/my-personal-website",
+      "date": "April 2015"
+    }
+  ],
+  "projects_2014":[
+    {
+      "name":"afonsoconfigs",
+      "user":"afonsopacifer",
+      "description":"My packages, configs, dotfiles, plugins, etc...",
+      "url":"https://github.com/afonsopacifer/afonsoconfigs",
+      "date": "September 2014"
+    }
+  ]
+}

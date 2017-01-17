@@ -1,0 +1,34 @@
+extends ../layouts/blog.pug
+
+block page_infos
+	-var title = ""
+	-var description = ""
+	-var date = "Jan 01 2017"
+
+block content
+
+	:markdown-it(linkify langPrefix='highlight-')
+
+		# Blog Post Title Example <3
+
+		## Lorem ipsum dolor
+
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac bibendum felis. Pellentesque sapien nunc, posuere nec ante ac, [tempor luctus metus](#). Nullam felis eros, efficitur et tellus id, auctor accumsan ipsum. Curabitur vitae ullamcorper libero, <i class="em em-grin"></i> laoreet vestibulum ipsum. Sed pretium erat id mauris cursus semper. `Morbi placerat` lacinia pulvinar.
+		```css
+		.css {
+		  color: #000;
+		}
+		```
+		> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac bibendum felis.
+
+		## Lorem ipsum dolor
+
+		Lorem ipsum dolor sit amet, **consectetur adipiscing** elit. Phasellus ac bibendum felis. Pellentesque sapien nunc, posuere nec ante ac, tempor luctus metus. Nullam felis eros, efficitur et tellus id, auctor accumsan ipsum. Curabitur vitae ullamcorper libero, laoreet vestibulum ipsum. Sed pretium erat id mauris cursus semper. Morbi placerat lacinia pulvinar.
+
+		### Lorem
+
+		- dsdsdsd [dsdsds](#)
+		- dsdsdsd [dsdsds](#)
+		- dsdsdsd [dsdsds](#)
+		- dsdsdsd [dsdsds](#)
+		- dsdsdsd [dsdsds](#)
