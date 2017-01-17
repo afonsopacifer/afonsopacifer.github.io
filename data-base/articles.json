@@ -6,7 +6,8 @@
     "description":"",
     "url":"/atomic-design-da-ciencia-a-alquimia.html",
     "local":"Blog",
-    "lang":"pt-br"
+    "lang":"pt-br",
+    "draft":"true"
   },
   {
     "name":"BEM: A árvore de lego",
@@ -14,7 +15,8 @@
     "description":"",
     "url":"/bem-a-arvore-de-lego.html",
     "local":"Blog",
-    "lang":"pt-br"
+    "lang":"pt-br",
+    "draft":"true"
   },
   {
     "name":"SMACSS: O primeiro lenhador",
@@ -22,7 +24,8 @@
     "description":"",
     "url":"/smacss-o-primeiro-lenhador.html",
     "local":"Blog",
-    "lang":"pt-br"
+    "lang":"pt-br",
+    "draft":"true"
   }
   ],
   "articles_2016":[

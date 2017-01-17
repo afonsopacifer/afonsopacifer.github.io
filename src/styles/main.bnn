@@ -33,9 +33,16 @@ body {
   /* Design */
 
   /* Color Palette */
-  --highlight-R: 255;
-  --highlight-G: 255;
-  --highlight-B: 255;
+  /*
+  --highlight-R: 0;
+  --highlight-G: 0;
+  --highlight-B: 0;
+  */
+
+  --highlight-R: 249;
+  --highlight-G: 0;
+  --highlight-B: 108;
+
   --highlight-opacity: 1;
 
   --highlight-RGB:
@@ -54,7 +61,7 @@ body {
     calc(var(--highlight-opacity)/3)
   );
 
-  --background-default: #1d1d1d;
+  --background-default: #282828;
   --text-deafult: #ffffff;
   --complementary: #c9c9c9;
 
