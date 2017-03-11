@@ -8,6 +8,28 @@ block content
 
 	h1(class="heading-lv1") Talks
 
+	h2(class="heading-lv2") 2017
+
+	for talk17 in talks_2017
+			article.article
+				span(class="text-date")=talk17.date
+
+				if talk17.video
+					a(href=talk17.video class="text-link" target="_blank")
+						h3(class="heading-lv3")=talk17.event
+				else
+					a(href=talk17.slides class="text-link" target="_blank")
+						h3(class="heading-lv3")=talk17.event
+
+				p.sub-heading
+					|#{span=talk17.theme} <br>
+					|Attendance: #{span=talk17.attendees} <br>
+					|#{span=talk17.local}#{span=talk17.address} <br>
+					a(href=talk17.slides target="_blank" class="text-link") Slides
+					if talk17.video
+						| /
+						a(href=talk17.video target="_blank" class="text-link") video
+
 	h2(class="heading-lv2") 2016
 
 	for talk16 in talks_2016
