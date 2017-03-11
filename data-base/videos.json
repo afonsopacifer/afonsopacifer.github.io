@@ -1,7 +1,108 @@
 {
+  "videos_2017":[
+    {
+      "theme":"Webschool.io - Pacificicando no Front com Threejs",
+      "time":"21:43",
+      "date":"Feb 04 2017",
+      "dateschema":"2017-02-04",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=sZypsYCIXIQ&list=PL77JVjKTJT2jKfRAPt1-MboqCKI2urwOz&index=1",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#027 - Design Responsivo e dinâmico com Style API (Parte 3) - Quick Tip #009",
+      "time":"08:17",
+      "date":"Jan 30 2017",
+      "dateschema":"2017-01-30",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=JGJgdZ1_tBo&t=",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#026 - Design Responsivo e dinâmico com Style API (Parte 2) - Quick Tip #008",
+      "time":"05:12",
+      "date":"Jan 29 2017",
+      "dateschema":"2017-01-29",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=92TCD25dOl0&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#025 - Design Responsivo e dinâmico com Style API (Parte 1) - Quick Tip #007",
+      "time":"07:26",
+      "date":"Jan 28 2017",
+      "dateschema":"2017-01-28",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=djCoT_50h_A&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#024 - Manipulando Custom Properties com Javascript - Quick Tip #006",
+      "time":"06:01",
+      "date":"Jan 27 2017",
+      "dateschema":"2017-01-27",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=SuidRypbtz4&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#023 - Custom Properties Progressivas com Stylus (suporte para IE6+) - Quick Tip #005",
+      "time":"08:19",
+      "date":"Jan 26 2017",
+      "dateschema":"2017-01-26",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=rPRTNMR2kgY&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#022 - Construindo uma Style API com HTML e CSS - Quick Tip #004",
+      "time":"08:57",
+      "date":"Jan 25 2017",
+      "dateschema":"2017-01-25",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=KYym_KyiVm8&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#021 - Criando mixins com CSS nativo - Quick Tip #003",
+      "time":"06:28",
+      "date":"Jan 24 2017",
+      "dateschema":"2017-01-24",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=hs1mASz6coA&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"GDG-BH Hangout - #UseThePlatform with Polymer Project",
+      "time":"1:53:22",
+      "date":"Jan 24 2017",
+      "dateschema":"2017-01-24",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=AfOis1W-pkU",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#020 - Fallback nativo em variáveis CSS - Quick Tip #002",
+      "time":"04:10",
+      "date":"Jan 23 2017",
+      "dateschema":"2017-01-23",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=3joOXJkSM58&t",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"#019 - Trabalhando com CSS Custom Properties - Quick Tip #001",
+      "time":"05:55",
+      "date":"Jan 22 2017",
+      "dateschema":"2017-01-22",
+      "description":"",
+      "url":"https://www.youtube.com/watch?v=NAp1FX9mGPU",
+      "lang": "pt-br"
+    }
+  ],
   "videos_2016":[
     {
-      "theme":"Live #01 - Organização do CSS, variáveis nativas e mais. ",
+      "theme":"Live #01 - Organização do CSS, variáveis nativas e mais.",
       "time":"1:39:40",
       "date":"Dez 22 2016",
       "dateschema":"2016-12-22",
@@ -15,7 +116,7 @@
       "date":"Dez 04 2016",
       "dateschema":"2016-12-04",
       "description":"",
-      "url":"https://www.youtube.com/watch?v=YjA7woDBryg&t=18s",
+      "url":"https://www.youtube.com/watch?v=YjA7woDBryg&t",
       "lang": "pt-br"
     },
     {
