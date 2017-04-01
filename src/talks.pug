@@ -25,9 +25,11 @@ block content
 					|#{span=talk17.theme} <br>
 					|Attendance: #{span=talk17.attendees} <br>
 					|#{span=talk17.local}#{span=talk17.address} <br>
-					a(href=talk17.slides target="_blank" class="text-link") Slides
-					if talk17.video
+					if talk17.slides
+						a(href=talk17.slides target="_blank" class="text-link") Slides
+					if talk17.slide
 						| /
+					if talk17.video
 						a(href=talk17.video target="_blank" class="text-link") video
 
 	h2(class="heading-lv2") 2016
