@@ -1,6 +1,14 @@
 {
   "articles_2017":[
   {
+    "name":"CSS Features detection de forma nativa com @supports",
+    "date":"Mar 15 2017",
+    "description":"",
+    "url":"https://codepen.io/afonsopacifer/post/css-feature-detection",
+    "local":"Codepen",
+    "lang":"pt-br"
+  },
+  {
     "name":"Atomic Design: Da ciência a alquimia",
     "date":"Jan 11 2017",
     "description":"",

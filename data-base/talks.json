@@ -9,6 +9,17 @@
       "local":"Stone Pagamentos - ",
       "address":"Centro, Rio de Janeiro - RJ",
       "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer"
+    },
+    {
+      "event":"GDG Belo Horizonte",
+      "theme":"#UseThePlatform with Polymer Project",
+      "attendees":"≈ 200",
+      "date":"Jan 24 2017",
+      "dateschema":"2017-01-24",
+      "local":"Google Hangout - ",
+      "address":"Online",
+      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer",
+      "video": "https://www.youtube.com/watch?v=AfOis1W-pkU"
     }
   ],
   "talks_2016":[

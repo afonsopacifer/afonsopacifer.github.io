@@ -1,6 +1,24 @@
 {
   "videos_2017":[
     {
+      "theme":"Live #02 - Componentes no mundo real com React, Polymer e Vue.JS",
+      "time":"2:08:41",
+      "date":"Mar 30 2017",
+      "dateschema":"2017-03-30",
+      "description":"",
+      "url":"https://youtu.be/H9uHU_asbFI",
+      "lang": "pt-br"
+    },
+    {
+      "theme":"Planejando a semântica na Web",
+      "time":"10:49",
+      "date":"Mar 29 2017",
+      "dateschema":"2017-03-29",
+      "description":"",
+      "url":"https://youtu.be/6zMYkmdXbQw",
+      "lang": "pt-br"
+    },
+    {
       "theme":"Webschool.io - Pacificicando no Front com Threejs",
       "time":"21:43",
       "date":"Feb 04 2017",
