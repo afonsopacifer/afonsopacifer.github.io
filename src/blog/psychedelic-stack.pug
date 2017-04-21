@@ -3,7 +3,7 @@ extends ../layouts/blog.pug
 block page_infos
   -var title = ""
   -var description = ""
-  -var date = "Jan 07 2017"
+  -var date = "April 17 2017"
 
 block content
 
@@ -80,82 +80,98 @@ block content
     ### **Criando** a base de dados
 
 
-    // <p>Cada lista tem seus tipos de dados específicos, para organizar isso tudo, criamos a pasta <code>data-base</code>
-    // e lá dentro criamos os <a href="https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base">arquivos JSON</a> contendo esses dados, dessa forma para adicionar, por exemplo, um video a base de dados, basta editar o JSON correspondente e temos um <strong>update</strong>.</p>
-    //
-    // <h3><strong>Consumindo</strong> a base de dados</h3>
-    // <p>Para consumir o conteúdo dos arquivos JSON e deixa-los disponíveis para exibição, vamos utilizar o <a href="https://github.com/colynb/gulp-data">gulp-data</a>, basta adiciona-lo a pipeline do Gulp e apontar para os arquivos a serem lidos.</p>
-    // <pre><code class="highlight-js">gulp.task('pug', () =&gt; {
-    //   gulp.src(['src/**.pug','src/blog/**.pug'])
-    //     .pipe(data(file =&gt; require('./data-base/talks.json')))
-    //     .pipe(data(file =&gt; require('./data-base/projects.json')))
-    //     .pipe(data(file =&gt; require('./data-base/articles.json')))
-    //     .pipe(data(file =&gt; require('./data-base/videos.json')))
-    //     .pipe(pug())
-    //     .pipe(gulp.dest('./'))
-    //     .pipe(connect.reload());
-    // });
-    // </code></pre>
-    // <p>Pronto, temos nossos dados disponíveis na aplicação.</p>
-    // <h3><strong>Exibindo</strong> os dados com Pug</h3>
-    // <p>Com os dados disponíveis precisamos apenas <strong>itera-los</strong> utilizando um simples <code>for</code>, assim exibimos a lista de dados vindas do JSON e compilados tudo para suas respectivas paginas html <strong>estáticas</strong>.</p>
-    // <p>Criamos os arquivos <code>.pug</code> em <code>src/</code> para cada pagina que iremos criar e iteramos em seus respectivos dados como no exemplo abaixo.</p>
-    // <pre><code class="highlight-pug">for video16 in videos_2016
-    //   article
-    //     span=video16.date
-    //     a(href=video16.url)
-    //       h3=video16.theme
-    //     a(href=video16.url)
-    //       |Duration #{span=video16.time} [#{span=video16.lang}]
-    // </code></pre>
-    // <blockquote>
-    // <p><strong>Tip:</strong> Na listagem de posts, podemos usar um <code>if</code> para filtrar um artigo especificado como &quot;draft&quot; por exemplo.</p>
-    // </blockquote>
-    // <pre><code class="highlight-pug">for post16 in articles_2016
-    //   if !post16.draft
-    // </code></pre>
-    // <h2>Blog posts em markdown com jstransformer</h2>
-    // <h2>Single Page App com sennaJS</h2>
-    // <ul>
-    // <li>Pug + sennajs</li>
-    // </ul>
-    // <h2>Offline First com Service Workers</h2>
-    // <ul>
-    // <li>sw</li>
-    // <li>babel</li>
-    // </ul>
-    // <h2>Estilo hibrido com bananacss</h2>
-    // <blockquote>
-    // <p>O que é <a href="https://github.com/bananacss/bananacss">bananacss</a>?</p>
-    // <p>É um <strong>superset CSS</strong> feito em Node.js por mim (rs), que permite escrever seus estilos usando uma melhor <strong>code UI</strong> através de <strong>abstrações</strong> simples, além de todos os poderes de um <strong>pré-processador</strong> comum, como: Variáveis, funções, modules, etc…</p>
-    // </blockquote>
-    // <p>Banana é focado na <strong>plataforma</strong>, logo, em tudo o que faz sentido ele utiliza a <strong>syntax default do CSS</strong> e compila para algo que os &quot;browsers atuais&quot; suportam, o que é complexo e não faz diferença usar com a syntax nativa ele trás abstrações através das <strong>propriedades bananais</strong>.</p>
-    // <p>O diferencial aqui, é que vamos usa-lo como <strong>pré-processador híbrido</strong>, isso porque vamos compilar tudo normalmente porém não vamos compilar as variáveis, como ele usa a syntax de <strong>variáveis nativas</strong> do CSS, vamos deixalas intactas para usa-las de forma dinâmica mais tarde.</p>
-    // <p>Para fazer isso vamos utilizar o plugin <a href="https://github.com/bananacss/gulp-banana">gulp-banana</a> e passar como parâmetro nossas configuração personalizada.</p>
-    // <pre><code class="highlight-js">gulp.task('banana', () =&gt; {
-    //   gulp.src('src/styles/main.bnn')
-    //     .pipe(banana({
-    //       bnnVariable : false,
-    //       compress : true
-    //     }))
-    //     .pipe(gulp.dest('assets/styles/'))
-    //     .pipe(connect.reload());
-    // });
-    // </code></pre>
-    // <p>Dessa forma temos nosso estilo híbrido, com poderes de pré-processador porém usando partes totalmente nativas.</p>
-    // <h2>Psicodelia com CSS Variables + Forgotten Events</h2>
-    // <ul>
-    // <li>CSS Variables</li>
-    // <li>Mouse</li>
-    // <li>Ambient Light API</li>
-    // </ul>
-    // <h2>Coisinhas</h2>
-    // <ul>
-    // <li>emojicss</li>
-    // <li>disqus no layout</li>
-    // </ul>
-    // <h2>Build e Deploy</h2>
-    // <h2>Bonûs</h2>
-    // <ul>
-    // <li>Boilerplate com Stcak isolada para estudos.</li>
-    // </ul>
+    Cada lista tem seus tipos de dados específicos, para organizar isso tudo, criamos a pasta `data-base` e lá dentro criamos os [arquivos JSON](https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base) contendo esses dados, dessa forma para adicionar, por exemplo, um video a base de dados, basta editar o JSON correspondente e temos um **update**.
+
+    ### **Consumindo** a base de dados
+
+    Para consumir o conteúdo dos arquivos JSON e deixa-los disponíveis para exibição, vamos utilizar o [gulp-data](https://github.com/colynb/gulp-data), basta adiciona-lo a pipeline do Gulp e apontar para os arquivos a serem lidos.
+
+    ```js
+    gulp.task('pug', () => {
+      gulp.src(['src/**.pug','src/blog/**.pug'])
+        .pipe(data(file => require('./data-base/talks.json')))
+        .pipe(data(file => require('./data-base/projects.json')))
+        .pipe(data(file => require('./data-base/articles.json')))
+        .pipe(data(file => require('./data-base/videos.json')))
+        .pipe(pug())
+        .pipe(gulp.dest('./'))
+        .pipe(connect.reload());
+    });
+    ```
+    Pronto, temos nossos dados disponíveis na aplicação.
+
+    ### **Exibindo** os dados com Pug
+
+    Com os dados disponíveis precisamos apenas **itera-los** utilizando um simples `for`, assim exibimos a lista de dados vindas do JSON e compilados tudo para suas respectivas paginas html **estáticas**.
+
+    Criamos os arquivos `.pug` em `src/` para cada pagina que iremos criar e iteramos em seus respectivos dados como no exemplo abaixo.
+
+    ```JS
+      for video16 in videos_2016
+        article
+          span=video16.date
+          a(href=video16.url)
+            h3=video16.theme
+          a(href=video16.url)
+            |Duration #{span=video16.time} [#{span=video16.lang}]
+    ```
+
+    > **Tip:** Na listagem de posts, podemos usar um `if` para filtrar um artigo especificado como &quot;draft&quot; por exemplo.
+
+    ```pug
+      for post16 in articles_2016
+        if !post16.draft
+    ```
+
+    ## Blog posts em markdown com jstransformer
+    ## Single Page App com sennaJS
+    
+    - Pug + sennajs
+
+    Offline First com Service Workers
+
+    - sw
+    - babel
+
+    ## Estilo hibrido com bananacss
+
+    > O que é [bananacss](https://github.com/bananacss/bananacss)?
+
+    > É um **superset CSS** feito em Node.js por mim (rs), que permite escrever seus estilos usando uma melhor **code UI** através de **abstrações** simples, além de todos os poderes de um **pré-processador** comum, como: Variáveis, funções, modules, etc…
+
+    Banana é focado na **plataforma**, logo, em tudo o que faz sentido ele utiliza a **syntax default do CSS** e compila para algo que os &quot;browsers atuais&quot; suportam, o que é complexo e não faz diferença usar com a syntax nativa ele trás abstrações através das **propriedades bananais**.
+
+    O diferencial aqui, é que vamos usa-lo como **pré-processador híbrido**, isso porque vamos compilar tudo normalmente porém não vamos compilar as variáveis, como ele usa a syntax de **variáveis nativas** do CSS, vamos deixalas intactas para usa-las de forma dinâmica mais tarde.
+
+    Para fazer isso vamos utilizar o plugin [gulp-banana](https://github.com/bananacss/gulp-banana) e passar como parâmetro nossas configuração personalizada.
+
+    ```js
+      gulp.task('banana', () =&gt; {
+        gulp.src('src/styles/main.bnn')
+          .pipe(banana({
+            bnnVariable : false,
+            compress : true
+          }))
+          .pipe(gulp.dest('assets/styles/'))
+          .pipe(connect.reload());
+      });
+    ```
+
+    Dessa forma temos nosso estilo híbrido, com poderes de pré-processador porém usando partes totalmente nativas.
+
+    ## Psicodelia com CSS Variables + Forgotten Events
+
+    CSS Variables
+    Mouse
+    Ambient Light API
+
+    ## Coisinhas
+
+    emojicss
+    disqus no layout
+
+    ## Build e Deploy
+
+    ## Bonûs
+    
+    - Boilerplate com Stcak isolada para estudos.

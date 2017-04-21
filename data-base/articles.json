@@ -1,6 +1,31 @@
 {
   "articles_2017":[
   {
+    "name":"Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.",
+    "date":"April 17 2017",
+    "description":"",
+    "url":"/psychedelic-stack.html",
+    "local":"afonsopacifer's Blog",
+    "lang":"pt-br",
+    "draft":"true"
+  },
+  {
+    "name":"Polymer 2 e o futuro onde os Web Components dominam a terra",
+    "date":"April 14 2017",
+    "description":"",
+    "url":"https://medium.com/@afonsopacifer/polymer-2-e-o-futuro-onde-os-web-components-dominam-a-terra-308a42858470",
+    "local":"Medium",
+    "lang":"pt-br"
+  },
+  {
+    "name":"Entrevista: Como é trabalhar como Evangelista CSS, por Afonso Pacifer",
+    "date":"April 14 2017",
+    "description":"",
+    "url":"https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-evangelista-css-por-afonso-pacifer-32cc077f4fdd",
+    "local":"Training Center",
+    "lang":"pt-br"
+  },
+  {
     "name":"CSS Features detection de forma nativa com @supports",
     "date":"Mar 15 2017",
     "description":"",
@@ -42,15 +67,6 @@
       "date":"Dez 16 2016",
       "description":"",
       "url":"/template.html",
-      "local":"afonsopacifer's Blog",
-      "lang":"pt-br",
-      "draft":"true"
-    },
-    {
-      "name":"Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.",
-      "date":"Dez 24 2016",
-      "description":"",
-      "url":"/psychedelic-stack.html",
       "local":"afonsopacifer's Blog",
       "lang":"pt-br",
       "draft":"true"

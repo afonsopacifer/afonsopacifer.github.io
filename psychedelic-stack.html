@@ -4,7 +4,7 @@
 <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/>
 </svg></a><a class="social-link" href="https://twitter.com/afonsopacifer" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24">
 <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/>
-</svg></a></div></header><main id="content" data-senna-surface><section class="container blog"><span class="text-date">Jan 07 2017</span><h1>Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.</h1>
+</svg></a></div></header><main id="content" data-senna-surface><section class="container blog"><span class="text-date">April 17 2017</span><h1>Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.</h1>
 <ul>
 <li>Não é tutorial</li>
 <li>Link do projeto finalisado</li>
@@ -62,85 +62,81 @@ block content
 <li>Lista de <a href="https://github.com/afonsopacifer/afonsopacifer.github.io/blob/master/data-base/projects.json">projetos</a></li>
 </ul>
 <h3><strong>Criando</strong> a base de dados</h3>
-<p>// &lt;p&gt;Cada lista tem seus tipos de dados específicos, para organizar isso tudo, criamos a pasta &lt;code&gt;data-base&lt;/code&gt;
-// e lá dentro criamos os &lt;a href=&quot;<a href="https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base">https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base</a>&quot;&gt;arquivos JSON&lt;/a&gt; contendo esses dados, dessa forma para adicionar, por exemplo, um video a base de dados, basta editar o JSON correspondente e temos um &lt;strong&gt;update&lt;/strong&gt;.&lt;/p&gt;
-//
-// &lt;h3&gt;&lt;strong&gt;Consumindo&lt;/strong&gt; a base de dados&lt;/h3&gt;
-// &lt;p&gt;Para consumir o conteúdo dos arquivos JSON e deixa-los disponíveis para exibição, vamos utilizar o &lt;a href=&quot;<a href="https://github.com/colynb/gulp-data">https://github.com/colynb/gulp-data</a>&quot;&gt;gulp-data&lt;/a&gt;, basta adiciona-lo a pipeline do Gulp e apontar para os arquivos a serem lidos.&lt;/p&gt;
-// &lt;pre&gt;&lt;code class=&quot;highlight-js&quot;&gt;gulp.task('pug', () =&gt; {
-//   gulp.src(['src/<strong>.pug','src/blog/</strong>.pug'])
-//     .pipe(data(file =&gt; require('./data-base/talks.json')))
-//     .pipe(data(file =&gt; require('./data-base/projects.json')))
-//     .pipe(data(file =&gt; require('./data-base/articles.json')))
-//     .pipe(data(file =&gt; require('./data-base/videos.json')))
-//     .pipe(pug())
-//     .pipe(gulp.dest('./'))
-//     .pipe(connect.reload());
-// });
-// &lt;/code&gt;&lt;/pre&gt;
-// &lt;p&gt;Pronto, temos nossos dados disponíveis na aplicação.&lt;/p&gt;
-// &lt;h3&gt;&lt;strong&gt;Exibindo&lt;/strong&gt; os dados com Pug&lt;/h3&gt;
-// &lt;p&gt;Com os dados disponíveis precisamos apenas &lt;strong&gt;itera-los&lt;/strong&gt; utilizando um simples &lt;code&gt;for&lt;/code&gt;, assim exibimos a lista de dados vindas do JSON e compilados tudo para suas respectivas paginas html &lt;strong&gt;estáticas&lt;/strong&gt;.&lt;/p&gt;
-// &lt;p&gt;Criamos os arquivos &lt;code&gt;.pug&lt;/code&gt; em &lt;code&gt;src/&lt;/code&gt; para cada pagina que iremos criar e iteramos em seus respectivos dados como no exemplo abaixo.&lt;/p&gt;
-// &lt;pre&gt;&lt;code class=&quot;highlight-pug&quot;&gt;for video16 in videos_2016
-//   article
-//     span=video16.date
-//     a(href=video16.url)
-//       h3=video16.theme
-//     a(href=video16.url)
-//       |Duration #{span=video16.time} [#{span=video16.lang}]
-// &lt;/code&gt;&lt;/pre&gt;
-// &lt;blockquote&gt;
-// &lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Na listagem de posts, podemos usar um &lt;code&gt;if&lt;/code&gt; para filtrar um artigo especificado como &quot;draft&quot; por exemplo.&lt;/p&gt;
-// &lt;/blockquote&gt;
-// &lt;pre&gt;&lt;code class=&quot;highlight-pug&quot;&gt;for post16 in articles_2016
-//   if !post16.draft
-// &lt;/code&gt;&lt;/pre&gt;
-// &lt;h2&gt;Blog posts em markdown com jstransformer&lt;/h2&gt;
-// &lt;h2&gt;Single Page App com sennaJS&lt;/h2&gt;
-// &lt;ul&gt;
-// &lt;li&gt;Pug + sennajs&lt;/li&gt;
-// &lt;/ul&gt;
-// &lt;h2&gt;Offline First com Service Workers&lt;/h2&gt;
-// &lt;ul&gt;
-// &lt;li&gt;sw&lt;/li&gt;
-// &lt;li&gt;babel&lt;/li&gt;
-// &lt;/ul&gt;
-// &lt;h2&gt;Estilo hibrido com bananacss&lt;/h2&gt;
-// &lt;blockquote&gt;
-// &lt;p&gt;O que é &lt;a href=&quot;<a href="https://github.com/bananacss/bananacss">https://github.com/bananacss/bananacss</a>&quot;&gt;bananacss&lt;/a&gt;?&lt;/p&gt;
-// &lt;p&gt;É um &lt;strong&gt;superset CSS&lt;/strong&gt; feito em Node.js por mim (rs), que permite escrever seus estilos usando uma melhor &lt;strong&gt;code UI&lt;/strong&gt; através de &lt;strong&gt;abstrações&lt;/strong&gt; simples, além de todos os poderes de um &lt;strong&gt;pré-processador&lt;/strong&gt; comum, como: Variáveis, funções, modules, etc…&lt;/p&gt;
-// &lt;/blockquote&gt;
-// &lt;p&gt;Banana é focado na &lt;strong&gt;plataforma&lt;/strong&gt;, logo, em tudo o que faz sentido ele utiliza a &lt;strong&gt;syntax default do CSS&lt;/strong&gt; e compila para algo que os &quot;browsers atuais&quot; suportam, o que é complexo e não faz diferença usar com a syntax nativa ele trás abstrações através das &lt;strong&gt;propriedades bananais&lt;/strong&gt;.&lt;/p&gt;
-// &lt;p&gt;O diferencial aqui, é que vamos usa-lo como &lt;strong&gt;pré-processador híbrido&lt;/strong&gt;, isso porque vamos compilar tudo normalmente porém não vamos compilar as variáveis, como ele usa a syntax de &lt;strong&gt;variáveis nativas&lt;/strong&gt; do CSS, vamos deixalas intactas para usa-las de forma dinâmica mais tarde.&lt;/p&gt;
-// &lt;p&gt;Para fazer isso vamos utilizar o plugin &lt;a href=&quot;<a href="https://github.com/bananacss/gulp-banana">https://github.com/bananacss/gulp-banana</a>&quot;&gt;gulp-banana&lt;/a&gt; e passar como parâmetro nossas configuração personalizada.&lt;/p&gt;
-// &lt;pre&gt;&lt;code class=&quot;highlight-js&quot;&gt;gulp.task('banana', () =&gt; {
-//   gulp.src('src/styles/main.bnn')
-//     .pipe(banana({
-//       bnnVariable : false,
-//       compress : true
-//     }))
-//     .pipe(gulp.dest('assets/styles/'))
-//     .pipe(connect.reload());
-// });
-// &lt;/code&gt;&lt;/pre&gt;
-// &lt;p&gt;Dessa forma temos nosso estilo híbrido, com poderes de pré-processador porém usando partes totalmente nativas.&lt;/p&gt;
-// &lt;h2&gt;Psicodelia com CSS Variables + Forgotten Events&lt;/h2&gt;
-// &lt;ul&gt;
-// &lt;li&gt;CSS Variables&lt;/li&gt;
-// &lt;li&gt;Mouse&lt;/li&gt;
-// &lt;li&gt;Ambient Light API&lt;/li&gt;
-// &lt;/ul&gt;
-// &lt;h2&gt;Coisinhas&lt;/h2&gt;
-// &lt;ul&gt;
-// &lt;li&gt;emojicss&lt;/li&gt;
-// &lt;li&gt;disqus no layout&lt;/li&gt;
-// &lt;/ul&gt;
-// &lt;h2&gt;Build e Deploy&lt;/h2&gt;
-// &lt;h2&gt;Bonûs&lt;/h2&gt;
-// &lt;ul&gt;
-// &lt;li&gt;Boilerplate com Stcak isolada para estudos.&lt;/li&gt;
-// &lt;/ul&gt;</p>
+<p>Cada lista tem seus tipos de dados específicos, para organizar isso tudo, criamos a pasta <code>data-base</code> e lá dentro criamos os <a href="https://github.com/afonsopacifer/afonsopacifer.github.io/tree/master/data-base">arquivos JSON</a> contendo esses dados, dessa forma para adicionar, por exemplo, um video a base de dados, basta editar o JSON correspondente e temos um <strong>update</strong>.</p>
+<h3><strong>Consumindo</strong> a base de dados</h3>
+<p>Para consumir o conteúdo dos arquivos JSON e deixa-los disponíveis para exibição, vamos utilizar o <a href="https://github.com/colynb/gulp-data">gulp-data</a>, basta adiciona-lo a pipeline do Gulp e apontar para os arquivos a serem lidos.</p>
+<pre><code class="highlight-js">gulp.task('pug', () =&gt; {
+  gulp.src(['src/**.pug','src/blog/**.pug'])
+    .pipe(data(file =&gt; require('./data-base/talks.json')))
+    .pipe(data(file =&gt; require('./data-base/projects.json')))
+    .pipe(data(file =&gt; require('./data-base/articles.json')))
+    .pipe(data(file =&gt; require('./data-base/videos.json')))
+    .pipe(pug())
+    .pipe(gulp.dest('./'))
+    .pipe(connect.reload());
+});
+</code></pre>
+<p>Pronto, temos nossos dados disponíveis na aplicação.</p>
+<h3><strong>Exibindo</strong> os dados com Pug</h3>
+<p>Com os dados disponíveis precisamos apenas <strong>itera-los</strong> utilizando um simples <code>for</code>, assim exibimos a lista de dados vindas do JSON e compilados tudo para suas respectivas paginas html <strong>estáticas</strong>.</p>
+<p>Criamos os arquivos <code>.pug</code> em <code>src/</code> para cada pagina que iremos criar e iteramos em seus respectivos dados como no exemplo abaixo.</p>
+<pre><code class="highlight-JS">  for video16 in videos_2016
+    article
+      span=video16.date
+      a(href=video16.url)
+        h3=video16.theme
+      a(href=video16.url)
+        |Duration #{span=video16.time} [#{span=video16.lang}]
+</code></pre>
+<blockquote>
+<p><strong>Tip:</strong> Na listagem de posts, podemos usar um <code>if</code> para filtrar um artigo especificado como &quot;draft&quot; por exemplo.</p>
+</blockquote>
+<pre><code class="highlight-pug">  for post16 in articles_2016
+    if !post16.draft
+</code></pre>
+<h2>Blog posts em markdown com jstransformer</h2>
+<h2>Single Page App com sennaJS</h2>
+<ul>
+<li>Pug + sennajs</li>
+</ul>
+<p>Offline First com Service Workers</p>
+<ul>
+<li>sw</li>
+<li>babel</li>
+</ul>
+<h2>Estilo hibrido com bananacss</h2>
+<blockquote>
+<p>O que é <a href="https://github.com/bananacss/bananacss">bananacss</a>?</p>
+</blockquote>
+<blockquote>
+<p>É um <strong>superset CSS</strong> feito em Node.js por mim (rs), que permite escrever seus estilos usando uma melhor <strong>code UI</strong> através de <strong>abstrações</strong> simples, além de todos os poderes de um <strong>pré-processador</strong> comum, como: Variáveis, funções, modules, etc…</p>
+</blockquote>
+<p>Banana é focado na <strong>plataforma</strong>, logo, em tudo o que faz sentido ele utiliza a <strong>syntax default do CSS</strong> e compila para algo que os &quot;browsers atuais&quot; suportam, o que é complexo e não faz diferença usar com a syntax nativa ele trás abstrações através das <strong>propriedades bananais</strong>.</p>
+<p>O diferencial aqui, é que vamos usa-lo como <strong>pré-processador híbrido</strong>, isso porque vamos compilar tudo normalmente porém não vamos compilar as variáveis, como ele usa a syntax de <strong>variáveis nativas</strong> do CSS, vamos deixalas intactas para usa-las de forma dinâmica mais tarde.</p>
+<p>Para fazer isso vamos utilizar o plugin <a href="https://github.com/bananacss/gulp-banana">gulp-banana</a> e passar como parâmetro nossas configuração personalizada.</p>
+<pre><code class="highlight-js">  gulp.task('banana', () =&amp;gt; {
+    gulp.src('src/styles/main.bnn')
+      .pipe(banana({
+        bnnVariable : false,
+        compress : true
+      }))
+      .pipe(gulp.dest('assets/styles/'))
+      .pipe(connect.reload());
+  });
+</code></pre>
+<p>Dessa forma temos nosso estilo híbrido, com poderes de pré-processador porém usando partes totalmente nativas.</p>
+<h2>Psicodelia com CSS Variables + Forgotten Events</h2>
+<p>CSS Variables
+Mouse
+Ambient Light API</p>
+<h2>Coisinhas</h2>
+<p>emojicss
+disqus no layout</p>
+<h2>Build e Deploy</h2>
+<h2>Bonûs</h2>
+<ul>
+<li>Boilerplate com Stcak isolada para estudos.</li>
+</ul>
 <span class="comment">Leave your comment</span><div class="disqus" id="disqus_thread"></div><script id="dsq-count-scr" src="//afonsopacifer.disqus.com/count.js" async></script>
 <script>
     /**
