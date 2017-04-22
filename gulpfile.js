@@ -1,10 +1,10 @@
 // Modules :)
 // ===========================================
-const gulp   = require('gulp');
-const data   = require('gulp-data');
-const pug    = require('gulp-pug');
-const banana = require('gulp-banana');
-const babel  = require('gulp-babel');
+const gulp    = require('gulp');
+const data    = require('gulp-data');
+const pug     = require('gulp-pug');
+const banana  = require('gulp-banana');
+const babel   = require('gulp-babel');
 const connect = require('gulp-connect');
 
 // Compile Jade
@@ -50,6 +50,7 @@ gulp.task('watch', () => {
 	gulp.watch(['src/**/**.pug','data-base/**.json'], ['pug']);
 	gulp.watch(['src/styles/**/**.bnn'], ['banana']);
   gulp.watch(['src/scripts/**.js'], ['babel']);
+	gulp.watch(['data-base/*.json'], ['build']);
 });
 
 // Static server
