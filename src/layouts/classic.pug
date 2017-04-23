@@ -19,6 +19,10 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 
 	body(data-senna)
 
+		//- Github corner
+		//- ===========================================
+		include ./../includes/github-corner.html
+
 		//- header
 		//- ===========================================
 		include ./../includes/aside.pug
@@ -33,5 +37,6 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 		//- ===========================================
 		//- include ./../includes/analytics.html
 
-		script(type="text/javascript" src="assets/scripts/vendors/senna-min.js")
-		script(type="text/javascript" src="assets/scripts/main.js" async)
+		script(type="text/javascript" src="https://cdn.jsdelivr.net/senna.js/2.1.5/senna-min.js")
+		script(type="text/javascript" src="https://craig.global.ssl.fastly.net/js/mousetrap/mousetrap.min.js")
+		script(type="text/javascript" src="assets/scripts/main.js")

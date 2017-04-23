@@ -17,7 +17,9 @@ block content
 				a(href=post17.url class="text-link" target="_blank")
 					h3(class="heading-lv3")=post17.name
 				a(href=post17.url class="sub-heading" target="_blank")
-					|Avaible on #{span=post17.local} [#{span=post17.lang}]
+					if post17.lang
+						include includes/svg-icons/br-flag.pug
+					|Avaible on #{span=post17.local}
 
 	h2(class="heading-lv2") 2016
 
@@ -28,7 +30,9 @@ block content
 				a(href=post16.url class="text-link" target="_blank")
 					h3(class="heading-lv3")=post16.name
 				a(href=post16.url class="sub-heading" target="_blank")
-					|Avaible on #{span=post16.local} [#{span=post16.lang}]
+					if post16.lang
+						include includes/svg-icons/br-flag.pug
+					|Avaible on #{span=post16.local}
 
 	h2(class="heading-lv2") 2015
 
@@ -38,4 +42,6 @@ block content
 			a(href=post15.url class="text-link" target="_blank")
 				h3(class="heading-lv3")=post15.name
 			a(href=post15.url class="sub-heading" target="_blank")
-				|Avaible on #{span=post15.local} [#{span=post15.lang}]
+				if post15.lang
+					include includes/svg-icons/br-flag.pug
+				|Avaible on #{span=post15.local}

@@ -6,13 +6,39 @@ block page_infos
 
 block content
 
-		h1.heading-lv1 Hello Lek!
+		h1.heading-lv1 Hello Lek! I'm Afonso.
 
-		p.paragraph I am a CSS Evangelist and Full Time Open Source Developer. I work with Co-fouder and content manager of <a href="https://csshortcut.github.io/" class="text-link">@csshortcut</a>, host on <a href="https://www.youtube.com/c/CSSCastShows" class="text-link">@csscasthow</a> youtube channel, community  moderator in Front-end Meetup Group Rio de Janeiro (<a href="https://www.facebook.com/femugrj/" class="text-link">@femug-rj</a>), volunteer teacher in <a href="https://github.com/Webschool-io" class="text-link">@webschool-io</a> and alpha team member of <a href="https://github.com/css-brasil" class="text-link">@css-brasil</a>.
-
-
-		//- p.paragraph Defensor do uso da plataforma nativa para a criação de aplicações Web, hoje seu trabalho não é ir contra frameworks e bibliotecas, mas sim, tentar evitar que os mesmo não deixem os desenvolvedores cegos perante as maravilhas que a plataforma nativa tem a oferecer.
-
-		p.paragraph Creator of <a href="#" class="text-link">@bananacss</a> (CSS preprocessor focused in the platform features) and <a href="#" class="text-link">some other coll projects</a>.
+		p.paragraph.
+			An Web Platform Evangelist and Open Source Developer <i class="em em-heart"></i>. 
+			Co-fouder and content manager of <a href="https://csshortcut.github.io/" class="text-link">@csshortcut</a>, 
+			host on <a href="https://www.youtube.com/c/CSSCastShows" class="text-link">@csscasthow</a> youtube channel,
+			volunteer in <a href="https://github.com/Webschool-io" class="text-link">@webschool-io</a> 
+			and alpha team member of <a href="https://github.com/css-brasil" class="text-link">@css-brasil</a>.
 
 		p.paragraph Contact me with afonsopacifer@live.com
+
+		//- section
+		//- 	h2(class="heading-lv2") Recent articles
+
+		//- 	for post17 in articles_2017
+		//- 		if !post17.draft
+		//- 			article.article
+		//- 				span(class="text-date")=post17.date
+		//- 				a(href=post17.url class="text-link" target="_blank")
+		//- 					h3(class="heading-lv3")=post17.name
+		//- 				a(href=post17.url class="sub-heading" target="_blank")
+		//- 					if post17.lang
+		//- 						include includes/svg-icons/br-flag.pug
+		//- 					|Avaible on #{span=post17.local}
+
+
+		//- section
+		//- 	h2(class="heading-lv2") Recent Videos
+
+		//- 	for video17 in videos_2017
+		//- 			article.article
+		//- 				span(class="text-date")=video17.date
+		//- 				a(href=video17.url class="text-link" target="_blank")
+		//- 					h3(class="heading-lv3")=video17.theme
+		//- 				a(href=video17.url class="sub-heading" target="_blank")
+		//- 					|Duration #{span=video17.time} [#{span=video17.lang}]

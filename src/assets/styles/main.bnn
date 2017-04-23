@@ -67,6 +67,16 @@ body {
 
 }
 
+/* github-corner
+============================== */
+.github-corner {
+  fill: var(--highlight);
+  color: var(--background-default);
+}
+
+.codepen-icon {
+  fill: var(--background-default);
+}
 /* Aside
 ============================== */
 
@@ -218,7 +228,7 @@ body {
   margin-top: calc(var(--external-spacing)/3);
   margin-bottom: calc(var(--external-spacing)/3);
   padding: 0;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 300;
   line-height: 35px;
 }
@@ -228,6 +238,15 @@ body {
   font-weight: 300;
   font-size: 1em;
   text-decoration: none;
+}
+
+.flag {
+  margin-right: 6px;
+}
+
+.tech-icon {
+  width: 20px;
+  margin-right: 5px;
 }
 
 .paragraph {
@@ -260,6 +279,7 @@ body {
   text-decoration: none;
   font-weight: 300;
   transition: color .1s;
+  bnn-align: left center;
 }
 
 .text-link:hover {
