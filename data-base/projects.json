@@ -1,12 +1,44 @@
 {
   "projects_2017":[
     {
+      "name":"web-components-good-practices",
+      "user":"hippie-elements",
+      "description":"Good Practices for build Web Components.",
+      "url":"https://github.com/hippie-elements/web-components-good-practices",
+      "date": "April 2017",
+      "tech": ["webcomponents.svg","markdown.svg"]
+    },
+    {
+      "name":"polymer-redux",
+      "user":"afonsopacifer",
+      "description":"Implementing Redux with Polymer.",
+      "url":"https://github.com/afonsopacifer/polymer-redux",
+      "date": "April 2017",
+      "tech": ["polymer.svg","redux.svg"]
+    },
+    {
       "name":"afonsopacifer.github.io",
       "user":"afonsopacifer",
       "description":"My personal website.",
       "url":"afonsopacifer.github.io",
       "date": "February 2017",
       "tech": ["pug.png","babel.svg","gulp.png","banana.png","senna.png"]
+    },
+    {
+      "name":"2017-goals",
+      "user":"afonsopacifer",
+      "description":"My Goals for 2017 :)",
+      "url":"https://github.com/afonsopacifer/2017-goals",
+      "date": "January  2017",
+      "tech": ["markdown.svg"]
+    },
+    {
+      "name":"learn-english-every-single-day",
+      "user":"afonsopacifer",
+      "description":"A challenge to improve my English while studying CSS and Polymer.",
+      "url":"https://github.com/afonsopacifer/learn-english-every-single-day",
+      "date": "January  2017",
+      "tech": ["markdown.svg"]
     }
   ],
   "projects_2016":[
