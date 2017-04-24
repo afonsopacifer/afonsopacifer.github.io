@@ -6,7 +6,22 @@ block page_infos
 
 block content
 
-	h1(class="heading-lv1") Projects
+	h1(class="heading-lv1") Open Source Projects
+
+	h2(class="heading-lv2") 2017
+
+	for projects17 in projects_2017
+		- var name = projects17.name
+		- var user = projects17.user
+			article.article
+				span(class="text-date")=projects17.date
+				a(href=projects17.url class="text-link" target="_blank")
+					h3(class="heading-lv3")=projects17.name
+				a(href=projects17.url class="sub-heading" target="_blank")
+					span=projects17.description
+				div.tech-list
+					for tech17 in projects17.tech
+						img(src="assets/img/tech/"+ tech17 alt=tech17 class="tech-icon")
 
 	h2(class="heading-lv2") 2016
 
@@ -16,10 +31,12 @@ block content
 			article.article
 				span(class="text-date")=projects16.date
 				a(href=projects16.url class="text-link" target="_blank")
-					img(src="assets/img/tech/"+ projects16.tech + ".svg" alt=projects16.tech class="tech-icon")
 					h3(class="heading-lv3")=projects16.name
 				a(href=projects16.url class="sub-heading" target="_blank")
 					span=projects16.description
+				div.tech-list
+					for tech16 in projects16.tech
+						img(src="assets/img/tech/"+ tech16 alt=tech16 class="tech-icon")
 
 	h2(class="heading-lv2") 2015
 
@@ -29,10 +46,12 @@ block content
 			article.article
 				span(class="text-date")=projects15.date
 				a(href=projects15.url class="text-link" target="_blank")
-					img(src="assets/img/tech/"+ projects15.tech + ".svg" alt=projects15.tech class="tech-icon")
 					h3(class="heading-lv3")=projects15.name
 				a(href=projects15.url class="sub-heading" target="_blank")
 					span=projects15.description
+				div.tech-list
+					for tech15 in projects15.tech
+						img(src="assets/img/tech/"+ tech15 alt=tech15 class="tech-icon")
 
 	h2(class="heading-lv2") 2014
 
@@ -42,7 +61,9 @@ block content
 			article.article
 				span(class="text-date")=projects14.date
 				a(href=projects14.url class="text-link" target="_blank")
-					img(src="assets/img/tech/"+ projects14.tech + ".svg" alt=projects14.tech class="tech-icon")
 					h3(class="heading-lv3")=projects14.name
 				a(href=projects14.url class="sub-heading" target="_blank")
 					span=projects14.description
+				div.tech-list
+					for tech14 in projects14.tech
+						img(src="assets/img/tech/"+ tech14 alt=tech14 class="tech-icon")

@@ -244,8 +244,12 @@ body {
   margin-right: 6px;
 }
 
+.tech-list {
+  margin-top: calc(var(--external-spacing)/2);
+}
+
 .tech-icon {
-  width: 20px;
+  height: 30px;
   margin-right: 5px;
 }
 
@@ -279,7 +283,6 @@ body {
   text-decoration: none;
   font-weight: 300;
   transition: color .1s;
-  bnn-align: left center;
 }
 
 .text-link:hover {

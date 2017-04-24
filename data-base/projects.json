@@ -1,4 +1,14 @@
 {
+  "projects_2017":[
+    {
+      "name":"afonsopacifer.github.io",
+      "user":"afonsopacifer",
+      "description":"My personal website.",
+      "url":"afonsopacifer.github.io",
+      "date": "February 2017",
+      "tech": ["pug.png","babel.svg","gulp.png","banana.png","senna.png"]
+    }
+  ],
   "projects_2016":[
     {
       "name":"scrollindo.js",
@@ -6,7 +16,15 @@
       "description":"Simple abstraction for scroll interactions.",
       "url":"https://afonsopacifer.github.io/scrollindo.js/",
       "date": "December 2016",
-      "tech": "javascript"
+      "tech": ["javascript.svg"]
+    },
+    {
+      "name":"n64-3d",
+      "user":"afonsopacifer",
+      "description":"Nintendo 64 3D logo made with Three.JS <3",
+      "url":"https://afonsopacifer.github.io/n64-3d/index.html",
+      "date": "November 2016",
+      "tech": ["threejs.png"]
     },
     {
       "name":"slush-banana",
@@ -14,7 +32,7 @@
       "description":"Generator for BananaCSS Projects.",
       "url":"https://github.com/bananacss/slush-banana",
       "date": "August 2016",
-      "tech": "banana"
+      "tech": ["slush.png","banana.png","npm.svg"]
     },
     {
       "name":"slush-gulp-plugin",
@@ -22,7 +40,7 @@
       "description":"A slush generator for gulp plugins.",
       "url":"https://github.com/afonsopacifer/slush-gulp-plugin",
       "date": "August 2016",
-      "tech": "gulp"
+      "tech": ["slush.png","gulp.png","node.svg","npm.svg"]
     },
     {
       "name":"gulp-banana",
@@ -30,7 +48,7 @@
       "description":"Gulp plugin for compile Banana code to CSS.",
       "url":"https://github.com/bananacss/gulp-banana",
       "date": "August 2016",
-      "tech": "gulp"
+      "tech": ["gulp.png","banana.png","npm.svg"]
     },
     {
       "name":"css-ast-iterations",
@@ -38,7 +56,7 @@
       "description":"Provide a very simple API for complex iterations on the CSS abstract syntax tree (AST).",
       "url":"https://github.com/bananacss/css-ast-iterations",
       "date": "August 2016",
-      "tech": "node"
+      "tech": ["node.svg","mocha.svg","npm.svg"]
     },
     {
       "name":"banana-style-guide",
@@ -46,7 +64,7 @@
       "description":"Banana NodeJS code style guide.",
       "url":"https://github.com/bananacss/banana-style-guide",
       "date": "August 2016",
-      "tech": "node"
+      "tech": ["markdown.svg","node.svg"]
     },
     {
       "name":"bananacss",
@@ -54,7 +72,7 @@
       "description":"The brazilian CSS superset writen in NodeJS.",
       "url":"https://github.com/bananacss/bananacss",
       "date": "July 2016",
-      "tech": "node"
+      "tech": ["node.svg","mocha.svg","npm.svg"]
     },
     {
       "name":"vue-meditation",
@@ -62,7 +80,7 @@
       "description":"Timer for meditation built with Vue.JS",
       "url":"https://afonsopacifer.github.io/vue-meditation/",
       "date": "July 2016",
-      "tech": "vue"
+      "tech": ["vue.svg"]
     },
     {
       "name":"slush-node-cli",
@@ -70,7 +88,7 @@
       "description":"A slush generator for Nodejs CLI programs.",
       "url":"https://github.com/afonsopacifer/slush-node-cli",
       "date": "June 2016",
-      "tech": "node"
+      "tech": ["slush.png","node.svg","sh.svg","npm.svg"]
     },
     {
       "name":"friday",
@@ -78,7 +96,7 @@
       "description":"Shell Script to help with daily tasks.",
       "url":"https://github.com/afonsopacifer/friday",
       "date": "June 2016",
-      "tech": "sh"
+      "tech": ["sh.svg"]
     },
     {
       "name":"awesome-firebase",
@@ -86,7 +104,7 @@
       "description":"A curated list of Firebase.",
       "url":"https://github.com/afonsopacifer/awesome-firebase",
       "date": "June 2016",
-      "tech": "firebase"
+      "tech": ["markdown.svg","firebase.svg"]
     },
     {
       "name":"skip-to-content",
@@ -94,7 +112,7 @@
       "description":"A Polymer element for Skip to Content.",
       "url":"https://github.com/afonsopacifer/skip-to-content",
       "date": "June 2016",
-      "tech": "polymer"
+      "tech": ["polymer.svg","bower.svg"]
     },
     {
       "name":"hamburguer-menu",
@@ -102,7 +120,7 @@
       "description":"A Polymer element for Off-canvas Menu.",
       "url":"https://github.com/afonsopacifer/hamburguer-menu",
       "date": "June 2016",
-      "tech": "polymer"
+      "tech": ["polymer.svg","bower.svg"]
     },
     {
       "name":"github-corner",
@@ -110,7 +128,7 @@
       "description":"A Polymer element for Github Corner.",
       "url":"https://github.com/afonsopacifer/github-corner",
       "date": "June 2016",
-      "tech": "polymer"
+      "tech": ["polymer.svg","bower.svg"]
     },
     {
       "name":"react-unit-test-example",
@@ -118,7 +136,7 @@
       "description":"Exemplo de teste unitário em componentes ReactJS.",
       "url":"https://github.com/afonsopacifer/react-unit-test-example",
       "date": "May 2016",
-      "tech": "react"
+      "tech": ["react.svg","babel.svg","webpack.svg","mocha.svg"]
     },
     {
       "name":"slush-react-start",
@@ -126,7 +144,7 @@
       "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
       "url":"https://github.com/afonsopacifer/slush-react-start",
       "date": "April 2016",
-      "tech": "react"
+      "tech": ["slush.png","react.svg","babel.svg","webpack.svg","browserify.svg","mocha.svg","npm.svg"]
     },
     {
       "name":"react-pomodoro",
@@ -134,7 +152,7 @@
       "description":"Pomodoro timer for developers.",
       "url":"http://afonsopacifer.github.io/react-pomodoro/",
       "date": "April 2016",
-      "tech": "react"
+      "tech": ["react.svg","babel.svg","webpack.svg"]
     },
     {
       "name":"react-comments",
@@ -142,7 +160,7 @@
       "description":"A React comment feed.",
       "url":"http://afonsopacifer.github.io/react-comments/",
       "date": "April 2016",
-      "tech": "react"
+      "tech": ["react.svg","browserify.svg"]
     },
     {
       "name":"da-vinci-css",
@@ -150,7 +168,7 @@
       "description":"Creating shapes and drawings with CSS.",
       "url":"https://github.com/afonsopacifer/da-vinci-css",
       "date": "April 2016",
-      "tech": "stylus"
+      "tech": ["stylus.svg"]
     },
     {
       "name":"css-magic",
@@ -158,7 +176,7 @@
       "description":"An illusion created only with CSS.",
       "url":"https://github.com/afonsopacifer/css-magic",
       "date": "March 2016",
-      "tech": "css"
+      "tech": ["css.svg"]
     },
     {
       "name":"egg-emergency",
@@ -166,7 +184,7 @@
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
       "url":"http://afonsopacifer.github.io/egg-emergency/",
       "date": "January 2016",
-      "tech": "css"
+      "tech": ["css.svg"]
     }
 
   ],
@@ -177,7 +195,7 @@
       "description":"A template to help you create open source projects more organized.",
       "url":"https://github.com/afonsopacifer/open-source-boilerplate",
       "date": "December 2015",
-      "tech": "markdown"
+      "tech": ["markdown.svg"]
     },
     {
       "name":"SPA-example",
@@ -185,7 +203,7 @@
       "description":"Exemplo de uma SPA utilizando Jquery e History API.",
       "url":"https://github.com/afonsopacifer/SPA-example",
       "date": "November 2015",
-      "tech": "jquery"
+      "tech": ["jquery.svg"]
     },
     {
       "name":"pacificator",
@@ -193,7 +211,7 @@
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator",
       "date": "October 2015",
-      "tech": "node"
+      "tech": ["node.svg","npm.svg"]
     },
     {
       "name":"microscope",
@@ -201,7 +219,7 @@
       "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
       "url":"https://github.com/afonsopacifer/microscope",
       "date": "October 2015",
-      "tech": "grunt"
+      "tech": ["grunt.svg","stylus.svg","jade.svg"]
     },
     {
       "name":"slush-tangerine",
@@ -209,7 +227,7 @@
       "description":"Front-End boilerplate with tangerine flavor.",
       "url":"https://github.com/afonsopacifer/slush-tangerine",
       "date": "October 2015",
-      "tech": "karma"
+      "tech": ["slush.png","gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg","npm.svg"]
     },
     {
       "name":"open-source-checklist",
@@ -217,7 +235,7 @@
       "description":"A guide to help you remember important things when creating an open source project ;D",
       "url":"http://afonsopacifer.github.io/open-source-checklist/",
       "date": "October 2015",
-      "tech": "pug"
+      "tech": ["grunt.svg","jade.svg","stylus.svg"]
     },
     {
       "name":"busca-starter-kit",
@@ -225,7 +243,7 @@
       "description":"Front-End Boilerplate :)",
       "url":"https://github.com/busca-dev/busca-starter-kit",
       "date": "August 2015",
-      "tech": "grunt"
+      "tech": ["grunt.svg","jade.svg","stylus.svg","flexgrid.svg"]
     },
     {
       "name":"write-code-every-day",
@@ -233,7 +251,7 @@
       "description":"A project to honor those developers who believed in the challenge.",
       "url":"http://raphamorim.io/write-code-every-day/",
       "date": "July 2015",
-      "tech": "javascript"
+      "tech": ["javascript.svg","stylus.svg"]
     },
     {
       "name":"commit-wars",
@@ -241,7 +259,7 @@
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
       "url":"https://github.com/afonsopacifer/commit-wars",
       "date": "June 2015",
-      "tech": "markdown"
+      "tech": ["markdown.svg"]
     },
     {
       "name":"learning-css-grid-layout",
@@ -249,7 +267,7 @@
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
       "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
       "date": "June 2015",
-      "tech": "css"
+      "tech": ["markdown.svg","css.svg"]
     },
     {
       "name":"front-end-checklist",
@@ -257,15 +275,7 @@
       "description":"work in progress.",
       "url":"https://github.com/afonsopacifer/front-end-checklist",
       "date": "June 2015",
-      "tech": "markdown"
-    },
-    {
-      "name":"afonsopacifer.github.io",
-      "user":"afonsopacifer",
-      "description":"My personal website.",
-      "url":"afonsopacifer.github.io",
-      "date": "June 2015",
-      "tech": "pug"
+      "tech": ["markdown.svg"]
     },
     {
       "name":"flex-grid-framework",
@@ -273,7 +283,7 @@
       "description":"The Flex Semantic Grid focusing on performance.",
       "url":"https://afonsopacifer.github.io/flex-grid-framework/",
       "date": "June 2015",
-      "tech": "sass"
+      "tech": ["sass.svg","stylus.svg"]
     },
     {
       "name":"dev-notes",
@@ -281,7 +291,7 @@
       "description":"Anotações de um Dev Front-End.",
       "url":"https://github.com/afonsopacifer/dev-notes",
       "date": "June 2015",
-      "tech": "markdown"
+      "tech": ["markdown.svg"]
     },
     {
       "name":"pumpkin",
@@ -289,7 +299,7 @@
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
       "url":"https://github.com/afonsopacifer/pumpkin",
       "date": "May 2015",
-      "tech": "sublime"
+      "tech": ["sublime.svg"]
     },
     {
       "name":"awesome-flexbox",
@@ -297,7 +307,7 @@
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox",
       "date": "May 2015",
-      "tech": "css"
+      "tech": ["markdown.svg","css.svg"]
     },
     {
       "name":"my-personal-website",
@@ -305,7 +315,8 @@
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website",
       "date": "April 2015",
-      "tech": "postcss"
+      "tech": ["gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg"]
+
     }
   ],
   "projects_2014":[
@@ -315,7 +326,7 @@
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs",
       "date": "September 2014",
-      "tech": "markdown"
+      "tech": ["markdown.svg","sh.svg"]
     }
   ]
 }
