@@ -16,6 +16,7 @@ gulp.task('pug', () => {
 		  .pipe(data(file => require('./data-base/projects.json')))
 		  .pipe(data(file => require('./data-base/articles.json')))
 		  .pipe(data(file => require('./data-base/videos.json')))
+      .pipe(data(file => require('./data-base/courses.json')))
     	.pipe(pug())
     	.pipe(gulp.dest('./out/'))
     	.pipe(connect.reload());

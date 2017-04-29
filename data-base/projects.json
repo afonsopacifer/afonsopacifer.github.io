@@ -6,7 +6,7 @@
       "description":"Good Practices for build Web Components.",
       "url":"https://github.com/hippie-elements/web-components-good-practices",
       "date": "April 2017",
-      "tech": ["webcomponents.svg","markdown.svg"]
+      "tech": ["webcomponents.svg","markdown.png"]
     },
     {
       "name":"polymer-redux",
@@ -30,7 +30,7 @@
       "description":"My Goals for 2017 :)",
       "url":"https://github.com/afonsopacifer/2017-goals",
       "date": "January  2017",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     },
     {
       "name":"learn-english-every-single-day",
@@ -38,7 +38,7 @@
       "description":"A challenge to improve my English while studying CSS and Polymer.",
       "url":"https://github.com/afonsopacifer/learn-english-every-single-day",
       "date": "January  2017",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     }
   ],
   "projects_2016":[
@@ -64,7 +64,7 @@
       "description":"Generator for BananaCSS Projects.",
       "url":"https://github.com/bananacss/slush-banana",
       "date": "August 2016",
-      "tech": ["slush.png","banana.png","npm.svg"]
+      "tech": ["slush.png","banana.png","npm.png"]
     },
     {
       "name":"slush-gulp-plugin",
@@ -72,7 +72,7 @@
       "description":"A slush generator for gulp plugins.",
       "url":"https://github.com/afonsopacifer/slush-gulp-plugin",
       "date": "August 2016",
-      "tech": ["slush.png","gulp.png","node.svg","npm.svg"]
+      "tech": ["slush.png","gulp.png","node.svg","npm.png"]
     },
     {
       "name":"gulp-banana",
@@ -80,7 +80,7 @@
       "description":"Gulp plugin for compile Banana code to CSS.",
       "url":"https://github.com/bananacss/gulp-banana",
       "date": "August 2016",
-      "tech": ["gulp.png","banana.png","npm.svg"]
+      "tech": ["gulp.png","banana.png","npm.png"]
     },
     {
       "name":"css-ast-iterations",
@@ -88,7 +88,7 @@
       "description":"Provide a very simple API for complex iterations on the CSS abstract syntax tree (AST).",
       "url":"https://github.com/bananacss/css-ast-iterations",
       "date": "August 2016",
-      "tech": ["node.svg","mocha.svg","npm.svg"]
+      "tech": ["node.svg","mocha.svg","npm.png"]
     },
     {
       "name":"banana-style-guide",
@@ -96,7 +96,7 @@
       "description":"Banana NodeJS code style guide.",
       "url":"https://github.com/bananacss/banana-style-guide",
       "date": "August 2016",
-      "tech": ["markdown.svg","node.svg"]
+      "tech": ["markdown.png","node.svg"]
     },
     {
       "name":"bananacss",
@@ -104,7 +104,7 @@
       "description":"The brazilian CSS superset writen in NodeJS.",
       "url":"https://github.com/bananacss/bananacss",
       "date": "July 2016",
-      "tech": ["node.svg","mocha.svg","npm.svg"]
+      "tech": ["node.svg","mocha.svg","npm.png"]
     },
     {
       "name":"vue-meditation",
@@ -120,7 +120,7 @@
       "description":"A slush generator for Nodejs CLI programs.",
       "url":"https://github.com/afonsopacifer/slush-node-cli",
       "date": "June 2016",
-      "tech": ["slush.png","node.svg","sh.svg","npm.svg"]
+      "tech": ["slush.png","node.svg","sh.png","npm.png"]
     },
     {
       "name":"friday",
@@ -128,7 +128,7 @@
       "description":"Shell Script to help with daily tasks.",
       "url":"https://github.com/afonsopacifer/friday",
       "date": "June 2016",
-      "tech": ["sh.svg"]
+      "tech": ["sh.png"]
     },
     {
       "name":"awesome-firebase",
@@ -136,7 +136,7 @@
       "description":"A curated list of Firebase.",
       "url":"https://github.com/afonsopacifer/awesome-firebase",
       "date": "June 2016",
-      "tech": ["markdown.svg","firebase.svg"]
+      "tech": ["markdown.png","firebase.svg"]
     },
     {
       "name":"skip-to-content",
@@ -176,7 +176,7 @@
       "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
       "url":"https://github.com/afonsopacifer/slush-react-start",
       "date": "April 2016",
-      "tech": ["slush.png","react.svg","babel.svg","webpack.svg","browserify.svg","mocha.svg","npm.svg"]
+      "tech": ["slush.png","react.svg","babel.svg","webpack.svg","browserify.svg","mocha.svg","npm.png"]
     },
     {
       "name":"react-pomodoro",
@@ -208,7 +208,7 @@
       "description":"An illusion created only with CSS.",
       "url":"https://github.com/afonsopacifer/css-magic",
       "date": "March 2016",
-      "tech": ["css.svg"]
+      "tech": ["css.png"]
     },
     {
       "name":"egg-emergency",
@@ -216,7 +216,7 @@
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
       "url":"http://afonsopacifer.github.io/egg-emergency/",
       "date": "January 2016",
-      "tech": ["css.svg"]
+      "tech": ["css.png"]
     }
 
   ],
@@ -227,7 +227,7 @@
       "description":"A template to help you create open source projects more organized.",
       "url":"https://github.com/afonsopacifer/open-source-boilerplate",
       "date": "December 2015",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     },
     {
       "name":"SPA-example",
@@ -243,7 +243,7 @@
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator",
       "date": "October 2015",
-      "tech": ["node.svg","npm.svg"]
+      "tech": ["node.svg","npm.png"]
     },
     {
       "name":"microscope",
@@ -259,7 +259,7 @@
       "description":"Front-End boilerplate with tangerine flavor.",
       "url":"https://github.com/afonsopacifer/slush-tangerine",
       "date": "October 2015",
-      "tech": ["slush.png","gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg","npm.svg"]
+      "tech": ["slush.png","gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg","npm.png"]
     },
     {
       "name":"open-source-checklist",
@@ -291,7 +291,7 @@
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
       "url":"https://github.com/afonsopacifer/commit-wars",
       "date": "June 2015",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     },
     {
       "name":"learning-css-grid-layout",
@@ -299,7 +299,7 @@
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
       "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
       "date": "June 2015",
-      "tech": ["markdown.svg","css.svg"]
+      "tech": ["markdown.png","css.png"]
     },
     {
       "name":"front-end-checklist",
@@ -307,7 +307,7 @@
       "description":"work in progress.",
       "url":"https://github.com/afonsopacifer/front-end-checklist",
       "date": "June 2015",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     },
     {
       "name":"flex-grid-framework",
@@ -323,7 +323,7 @@
       "description":"Anotações de um Dev Front-End.",
       "url":"https://github.com/afonsopacifer/dev-notes",
       "date": "June 2015",
-      "tech": ["markdown.svg"]
+      "tech": ["markdown.png"]
     },
     {
       "name":"pumpkin",
@@ -331,7 +331,7 @@
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
       "url":"https://github.com/afonsopacifer/pumpkin",
       "date": "May 2015",
-      "tech": ["sublime.svg"]
+      "tech": ["sublime.png"]
     },
     {
       "name":"awesome-flexbox",
@@ -339,7 +339,7 @@
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox",
       "date": "May 2015",
-      "tech": ["markdown.svg","css.svg"]
+      "tech": ["markdown.png","css.png"]
     },
     {
       "name":"my-personal-website",
@@ -358,7 +358,7 @@
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs",
       "date": "September 2014",
-      "tech": ["markdown.svg","sh.svg"]
+      "tech": ["markdown.png","sh.png"]
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "courses":[
+    {
+      "name":"Organização de CSS",
+      "video":"https://www.youtube.com/embed/JF_NdhWCKzA",
+      "lang":"pt-br",
+      "url":"https://csshortcut.github.io/organizacao.html",
+      "status":"",
+      "date": "online"
+    },
+    {
+      "name":"Front-End na vida real",
+      "video":"https://www.youtube.com/embed/pucRq_JrjvI",
+      "lang":"pt-br",
+      "url":"https://csshortcut.github.io/front-end-na-pratica.html",
+      "status":"",
+      "date": "online"
+    }
+  ]
+}

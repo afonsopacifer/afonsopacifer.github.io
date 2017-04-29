@@ -1,8 +1,8 @@
 extends ./layouts/classic.pug
 
 block page_infos
-	-var title = ""
-	-var description = ""
+	-var title = "Talks - Afonso Pacifer"
+	-var description = "Talks presented by Afonso Pacifer."
 
 block content
 
@@ -26,11 +26,9 @@ block content
 					|Attendance: #{span=talk17.attendees} <br>
 					|#{span=talk17.local}#{span=talk17.address} <br>
 					if talk17.slides
-						a(href=talk17.slides target="_blank" class="text-link") Slides
-					if talk17.slide
-						| /
+						a(href=talk17.slides target="_blank" class="btn") Slides
 					if talk17.video
-						a(href=talk17.video target="_blank" class="text-link") video
+						a(href=talk17.video target="_blank" class="btn") video
 
 	h2(class="heading-lv2") 2016
 
@@ -49,10 +47,9 @@ block content
 					|#{span=talk16.theme} <br>
 					|Attendance: #{span=talk16.attendees} <br>
 					|#{span=talk16.local}#{span=talk16.address} <br>
-					a(href=talk16.slides target="_blank" class="text-link") Slides
+					a(href=talk16.slides target="_blank" class="btn") Slides
 					if talk16.video
-						| /
-						a(href=talk16.video target="_blank" class="text-link") video
+						a(href=talk16.video target="_blank" class="btn") video
 
 	h2(class="heading-lv2") 2015
 
@@ -65,7 +62,6 @@ block content
 					|#{span=talk15.theme} <br>
 					|Attendance: #{span=talk15.attendees} <br>
 					|#{span=talk15.local}#{span=talk15.address} <br>
-					a(href=talk15.slides target="_blank" class="text-link") Slides
+					a(href=talk15.slides target="_blank" class="btn") Slides
 					if talk15.video
-						| /
-						a(href=talk15.video target="_blank" class="text-link") video
+						a(href=talk15.video target="_blank" class="btn") video
