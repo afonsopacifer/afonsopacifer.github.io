@@ -7,6 +7,7 @@ const banana  = require('gulp-banana');
 const babel   = require('gulp-babel');
 const imagemin = require('gulp-imagemin');
 const connect = require('gulp-connect');
+const ghPages = require('gulp-gh-pages');
 
 // Compile Jade
 // ===========================================
@@ -71,6 +72,15 @@ gulp.task('connect', () => {
 		root: './out/',
 		livereload: true
 	});
+});
+
+// Deploy
+// ===========================================
+gulp.task('deploy', function() {
+  return gulp.src('./out/**/*')
+    .pipe(ghPages({
+      branch:"master"
+    }));
 });
 
 // More Tasks

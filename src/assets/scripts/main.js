@@ -15,9 +15,4 @@ Mousetrap.bind('up up down down left right left right b a',() => {
       document.body.style.setProperty('--highlight-R', e.clientX);
       document.body.style.setProperty('--highlight-G', e.clientY);
     });
-    window.removeEventListener('devicelight', () => {
-      document.body.style.setProperty('--background-default', '#282828');
-      document.body.style.setProperty('--text-deafult', '#ffffff');
-      document.body.style.setProperty('--complementary', '#c9c9c9');
-    })
 });
