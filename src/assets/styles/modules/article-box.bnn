@@ -73,6 +73,10 @@
   text-decoration: none;
 }
 
+.article-box__video {
+  width: 100%;
+}
+
 .article-box__bottom {
   margin-top: auto;
   padding-top: var(--internal-spacing);
@@ -111,9 +115,4 @@
 
 .article-box__bottom__flag {
   margin-right: 6px;
-}
-
-.article-box__bottom__video {
-  width: 100%;
-  margin-bottom: var(--internal-spacing);
 }
