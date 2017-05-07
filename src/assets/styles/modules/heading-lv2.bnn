@@ -1,0 +1,9 @@
+.heading-lv2 {
+  border-bottom: 5px solid var(--highlight-light);
+  display: inline-block;
+  margin-top: calc(var(--external-spacing)/3);
+  margin-bottom: calc(var(--external-spacing)/3);
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+}

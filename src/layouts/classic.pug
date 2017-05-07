@@ -9,9 +9,8 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 
 		//-  Styles
 		//- ===========================================
-		link(href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
 		link(href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet")
-		link(rel="stylesheet" href="assets/styles/main.css")
+		link(rel="stylesheet" href="assets/styles/index.css")
 
 		//- Fonts
 		link(href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css')
@@ -29,8 +28,8 @@ html(lang="en" prefix="og: http://ogp.me/ns#")
 
 		//- main
 		//- ===========================================
-		main(id="content" data-senna-surface)
-			section.container
+		main(id="main" data-senna-surface)
+			div.main__container
 				block content
 
 		//- bottom requests

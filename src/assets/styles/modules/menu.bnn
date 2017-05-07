@@ -1,0 +1,31 @@
+.menu {
+  padding-left: 0;
+  margin-top: var(--internal-spacing);
+  margin-bottom: var(--internal-spacing);
+  bnn-position: center;
+  text-align: center;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+@media (max-width: 690px) {
+  .menu__item {
+    display: inline-block;
+  }
+}
+
+.menu__item__link {
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+  color: var(--text-deafult);
+  font-weight: 300;
+  transition: color .1s;
+}
+
+.menu__item__link:hover {
+  color:var(--highlight);
+  text-decoration: underline;
+}

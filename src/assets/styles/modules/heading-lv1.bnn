@@ -1,0 +1,8 @@
+.heading-lv1 {
+  margin-top: var(--external-spacing);
+  margin-bottom: var(--external-spacing);
+  font-weight: 700;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2.5em;
+  color: var(--highlight);
+}

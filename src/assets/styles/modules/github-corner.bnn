@@ -1,0 +1,4 @@
+.github-corner {
+  fill: var(--highlight);
+  color: var(--background-default);
+}

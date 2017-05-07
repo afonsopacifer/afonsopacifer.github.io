@@ -11,11 +11,11 @@ block content
 	h2(class="heading-lv2") 2017
 
 	for video17 in videos_2017
-			article.article
-				span(class="text-date")=video17.date
-				a(href=video17.url class="text-link" target="_blank")
-					h3(class="heading-lv3")=video17.theme
-				a(href=video17.url class="sub-heading" target="_blank")
+			article.article-box
+				span(class="article-box__date")=video17.date
+				a(href=video17.url class="article-box__link" target="_blank")
+					h3(class="article-box__h3")=video17.theme
+				a(href=video17.url class="article-box__text" target="_blank")
 					if video17.lang
 						include includes/svg-icons/br-flag.pug
 					|Duration #{span=video17.time}
@@ -23,11 +23,11 @@ block content
 	h2(class="heading-lv2") 2016
 
 	for video16 in videos_2016
-			article.article
-				span(class="text-date")=video16.date
-				a(href=video16.url class="text-link" target="_blank")
-					h3(class="heading-lv3")=video16.theme
-				a(href=video16.url class="sub-heading" target="_blank")
+			article.article-box
+				span(class="article-box__date")=video16.date
+				a(href=video16.url class="article-box__link" target="_blank")
+					h3(class="article-box__h3")=video16.theme
+				a(href=video16.url class="article-box__text" target="_blank")
 					if video16.lang
 						include includes/svg-icons/br-flag.pug
 					|Duration #{span=video16.time}

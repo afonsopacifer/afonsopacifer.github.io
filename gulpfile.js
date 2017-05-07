@@ -26,7 +26,7 @@ gulp.task('pug', () => {
 // banana
 // ===========================================
 gulp.task('banana', () => {
-  gulp.src('src/assets/styles/main.bnn')
+  gulp.src(['src/assets/styles/*.bnn','src/assets/styles/**/*.bnn'])
     .pipe(banana({
       bnnVariable : false,
       bnnImport : false,
