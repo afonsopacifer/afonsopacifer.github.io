@@ -1,21 +1,26 @@
+/* vendors */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css';
+@import 'https://afeld.github.io/emoji-css/emoji.css';
+
 /* base */
-@import 'base/normalize.css';
 @import 'base/global.css';
 @import 'base/config.css';
 
-/* layouts */
+/* aside */
 @import 'layouts/aside.css';
-@import 'layouts/main.css';
-@import 'layouts/section-box.css';
-
-/* modules */
 @import 'modules/profile.css';
 @import 'modules/menu.css';
 @import 'modules/social.css';
+
+/* main */
+@import 'layouts/main.css';
 @import 'modules/heading-lv1.css';
 @import 'modules/heading-lv2.css';
 @import 'modules/paragraph.css';
+@import 'layouts/section-box.css';
 @import 'modules/article-box.css';
+
+/* page */
 @import 'modules/github-corner.css';
 
 /* blog */

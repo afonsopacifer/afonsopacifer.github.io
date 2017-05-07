@@ -75,6 +75,7 @@
 
 .article-box__bottom {
   margin-top: auto;
+  padding-top: var(--internal-spacing);
  }
 
 .article-box__bottom--icons-list {
@@ -96,7 +97,6 @@
   display: inline-block;
   border: 1px solid var(--highlight);
   font-size: .9em;
-  margin-top: var(--internal-spacing);
 }
 
 .article-box__bottom__btn:hover {
