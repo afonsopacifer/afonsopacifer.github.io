@@ -1,0 +1,9 @@
+body{--aside-width:230px;--internal-spacing:10px;--external-spacing:30px;--highlight-R:249;--highlight-G:0;--highlight-B:108;--highlight-opacity:1;--highlight-RGB:var(--highlight-R),
+    var(--highlight-G),
+    var(--highlight-B);--highlight:rgba(
+    var(--highlight-RGB),
+    var(--highlight-opacity)
+  );--highlight-light:rgba(
+    var(--highlight-RGB),
+    calc(var(--highlight-opacity)/3)
+  );--background-default:#282828;--text-deafult:#ffffff;--complementary:#c9c9c9;}
