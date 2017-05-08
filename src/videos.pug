@@ -8,28 +8,14 @@ block content
 
 	h1(class="heading-lv1") Videos
 
+	include ./mixins/article-box.pug
+
 	h2(class="heading-lv2") 2017
 
 	for video17 in videos_2017
-			article.article-box
-				span(class="article-box__date")=video17.date
-				a(href=video17.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=video17.theme
-				a(href=video17.url class="article-box__text" target="_blank")
-				div.article-box__bottom
-					if video17.lang
-						include includes/svg-icons/br-flag.pug
-					span(class="article-box__bottom__text") Duration #{span=video17.time}
+		+videoBox(video17.date, video17.url, video17.theme, video17.lang, video17.time)
 
 	h2(class="heading-lv2") 2016
 
 	for video16 in videos_2016
-			article.article-box
-				span(class="article-box__date")=video16.date
-				a(href=video16.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=video16.theme
-				a(href=video16.url class="article-box__text" target="_blank")
-				div.article-box__bottom
-					if video16.lang
-						include includes/svg-icons/br-flag.pug
-					span(class="article-box__bottom__text") Duration #{span=video16.time}
+		+videoBox(video16.date, video16.url, video16.theme, video16.lang, video16.time)

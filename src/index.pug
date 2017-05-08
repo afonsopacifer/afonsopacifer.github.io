@@ -26,7 +26,7 @@ block content
 
 			- for (var i = 0; i < 4; ++i)
 				if !articles_2017[i].draft
-					article.article-box.article-box.article-box--col-3
+					article.article-box.article-box--col-3
 						a(href=articles_2017[i].url class="article-box__link" target="_blank")
 							h3(class="article-box__h3 article-box__h3--small")=articles_2017[i].name
 						if articles_2017[i].lang
@@ -41,7 +41,7 @@ block content
 		section.section-box
 
 			- for (var i = 0; i < 3; ++i)
-				article.article-box.article-box.article-box--col-3
+				article.article-box.article-box--col-3
 					a(href=videos_2017[i].url class="article-box__link" target="_blank")
 						h3(class="article-box__h3 article-box__h3--small")=videos_2017[i].theme
 					if videos_2017[i].lang
@@ -56,7 +56,7 @@ block content
 		section.section-box
 
 			for course in courses
-				article.article-box.article-box.article-box--col-2
+				article.article-box.article-box--col-2
 					a(href=course.url class="article-box__link" target="_blank")
 						h3(class="article-box__h3 article-box__h3--small")=course.name
 					iframe(class="article-box__video" src=course.video frameborder="0" allowfullscreen)

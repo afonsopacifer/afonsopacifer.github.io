@@ -8,40 +8,22 @@ block content
 
 	h1(class="heading-lv1") Posts
 
+	include ./mixins/article-box.pug
+
 	h2(class="heading-lv2") 2017
 
 	for post17 in articles_2017
 		if !post17.draft
-			article.article-box
-				span(class="article-box__date")=post17.date
-				a(href=post17.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=post17.name
-				div.article-box__bottom
-					if post17.lang
-						include includes/svg-icons/br-flag.pug
-					span(class="article-box__bottom__text") Avaible on #{span=post17.local}
+			+postBox(post17.date, post17.url, post17.name, post17.lang, post17.local)
 
 	h2(class="heading-lv2") 2016
 
 	for post16 in articles_2016
 		if !post16.draft
-			article.article-box
-				span(class="article-box__date")=post16.date
-				a(href=post16.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=post16.name
-				div.article-box__bottom
-					if post16.lang
-						include includes/svg-icons/br-flag.pug
-					span(class="article-box__bottom__text") Avaible on #{span=post16.local}
+			+postBox(post16.date, post16.url, post16.name, post16.lang, post16.local)
 
 	h2(class="heading-lv2") 2015
 
 	for post15 in articles_2015
-		article.article-box
-			span(class="article-box__date")=post15.date
-			a(href=post15.url class="article-box__link" target="_blank")
-				h3(class="article-box__h3")=post15.name
-				div.article-box__bottom
-					if post15.lang
-						include includes/svg-icons/br-flag.pug
-					span(class="article-box__bottom__text") Avaible on #{span=post15.local}
+		if !post15.draft
+			+postBox(post15.date, post15.url, post15.name, post15.lang, post15.local)

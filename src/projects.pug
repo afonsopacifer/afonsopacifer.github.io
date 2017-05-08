@@ -8,62 +8,24 @@ block content
 
 	h1(class="heading-lv1") Open Source Projects
 
+	include ./mixins/article-box.pug
+
 	h2(class="heading-lv2") 2017
 
 	for projects17 in projects_2017
-		- var name = projects17.name
-		- var user = projects17.user
-			article.article-box
-				span(class="article-box__date")=projects17.date
-				a(href=projects17.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=projects17.name
-				a(href=projects17.url class="article-box__text" target="_blank")
-					span=projects17.description
-				div.article-box__bottom.article-box__bottom--icons-list
-					for tech17 in projects17.tech
-						img(src="assets/img/tech/"+ tech17 alt=tech17 class="article-box__bottom__icon")
+		+projectBox(projects17.date, projects17.url, projects17.name, projects17.description, projects17.tech)
 
 	h2(class="heading-lv2") 2016
 
 	for projects16 in projects_2016
-		- var name = projects16.name
-		- var user = projects16.user
-			article.article-box
-				span(class="article-box__date")=projects16.date
-				a(href=projects16.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=projects16.name
-				a(href=projects16.url class="article-box__text" target="_blank")
-					span=projects16.description
-				div.article-box__bottom.article-box__bottom--icons-list
-					for tech16 in projects16.tech
-						img(src="assets/img/tech/"+ tech16 alt=tech16 class="article-box__bottom__icon")
+		+projectBox(projects16.date, projects16.url, projects16.name, projects16.description, projects16.tech)
 
 	h2(class="heading-lv2") 2015
 
 	for projects15 in projects_2015
-		- var name = projects15.name
-		- var user = projects15.user
-			article.article-box
-				span(class="article-box__date")=projects15.date
-				a(href=projects15.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=projects15.name
-				a(href=projects15.url class="article-box__text" target="_blank")
-					span=projects15.description
-				div.article-box__bottom.article-box__bottom--icons-list
-					for tech15 in projects15.tech
-						img(src="assets/img/tech/"+ tech15 alt=tech15 class="article-box__bottom__icon")
+		+projectBox(projects15.date, projects15.url, projects15.name, projects15.description, projects15.tech)
 
 	h2(class="heading-lv2") 2014
 
 	for projects14 in projects_2014
-		- var name = projects14.name
-		- var user = projects14.user
-			article.article-box
-				span(class="article-box__date")=projects14.date
-				a(href=projects14.url class="article-box__link" target="_blank")
-					h3(class="article-box__h3")=projects14.name
-				a(href=projects14.url class="article-box__text" target="_blank")
-					span=projects14.description
-				div.article-box__bottom.article-box__bottom--icons-list
-					for tech14 in projects14.tech
-						img(src="assets/img/tech/"+ tech14 alt=tech14 class="article-box__bottom__icon")
+		+projectBox(projects14.date, projects14.url, projects14.name, projects14.description, projects14.tech)
