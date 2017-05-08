@@ -1,0 +1,10 @@
+mixin projectBox(date, url, name, description, tech)
+	article.article-box
+		span(class="article-box__date")=date
+		a(href=url class="article-box__link" target="_blank")
+			h3(class="article-box__h3")=name
+		a(href=url class="article-box__text" target="_blank")
+			span=description
+		div.article-box__bottom.article-box__bottom--icons-list
+			for tech17 in tech
+				img(src="assets/img/tech/"+ tech17 alt=tech17 class="article-box__bottom__icon")
