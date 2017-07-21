@@ -1,6 +1,17 @@
 {
   "talks_2017":[
     {
+      "event":"GDG Toledo - PR",
+      "theme":"Web components and beyond with polymer",
+      "attendees":"≈ 20",
+      "date":"Jul 19 2017",
+      "dateschema":"2017-07-19",
+      "local":"Aceleradora Valley Connection - ",
+      "address":"Toledo - PR",
+      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer",
+      "video": "https://www.youtube.com/watch?v=e7nl-T1dfAM&t"
+    },
+    {
       "event":"GDG Rio de Janeiro",
       "theme":"Web components and beyond with polymer",
       "attendees":"≈ 30",
