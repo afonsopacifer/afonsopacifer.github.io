@@ -1,6 +1,26 @@
 {
   "talks_2017":[
     {
+      "event":"#11 FEMUG PE",
+      "theme":"Front-End Development in less than 12 parsecs",
+      "attendees":"≈ 50",
+      "date":"Jul 28 2017",
+      "dateschema":"2017-07-28",
+      "local":"CESAR - ",
+      "address":"Recife - PE",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parcecs"
+    },
+    {
+      "event":"Geek Night Recife",
+      "theme":"Web components and beyond with polymer",
+      "attendees":"≈ 10",
+      "date":"Jul 27 2017",
+      "dateschema":"2017-07-27",
+      "local":"Thoughtworks - ",
+      "address":"Recife - PE",
+      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer-1"
+    },
+    {
       "event":"GDG Toledo - PR",
       "theme":"Web components and beyond with polymer",
       "attendees":"≈ 20",
