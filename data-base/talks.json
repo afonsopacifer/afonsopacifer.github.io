@@ -1,6 +1,16 @@
 {
   "talks_2017":[
     {
+      "event":"#3 Meetup Frontend RJ",
+      "theme":"Front-End Development in less than 12 parsecs",
+      "attendees":"≈ 25",
+      "date":"Sep 11 2017",
+      "dateschema":"2017-09-11",
+      "local":"Stone Pagamentos - ",
+      "address":"Centro, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parsecs"
+    },
+    {
       "event":"#11 FEMUG PE",
       "theme":"Front-End Development in less than 12 parsecs",
       "attendees":"≈ 50",
