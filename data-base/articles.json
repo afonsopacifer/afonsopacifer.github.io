@@ -1,6 +1,38 @@
 {
   "articles_2017":[
   {
+    "name":"Mindset para aplicações baseadas em componentes no Front-End — Parte 2: react-router",
+    "date":"Sep 27 2017",
+    "description":"",
+    "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-2-react-router-b13259be9360",
+    "local":"Medium",
+    "lang":"pt-br"
+  },
+  {
+    "name":"Mindset para aplicações baseadas em componentes no Front-End — Parte 1",
+    "date":"Sep 22 2017",
+    "description":"",
+    "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-1-ab15e3733e5c",
+    "local":"Medium",
+    "lang":"pt-br"
+  },
+  {
+    "name":"Desmistificando um futuro chamado Polymer 3",
+    "date":"Sep 12 2017",
+    "description":"",
+    "url":"https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a",
+    "local":"Medium",
+    "lang":"pt-br"
+  },
+  {
+    "name":"Nem só de Front-End Week SP vive o homem!",
+    "date":"Jul 29 2017",
+    "description":"",
+    "url":"https://medium.com/@afonsopacifer/nem-s%C3%B3-de-front-end-week-sp-vive-o-homem-9a1cddc2170a",
+    "local":"Medium",
+    "lang":"pt-br"
+  },
+  {
     "name":"Psychedelic: Minha Stack para blogs estáticos, single page, hybrid Style e Offline first.",
     "date":"April 17 2017",
     "description":"",
