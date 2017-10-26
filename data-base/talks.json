@@ -1,6 +1,16 @@
 {
   "talks_2017":[
     {
+      "event":"Semana Acadêmica UFRRJ",
+      "theme":"Google Chrome as a Platform",
+      "attendees":"≈ 40",
+      "date":"Oct 25 2017",
+      "dateschema":"2017-10-25",
+      "local":"UFRRJ - ",
+      "address":"Nova Iguaçu - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/google-chrome-as-a-platform"
+    },
+    {
       "event":"#3 Meetup Frontend RJ",
       "theme":"Front-End Development in less than 12 parsecs",
       "attendees":"≈ 25",
