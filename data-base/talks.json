@@ -1,6 +1,16 @@
 {
   "talks_2017":[
     {
+      "event":"Dev Fest BH",
+      "theme":"Polymer Project: State of Union",
+      "attendees":"≈ 170",
+      "date":"Nov 18 2017",
+      "dateschema":"2017-11-18",
+      "local":"The One Business Center - ",
+      "address":"Belo Horizonte - MG",
+      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union"
+    },
+    {
       "event":"Semana Acadêmica UFRRJ",
       "theme":"Google Chrome as a Platform",
       "attendees":"≈ 40",
