@@ -1,6 +1,16 @@
 {
   "talks_2017":[
     {
+      "event":"Dev Fest RJ",
+      "theme":"Polymer Project: State of Union",
+      "attendees":"≈ 120",
+      "date":"Nov 25 2017",
+      "dateschema":"2017-11-25",
+      "local":"Centro de Convenções SulAmérica - ",
+      "address":"Rio de janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union"
+    },
+    {
       "event":"Dev Fest BH",
       "theme":"Polymer Project: State of Union",
       "attendees":"≈ 170",
