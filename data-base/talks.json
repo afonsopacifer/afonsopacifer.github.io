@@ -1,6 +1,16 @@
 {
   "talks_2017":[
     {
+      "event":"Dev Fest XP",
+      "theme":"Google Chrome as a Platform 2.0",
+      "attendees":"≈ 50",
+      "date":"Dez 09 2017",
+      "dateschema":"2017-12-09",
+      "local":"Marco zero - ",
+      "address":"Recife - PE",
+      "slides":"https://github.com/afonsopacifer/devfest-xp-2017/"
+    },
+    {
       "event":"Dev Fest RJ",
       "theme":"Polymer Project: State of Union",
       "attendees":"≈ 120",
