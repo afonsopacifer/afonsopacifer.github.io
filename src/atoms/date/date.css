@@ -1,0 +1,9 @@
+.date {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  padding: 0;
+  color: var(--primary-color, #2F2F2F);
+}

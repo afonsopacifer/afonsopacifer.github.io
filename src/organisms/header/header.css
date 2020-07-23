@@ -1,0 +1,22 @@
+.header-container {
+  background-color: var(--primary-color, #2F2F2F);
+  width: 100%;
+}
+
+.header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 var(--secondary-space, 16px);
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--bar-height, 48px);
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}

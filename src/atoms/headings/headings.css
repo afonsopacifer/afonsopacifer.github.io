@@ -1,0 +1,32 @@
+.heading {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: var(--secondary-space, 16px) 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: var(--primary-color, #2F2F2F);
+}
+
+.heading--lv1 {
+  font-size: 36px;
+  line-height: 50px;
+  margin: var(--secondary-space, 16px) 0;
+}
+
+.heading--lv2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: var(--secondary-space, 16px);
+}
+
+.heading--lv3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.heading--underline {
+  border-bottom: 5px solid var(--secondary-color, #F5C416);
+}

@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--primary-color, #2F2F2F);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 var(--primary-space, 8px);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: var(--bar-height, 48px);
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  fill: var(--secondary-color, #F5C416);
+  width: 16px;
+  margin: 0 4px;
+  animation: pulse 1s infinite alternate ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

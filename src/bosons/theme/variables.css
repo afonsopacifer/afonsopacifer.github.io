@@ -1,0 +1,18 @@
+:root {
+
+  /* Colors */
+
+  --page-background: #fff;
+  --primary-color: #2F2F2F;
+  --secondary-color: #F5C416;
+
+  /* Spacing patterns */
+
+  --page-width: 700px;
+  --bar-height: 48px;
+  --primary-space: 8px;
+  --secondary-space: 16px;
+
+  /* Breakpoints */
+
+}

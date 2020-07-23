@@ -1,0 +1,44 @@
+.controls {
+  box-sizing: border-box;
+  width: 150px;
+}
+
+@media screen and (max-width: 700px) {
+  .controls {
+    margin-top: var(--primary-space, 8px);
+    width: 50%;
+    order: 1;
+  }
+}
+
+.controls__title {
+  margin: 0;
+}
+
+.controls__button {
+  border: 0;
+  padding: 4px var(--primary-space, 8px);
+  margin: 0;
+  background: transparent;
+  display: flex;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.controls__button:hover {
+  cursor: pointer;
+}
+
+.controls__button:focus {
+  outline: none;
+  border-color: var(--secondary-color, #F5C416);
+}
+
+.controls__photo {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.controls__icon {
+  fill: var(--secondary-color, #F5C416);
+}

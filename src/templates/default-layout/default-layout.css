@@ -1,0 +1,22 @@
+.default-layout {
+  box-sizing: border-box;
+}
+
+.default-layout__main {
+  margin: var(--secondary-space, 16px) auto;
+  padding: 0 var(--secondary-space, 16px);
+  width: 100%;
+  max-width: var(--page-width, 700px);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* Stick Footer */
+  --header-and-footer-heights: calc(var(--bar-height, 48px) * 2);
+  min-height: calc(100vh - var(--header-and-footer-heights));
+}
+
+.default-layout__article {
+  display: flex;
+  flex-wrap: wrap;
+}
