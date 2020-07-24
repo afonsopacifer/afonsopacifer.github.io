@@ -1,5 +1,169 @@
 {
-  "talks_2017":[
+  "talks_2019": [
+    {
+      "event":"Front in Floripa",
+      "theme":"No pain no gain: A verdade sobre a evolução técnica",
+      "attendees":"≈ ",
+      "date":"Nov 30 2019",
+      "dateschema":"",
+      "local":"Hotel Maria do Mar",
+      "address":"Florianópolis - SC",
+      "slides":""
+    },
+    {
+      "event":"#30 HTML SP",
+      "theme":"A liberdade vem do ether",
+      "attendees":"≈ ?",
+      "date":"Nov 27 2019",
+      "dateschema":"2019-11-27",
+      "local":"C6 Bank - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"Hacktoberfest SP - Meetup #03",
+      "theme":"Workshop: ?",
+      "attendees":"≈ 20",
+      "date":"Sep 03 2019",
+      "dateschema":"2019-09-03",
+      "local":"Stone - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"Front in Sampa",
+      "theme":"Front-End 101: A resposta sobre “estudar a base”",
+      "attendees":"≈ ",
+      "date":"Jul 13 2019",
+      "dateschema":"",
+      "local":"Centro de Convenções Rebouças",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"Hacktoberfest SP - Meetup #01",
+      "theme":"?",
+      "attendees":"≈ 20",
+      "date":"Jul 02 2019",
+      "dateschema":"2019-07-02",
+      "local":"Wirecard - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#34 React SP",
+      "theme":"PRPL Pattern com React na prática",
+      "attendees":"≈ ?",
+      "date":"May 30 2019",
+      "dateschema":"2019-05-30",
+      "local":"Jusbrasil - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    }
+  ],
+  "talks_2018": [
+    {
+      "event":"#18 HTML SP",
+      "theme":"Google Chrome as a Plataform",
+      "attendees":"≈ ?",
+      "date":"Sep 06 2018",
+      "dateschema":"2018-09-06",
+      "local":"Pagar.me - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"7Masters - Programação Funcional",
+      "theme":"Copiando dados de forma funcional",
+      "attendees":"≈ ?",
+      "date":"Jul 25 2018",
+      "dateschema":"",
+      "local":"iMasters Developer Hub - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#13 Frontend SP Meetup - Edição Especial FrontendWeek",
+      "theme":"Testes Universais (isomórficos) em Javascript",
+      "attendees":"≈ ?",
+      "date":"Jul 13 2018",
+      "dateschema":"2018-07-13",
+      "local":"Accenture Interactive - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#26 Meetup CSS SP",
+      "theme":"CSS e as relíquias da morte",
+      "attendees":"≈ ?",
+      "date":"May 24 2018",
+      "dateschema":"2018-05-24",
+      "local":"FCamara - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#50 Nerdzão",
+      "theme":"CSS VR: Correr ou morrer",
+      "attendees":"≈ ?",
+      "date":"May 08 2018",
+      "dateschema":"2018-05-08",
+      "local":"Moip - ",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#7 Vue.js SP",
+      "theme":"Style Strategies in Vue.js",
+      "attendees":"≈ 35",
+      "date":"Mar 01 2018",
+      "dateschema":"",
+      "local":"iMasters Developer Hub",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#13 JS SP",
+      "theme":"Front-End Development in less than 12 parsecs",
+      "attendees":"≈ 40",
+      "date":"Fev 26 2018",
+      "dateschema":"",
+      "local":"Lambda3",
+      "address":"São Paulo - SP",
+      "slides":""
+    },
+    {
+      "event":"#11 HTML SP",
+      "theme":"Empathy and HTML: Building Components for People",
+      "attendees":"≈ 20",
+      "date":"Jan 31 2018",
+      "dateschema":"",
+      "local":"Hi Platform",
+      "address":"São Paulo - SP",
+      "slides":""
+    }
+  ],
+  "talks_2017": [
+    {
+      "event":"JSDay Recife",
+      "theme":"Front-End Development in less than 12 parsecs",
+      "attendees":"≈ 50",
+      "date":"Dez 16 2017",
+      "dateschema":"",
+      "local":"FICR - ",
+      "address":"Recife - PE",
+      "slides":""
+    },
+    {
+      "event":"#11 FEMUG PE",
+      "theme":"Empathy and HTML: Building Components for People",
+      "attendees":"≈ 20",
+      "date":"Dez 15 2017",
+      "dateschema":"",
+      "local":"Thoughtworks - ",
+      "address":"Recife - PE",
+      "slides":""
+    },
     {
       "event":"Dev Fest XP",
       "theme":"Google Chrome as a Platform 2.0",
@@ -102,7 +266,7 @@
       "video": "https://www.youtube.com/watch?v=AfOis1W-pkU"
     }
   ],
-  "talks_2016":[
+  "talks_2016": [
     {
       "event":"Front in Floripa",
       "theme":"Diga adeus aos pré/pós processadores CSS",
@@ -178,7 +342,7 @@
 
     }
   ],
-  "talks_2015":[
+  "talks_2015": [
     {
       "event":"Semana Acadêmica UFF",
       "theme":"Software Livre: Eu escolho você!",
