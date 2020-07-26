@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 700px) {
   .controls {
-    margin-top: var(--primary-space, 8px);
     width: 50%;
     order: 1;
   }

@@ -7,8 +7,10 @@
 
 @media screen and (max-width: 700px) {
   .menu {
-    margin: var(--primary-space, 8px) 0;
-    order: 3;
+    width: 100%;
+    margin-bottom: var(--primary-space, 8px);
+    order: 0;
+    flex: auto;
   }
 }
 
@@ -17,6 +19,13 @@
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .menu-list__item {

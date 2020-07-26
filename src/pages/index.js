@@ -3,14 +3,15 @@ import DefaultLayout from '../templates/default-layout/';
 import '../atoms/text/text.css';
 import '../atoms/headings/headings.css';
 import SEO from '../bosons/seo/';
+import Backgroundvideo from '../assets/videos/background.mp4';
 
 const Index = () => (
-  <DefaultLayout>
+  <DefaultLayout videoSource = { Backgroundvideo }>
 
     <SEO title='Home' />
 
     <h1 className = 'heading heading--lv1'>
-      <strong className = 'heading--underline'> Hello </strong>
+      <strong className = 'heading--underline'> Hello. </strong>
     </h1>
 
     <p className = 'text'>
