@@ -30,6 +30,13 @@
 }
 
 .default-layout__article {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.default-layout__footer {
+  width: 100%;
+  text-align: center;
+  padding: var(--secondary-space) 0;
 }

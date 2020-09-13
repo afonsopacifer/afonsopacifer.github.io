@@ -1,0 +1,20 @@
+.tag {
+  display: inline-block;
+  background-color: var(--secondary-color, #F5C416);
+  padding: 4px 8px;
+  color: var(--primary-color, #2F2F2F);
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: var(--primary-space, 8px) 0;
+}
+
+.tag--pt-br {
+  background-color: #a9eb80;
+}
+
+.tag--en {
+  background-color: #eb809b;
+}

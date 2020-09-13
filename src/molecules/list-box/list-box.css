@@ -3,6 +3,10 @@
   margin: var(--secondary-space, 16px) 0;
 }
 
+.list-box__body {
+  padding:  var(--primary-space, 8px) 0;
+}
+
 .list-box__footer {
-  margin:  var(--secondary-space, 16px) 0;
+  margin:  var(--primary-space, 8px) 0;
 }

@@ -2,33 +2,105 @@ import React from 'react';
 import Link from '../../atoms/link/';
 import '../../atoms/headings/headings.css';
 import '../../atoms/date/date.css';
+import '../../atoms/text/text.css';
+import '../../atoms/tag/tag.css';
 import './list-box.css';
+import BrazilFlag from '../../assets/icons/brazil-flag.svg';
+import ColombiaFlag from '../../assets/icons/colombia-flag.svg';
 
 const ListBox = ({
   title,
-  readStatus,
   date,
-  link,
-  href,
+  url,
+  lang,
+  platform,
+  description,
+  slides,
+  video,
+  attendees,
+  local,
+  event,
+  icon,
+  time,
   }) => {
 
-  const $readMessage = readStatus ? null : <strong className = 'text--highlight'> [UNREAD!] </strong>;
+  let currentFlag;
+
+  if(icon === 'brazil') {
+    currentFlag = <BrazilFlag className = 'heading__icon' />
+  }
+
+  if(icon === 'colombia') {
+    currentFlag = <ColombiaFlag className = 'heading__icon' />
+  }
 
   return (
 
     <article className = 'list-box'>
 
-      <h3 className = 'heading heading--lv3'>
-        { title }
-        { $readMessage }
-      </h3>
+      {
+        event &&
+        <h3 className = 'heading heading--lv3'>
+          { currentFlag } { event }
+        </h3>
+      }
 
-      <small className = 'date'>
-        Posted on { date }
-      </small>
+      {
+        date &&
+        <small className = 'date'>
+          { date }
+        </small>
+      }
+
+      { lang &&
+        <span className = {`tag tag--${lang}`}>
+          { lang }
+        </span>
+      }
+
+      <div className = 'list-box__body'>
+
+        {
+          title &&
+          <small className = 'text text--short'>
+            Theme: { title }
+          </small>
+        }
+
+        {
+          attendees &&
+          <small className = 'text text--short'>
+            Attendance: ≈ { attendees }
+          </small>
+        }
+
+        {
+          local &&
+          <small className = 'text text--short'>
+            Local: { local }
+          </small>
+        }
+
+        {
+          time &&
+          <small className = 'text text--short'>
+            Duration: { time }
+          </small>
+        }
+
+      {
+        description &&
+        <p className = 'text text--short'>
+          { description }
+        </p>
+      }
+
+      </div>
 
       <div className = 'list-box__footer'>
-        <Link href = { href }> { link } </Link>
+        { platform && <Link href = { url }> Available on { platform } </Link> }
+        { slides && <Link href = { slides }> Slides </Link> }
+        { video && <Link href = { video }> Video </Link> }
       </div>
 
     </article>

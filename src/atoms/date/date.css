@@ -1,6 +1,7 @@
 .date {
+  display: block;
   font-family: 'Roboto', sans-serif;
-  margin: 0;
+  margin: 0 0 var(--primary-space, 8px) 0;
   font-weight: 400;
   font-style: italic;
   font-size: 14px;
