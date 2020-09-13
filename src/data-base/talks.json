@@ -1,417 +1,427 @@
 {
+  "talks_2020": [
+    {
+      "event":"Medellín CSS",
+      "title":"Welcome CSS Lv5",
+      "attendees":"50",
+      "date":"Aug 29 2020",
+      "local":"Online - Medellín - Colombia",
+      "slides":"https://speakerdeck.com/afonsopacifer/welcome-css-lv5",
+      "lang": "en",
+      "icon": "colombia"
+    }
+  ],
   "talks_2019": [
     {
       "event":"Front in Floripa",
-      "theme":"No pain no gain: A verdade sobre a evolução técnica",
-      "attendees":"≈ ",
+      "title":"No pain no gain: A verdade sobre a evolução técnica",
+      "attendees":"200",
       "date":"Nov 30 2019",
-      "dateschema":"",
-      "local":"Hotel Maria do Mar",
-      "address":"Florianópolis - SC",
-      "slides":""
+      "local":"Hotel Maria do Mar - Florianópolis - SC - Brazil",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#30 HTML SP",
-      "theme":"A liberdade vem do ether",
-      "attendees":"≈ ?",
+      "title":"A liberdade vem do ether",
+      "attendees":"?",
       "date":"Nov 27 2019",
-      "dateschema":"2019-11-27",
-      "local":"C6 Bank - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"C6 Bank - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Hacktoberfest SP - Meetup #03",
-      "theme":"Workshop: ?",
-      "attendees":"≈ 20",
+      "title":"Workshop: ?",
+      "attendees":"20",
       "date":"Sep 03 2019",
-      "dateschema":"2019-09-03",
-      "local":"Stone - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Stone - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Front in Sampa",
-      "theme":"Front-End 101: A resposta sobre “estudar a base”",
-      "attendees":"≈ ",
+      "title":"Front-End 101: A resposta sobre “estudar a base”",
+      "attendees":"?",
       "date":"Jul 13 2019",
-      "dateschema":"",
-      "local":"Centro de Convenções Rebouças",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Centro de Convenções Rebouças - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Hacktoberfest SP - Meetup #01",
-      "theme":"?",
-      "attendees":"≈ 20",
+      "title":"?",
+      "attendees":"20",
       "date":"Jul 02 2019",
-      "dateschema":"2019-07-02",
-      "local":"Wirecard - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Wirecard - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#34 React SP",
-      "theme":"PRPL Pattern com React na prática",
-      "attendees":"≈ ?",
+      "title":"PRPL Pattern com React na prática",
+      "attendees":"?",
       "date":"May 30 2019",
-      "dateschema":"2019-05-30",
-      "local":"Jusbrasil - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Jusbrasil - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     }
   ],
   "talks_2018": [
     {
       "event":"#18 HTML SP",
-      "theme":"Google Chrome as a Plataform",
-      "attendees":"≈ ?",
+      "title":"Google Chrome as a Plataform",
+      "attendees":"?",
       "date":"Sep 06 2018",
-      "dateschema":"2018-09-06",
-      "local":"Pagar.me - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Pagar.me - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"7Masters - Programação Funcional",
-      "theme":"Copiando dados de forma funcional",
-      "attendees":"≈ ?",
+      "title":"Copiando dados de forma funcional",
+      "attendees":"?",
       "date":"Jul 25 2018",
-      "dateschema":"",
-      "local":"iMasters Developer Hub - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"iMasters Developer Hub - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#13 Frontend SP Meetup - Edição Especial FrontendWeek",
-      "theme":"Testes Universais (isomórficos) em Javascript",
-      "attendees":"≈ ?",
+      "title":"Testes Universais (isomórficos) em Javascript",
+      "attendees":"?",
       "date":"Jul 13 2018",
-      "dateschema":"2018-07-13",
-      "local":"Accenture Interactive - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Accenture Interactive - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#26 Meetup CSS SP",
-      "theme":"CSS e as relíquias da morte",
-      "attendees":"≈ ?",
+      "title":"CSS e as relíquias da morte",
+      "attendees":"?",
       "date":"May 24 2018",
-      "dateschema":"2018-05-24",
-      "local":"FCamara - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"FCamara - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#50 Nerdzão",
-      "theme":"CSS VR: Correr ou morrer",
-      "attendees":"≈ ?",
+      "title":"CSS VR: Correr ou morrer",
+      "attendees":"?",
       "date":"May 08 2018",
-      "dateschema":"2018-05-08",
-      "local":"Moip - ",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Moip - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#7 Vue.js SP",
-      "theme":"Style Strategies in Vue.js",
-      "attendees":"≈ 35",
+      "title":"Style Strategies in Vue.js",
+      "attendees":"35",
       "date":"Mar 01 2018",
-      "dateschema":"",
-      "local":"iMasters Developer Hub",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"iMasters Developer Hub - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#13 JS SP",
-      "theme":"Front-End Development in less than 12 parsecs",
-      "attendees":"≈ 40",
+      "title":"Front-End Development in less than 12 parsecs",
+      "attendees":"40",
       "date":"Fev 26 2018",
-      "dateschema":"",
-      "local":"Lambda3",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Lambda3 - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#11 HTML SP",
-      "theme":"Empathy and HTML: Building Components for People",
-      "attendees":"≈ 20",
+      "title":"Empathy and HTML: Building Components for People",
+      "attendees":"20",
       "date":"Jan 31 2018",
-      "dateschema":"",
-      "local":"Hi Platform",
-      "address":"São Paulo - SP",
-      "slides":""
+      "local":"Hi Platform - São Paulo - SP",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     }
   ],
   "talks_2017": [
     {
       "event":"JSDay Recife",
-      "theme":"Front-End Development in less than 12 parsecs",
-      "attendees":"≈ 50",
+      "title":"Front-End Development in less than 12 parsecs",
+      "attendees":"50",
       "date":"Dez 16 2017",
-      "dateschema":"",
-      "local":"FICR - ",
-      "address":"Recife - PE",
-      "slides":""
+      "local":"FICR - Recife - PE",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#11 FEMUG PE",
-      "theme":"Empathy and HTML: Building Components for People",
-      "attendees":"≈ 20",
+      "title":"Empathy and HTML: Building Components for People",
+      "attendees":"20",
       "date":"Dez 15 2017",
-      "dateschema":"",
-      "local":"Thoughtworks - ",
-      "address":"Recife - PE",
-      "slides":""
+      "local":"Thoughtworks - Recife - PE",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Dev Fest XP",
-      "theme":"Google Chrome as a Platform 2.0",
-      "attendees":"≈ 50",
+      "title":"Google Chrome as a Platform 2.0",
+      "attendees":"50",
       "date":"Dez 09 2017",
-      "dateschema":"2017-12-09",
-      "local":"Marco zero - ",
-      "address":"Recife - PE",
-      "slides":"https://github.com/afonsopacifer/devfest-xp-2017/"
+      "local":"Marco zero - Recife - PE",
+      "slides":"https://github.com/afonsopacifer/devfest-xp-2017/",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Dev Fest RJ",
-      "theme":"Polymer Project: State of Union",
-      "attendees":"≈ 120",
+      "title":"Polymer Project: State of Union",
+      "attendees":"120",
       "date":"Nov 25 2017",
-      "dateschema":"2017-11-25",
-      "local":"Centro de Convenções SulAmérica - ",
-      "address":"Rio de janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union"
+      "local":"Centro de Convenções SulAmérica - Rio de janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Dev Fest BH",
-      "theme":"Polymer Project: State of Union",
-      "attendees":"≈ 170",
+      "title":"Polymer Project: State of Union",
+      "attendees":"170",
       "date":"Nov 18 2017",
-      "dateschema":"2017-11-18",
-      "local":"The One Business Center - ",
-      "address":"Belo Horizonte - MG",
-      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union"
+      "local":"The One Business Center - Belo Horizonte - MG",
+      "slides":"https://speakerdeck.com/afonsopacifer/polymer-project-state-of-union",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
-      "theme":"Google Chrome as a Platform",
-      "attendees":"≈ 40",
+      "title":"Google Chrome as a Platform",
+      "attendees":"40",
       "date":"Oct 25 2017",
-      "dateschema":"2017-10-25",
-      "local":"UFRRJ - ",
-      "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/google-chrome-as-a-platform"
+      "local":"UFRRJ - Nova Iguaçu - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/google-chrome-as-a-platform",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#3 Meetup Frontend RJ",
-      "theme":"Front-End Development in less than 12 parsecs",
-      "attendees":"≈ 25",
+      "title":"Front-End Development in less than 12 parsecs",
+      "attendees":"25",
       "date":"Sep 11 2017",
-      "dateschema":"2017-09-11",
-      "local":"Stone Pagamentos - ",
-      "address":"Centro, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parsecs"
+      "local":"Stone Pagamentos - Centro, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parsecs",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#11 FEMUG PE",
-      "theme":"Front-End Development in less than 12 parsecs",
-      "attendees":"≈ 50",
+      "title":"Front-End Development in less than 12 parsecs",
+      "attendees":"50",
       "date":"Jul 28 2017",
-      "dateschema":"2017-07-28",
-      "local":"CESAR - ",
-      "address":"Recife - PE",
-      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parcecs"
+      "local":"CESAR - Recife - PE",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parcecs",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Geek Night Recife",
-      "theme":"Web components and beyond with polymer",
-      "attendees":"≈ 10",
+      "title":"Web components and beyond with polymer",
+      "attendees":"10",
       "date":"Jul 27 2017",
-      "dateschema":"2017-07-27",
-      "local":"Thoughtworks - ",
-      "address":"Recife - PE",
-      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer-1"
+      "local":"Thoughtworks - Recife - PE",
+      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer-1",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"GDG Toledo - PR",
-      "theme":"Web components and beyond with polymer",
-      "attendees":"≈ 20",
+      "title":"Web components and beyond with polymer",
+      "attendees":"20",
       "date":"Jul 19 2017",
-      "dateschema":"2017-07-19",
-      "local":"Aceleradora Valley Connection - ",
-      "address":"Toledo - PR",
+      "local":"Aceleradora Valley Connection (online) - Toledo - PR",
       "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer",
-      "video": "https://www.youtube.com/watch?v=e7nl-T1dfAM&t"
+      "video": "https://www.youtube.com/watch?v=e7nl-T1dfAM&t",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"GDG Rio de Janeiro",
-      "theme":"Web components and beyond with polymer",
-      "attendees":"≈ 30",
+      "title":"Web components and beyond with polymer",
+      "attendees":"30",
       "date":"Feb 18 2017",
-      "dateschema":"2017-02-18",
-      "local":"Stone Pagamentos - ",
-      "address":"Centro, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer"
+      "local":"Stone Pagamentos - Centro, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/web-components-and-beyond-with-polymer",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"GDG Belo Horizonte",
-      "theme":"#UseThePlatform with Polymer Project",
-      "attendees":"≈ 200",
+      "title":"#UseThePlatform with Polymer Project",
+      "attendees":"200",
       "date":"Jan 24 2017",
-      "dateschema":"2017-01-24",
-      "local":"Google Hangout - ",
-      "address":"Online",
-      "video": "https://www.youtube.com/watch?v=AfOis1W-pkU"
+      "local":"Online - Belo Horizonte - MG",
+      "video": "https://www.youtube.com/watch?v=AfOis1W-pkU",
+      "lang": "pt-br",
+      "icon": "brazil"
     }
   ],
   "talks_2016": [
     {
       "event":"Front in Floripa",
-      "theme":"Diga adeus aos pré/pós processadores CSS",
-      "attendees":"≈ 200",
+      "title":"Diga adeus aos pré/pós processadores CSS",
+      "attendees":"200",
       "date":"Nov 26 2016",
-      "dateschema":"2016-11-26",
-      "local":"Hotel Maria do Mar - ",
-      "address":"Florianópolis - SC",
+      "local":"Hotel Maria do Mar - Florianópolis - SC",
       "slides":"https://speakerdeck.com/afonsopacifer/pos-processadores",
-      "video": ""
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Rio Dev Day",
-      "theme":"Desmistificando o CSS4, ou não :)",
-      "attendees":"≈ 40",
+      "title":"Desmistificando o CSS4, ou não :)",
+      "attendees":"40",
       "date":"Nov 19 2016",
-      "dateschema":"2016-11-19",
-      "local":"Estácio de Sá - ",
-      "address":"Rio de Janeiro - RJ",
+      "local":"Estácio de Sá - Rio de Janeiro - RJ",
       "slides":"https://speakerdeck.com/afonsopacifer/desmistificando-o-css4-ou-nao",
-      "video": "https://www.youtube.com/watch?v=47DYkx_WvrE&t=1906s"
+      "video": "https://www.youtube.com/watch?v=47DYkx_WvrE&t=1906s",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Front in Vale",
-      "theme":"As entrelinhas do CSS",
-      "attendees":"≈ 200",
+      "title":"As entrelinhas do CSS",
+      "attendees":"200",
       "date":"Set 10 2016",
-      "dateschema":"2016-09-10",
-      "local":"Faro Hotel - ",
-      "address":"São José dos campos - SP",
+      "local":"Faro Hotel - São José dos campos - SP",
       "slides":"https://speakerdeck.com/afonsopacifer/as-entrelinhas-do-css",
-      "video": "https://www.youtube.com/watch?v=5g-ydL4KZMc&t=360s"
+      "video": "https://www.youtube.com/watch?v=5g-ydL4KZMc&t=360s",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Meetup CSS SP",
-      "theme":"Como desenhar com CSS me trouxe até o Google",
-      "attendees":"≈ 150",
+      "title":"Como desenhar com CSS me trouxe até o Google",
+      "attendees":"150",
       "date":"Jun 30 2016",
-      "dateschema":"2016-06-30",
-      "local":"Google - ",
-      "address":"São Paulo - SP",
-      "slides":"https://speakerdeck.com/afonsopacifer/como-desenhar-com-css-me-trouxe-ate-o-google-1"
+      "local":"Google - São Paulo - SP",
+      "slides":"https://speakerdeck.com/afonsopacifer/como-desenhar-com-css-me-trouxe-ate-o-google-1",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Sampa JS",
-      "theme":"AST - Abstract Syntax Tree",
-      "attendees":"≈ 150",
+      "title":"AST - Abstract Syntax Tree",
+      "attendees":"150",
       "date":"Jun 25 2016",
-      "dateschema":"2016-06-25",
-      "local":"PUC - ",
-      "address":"São Paulo - SP",
-      "slides":"https://speakerdeck.com/afonsopacifer/ast-abstract-syntax-tree"
+      "local":"PUC - São Paulo - SP",
+      "slides":"https://speakerdeck.com/afonsopacifer/ast-abstract-syntax-tree",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Front in Rio",
-      "theme":"O que há de novo no HTML5.1?",
-      "attendees":"≈ 100",
+      "title":"O que há de novo no HTML5.1?",
+      "attendees":"100",
       "date":"May 14 2016",
-      "dateschema":"2016-05-14",
-      "local":"Unirio - ",
-      "address":"Urca, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/o-que-ha-de-novo-no-html5-dot-1"
+      "local":"Unirio - Urca, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/o-que-ha-de-novo-no-html5-dot-1",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#3 FEMUG RJ",
-      "theme":"CSS as a programing language",
-      "attendees":"≈ 40",
+      "title":"CSS as a programing language",
+      "attendees":"40",
       "date":"Jan 23 2016",
-      "dateschema":"2016-01-23",
-      "local":"Estácio - ",
-      "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language"
-
+      "local":"Estácio - Nova Iguaçu - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/css-as-a-programing-language",
+      "lang": "pt-br",
+      "icon": "brazil"
     }
   ],
   "talks_2015": [
     {
       "event":"Semana Acadêmica UFF",
-      "theme":"Software Livre: Eu escolho você!",
-      "attendees":"≈ 20",
+      "title":"Software Livre: Eu escolho você!",
+      "attendees":"20",
       "date":"Nov 26 2015",
-      "dateschema":"2015-11-26",
-      "local":"UFF - ",
-      "address":"Niterói - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce"
+      "local":"UFF - Niterói - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-eu-escolho-voce",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"XV FEUCTEC",
-      "theme":"Front-End no Mundo Real",
-      "attendees":"≈ 45",
+      "title":"Front-End no Mundo Real",
+      "attendees":"45",
       "date":"Out 28 2015",
-      "dateschema":"2015-10-28",
-      "local":"FEUC - ",
-      "address":"Campo Grande, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "local":"FEUC - Campo Grande, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
-      "theme":"Software Livre: Preto no Branco",
-      "attendees":"≈ 40",
+      "title":"Software Livre: Preto no Branco",
+      "attendees":"40",
       "date":"Out 22 2015",
-      "dateschema":"2015-10-22",
-      "local":"UFRRJ - ",
-      "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco"
+      "local":"UFRRJ - Nova Iguaçu - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/software-livre-preto-no-branco",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"Semana Acadêmica UFRRJ",
-      "theme":"Front-End no Mundo Real",
-      "attendees":"≈ 40",
+      "title":"Front-End no Mundo Real",
+      "attendees":"40",
       "date":"Out 22 2015",
-      "dateschema":"2015-10-22",
-      "local":"UFRRJ - ",
-      "address":"Nova Iguaçu - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real"
+      "local":"UFRRJ - Nova Iguaçu - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/fron-end-no-mundo-real",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#1 FEMUG RJ",
-      "theme":"CSS Variables",
-      "attendees":"≈ 20",
+      "title":"CSS Variables",
+      "attendees":"20",
       "date":"Out 17 2015",
-      "dateschema":"2015-10-10",
-      "local":"Web Radar - ",
-      "address":"Botafogo, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk"
+      "local":"Web Radar - Botafogo, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/css-variables-lightning-talk",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#3 BarraJS",
-      "theme":"CSS Grid Layout: De volta para o futuro",
-      "attendees":"≈ 30",
+      "title":"CSS Grid Layout: De volta para o futuro",
+      "attendees":"30",
       "date":"Jul 25 2015",
-      "dateschema":"2015-07-25",
-      "local":"LEO - ",
-      "address":"Barra da Tijuca, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/css-grid-layout"
+      "local":"LEO - Barra da Tijuca, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/css-grid-layout",
+      "lang": "pt-br",
+      "icon": "brazil"
     },
     {
       "event":"#15 RioJS",
-      "theme":"CSS Flexbox: Estruturando layouts sem gambiarras",
-      "attendees":"≈ 30",
+      "title":"CSS Flexbox: Estruturando layouts sem gambiarras",
+      "attendees":"30",
       "date":"Jul 18 2015",
-      "dateschema":"2015-07-18",
-      "local":"He:labs - ",
-      "address":"Glória, Rio de Janeiro - RJ",
-      "slides":"https://speakerdeck.com/afonsopacifer/flexbox"
+      "local":"He:labs - Glória, Rio de Janeiro - RJ",
+      "slides":"https://speakerdeck.com/afonsopacifer/flexbox",
+      "lang": "pt-br",
+      "icon": "brazil"
     }
   ]
 }

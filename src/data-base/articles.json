@@ -1,226 +1,288 @@
 {
+  "articles_2020":[
+    {
+      "event":"5 ideas for personal projects using vanilla javascript",
+      "date":"Set 02 2020",
+      "description":"Building personal projects is one of the must-have habits for any developer, but a big question appears for many developers that make the process stop: What project am I going to do?",
+      "url":"https://dev.to/afonsopacifer/5-ideas-for-personal-projects-using-vanilla-javascript-1p2m",
+      "platform":"DEV",
+      "lang":"en"
+    },
+    {
+      "event":"How you can stay motivated to work on personal projects",
+      "date":"Ago 17 2020",
+      "description":"I believe this is a simple but deep question. Many people start new side projects and get very excited at the beginning, but after a few days, the energy is gone. WTF happen?",
+      "url":"https://dev.to/afonsopacifer/how-you-can-stay-motivated-to-work-on-personal-projects-565a",
+      "platform":"DEV",
+      "lang":"en"
+    },
+    {
+      "event":"How I became a senior javascript developer with personal projects",
+      "date":"Ago 10 2012",
+      "description":"I decided to create my tools, not for commercial propose, but to know how these technologies actually work and to improve my tech skills. This is a short story about how this decision changed my life.",
+      "url":"https://dev.to/afonsopacifer/how-i-became-a-senior-javascript-developer-with-personal-projects-1lpo",
+      "platform":"DEV",
+      "lang":"en"
+    }
+  ],
+  "articles_2019":[
+    {
+      "event":"Arquitetura para aplicações REST com express (node.js) #01: Cada escolha uma renúncia",
+      "date":"Fev 19 2019",
+      "description":"É complicado entender a necessidade de algo que não temos, nunca vimos ou ouvimos falar. Para termos o que comparar, vou apresentar um conceito que é um dos pilares do famoso e super desenvolvido Ruby on Rails.",
+      "url":"https://dev.to/afonsopacifer/arquitetura-para-aplicacoes-rest-com-express-node-js-01-cada-escolha-uma-renuncia-21e4",
+      "platform":"DEV",
+      "lang":"pt-br"
+    }
+  ],
+  "articles_2018":[
+    {
+      "event":"Guia para empoderar pessoas através de HTML e Realidade Virtual.",
+      "date":"Jun 22 2018",
+      "description":"Durante muito tempo, vários dos ditos “programadores” zombaram dos amiguinhos focados em client side dizendo coisas como “quem trabalha com HTML não é programador de verdade” ou o meu favorito “HTML é coisa de criança”, pois é, quem diria que esse povinho estava parcialmente correto.",
+      "url":"https://medium.com/@afonsopacifer/guia-para-empoderar-pessoas-atrav%C3%A9s-de-html-e-realidade-virtual-7798b8e7d57e",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Do Front-End ao Node.js #02: Módulos Globais, dicas de npm e criando sua primeira CLI do zero.",
+      "date":"Feb 03 2018",
+      "description":"Vamos criar uma ferramenta de linha de comando do absoluto zero e com poucas linhas de Javascript para demostrar de forma prática o verdadeiro poder dos módulos globais.",
+      "url":"https://codepen.io/afonsopacifer/post/do-front-end-ao-nodejs-02-modulos-globais-dicas-de-npm-e-criando-sua-primeira-cli-do-zero",
+      "platform":"Codepen",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Do Front-End ao Node.js #01: Introdução, Módulos e File System.",
+      "date":"Jan 11 2018",
+      "description":"Se você tem um background como desenvolvedor Front-End e já chegou a usar alguma ferramenta baseada em Node.js (Gulp, stylus, etc…) mas, não entende como elas funcionam por trás dos panos ou, tem curiosidade sobre como o Back-End disponibiliza aqueles endpoints mágicos através de APIs, você está no lugar certo!",
+      "url":"https://codepen.io/afonsopacifer/post/do-front-end-ao-node-js-01-introducao",
+      "platform":"Codepen",
+      "lang":"pt-br"
+    }
+  ],
   "articles_2017":[
-  {
-    "name":"Mindset para aplicações baseadas em componentes no Front-End — Parte 2: react-router",
-    "date":"Sep 27 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-2-react-router-b13259be9360",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Mindset para aplicações baseadas em componentes no Front-End — Parte 1",
-    "date":"Sep 22 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-1-ab15e3733e5c",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Desmistificando um futuro chamado Polymer 3",
-    "date":"Sep 12 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Nem só de Front-End Week SP vive o homem!",
-    "date":"Jul 29 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/nem-s%C3%B3-de-front-end-week-sp-vive-o-homem-9a1cddc2170a",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Não me “importo” em usar Web Components com PUG, afinal, ninguém disse que não podia ;)",
-    "date":"April 30 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/web-components-com-pug-62b265129977",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Polymer 2 e o futuro onde os Web Components dominam a terra",
-    "date":"April 14 2017",
-    "description":"",
-    "url":"https://medium.com/@afonsopacifer/polymer-2-e-o-futuro-onde-os-web-components-dominam-a-terra-308a42858470",
-    "link":"Medium",
-    "lang":"pt-br"
-  },
-  {
-    "name":"Entrevista: Como é trabalhar como Evangelista CSS, por Afonso Pacifer",
-    "date":"April 13 2017",
-    "description":"",
-    "url":"https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-evangelista-css-por-afonso-pacifer-32cc077f4fdd",
-    "link":"Training Center",
-    "lang":"pt-br"
-  },
-  {
-    "name":"CSS Features detection de forma nativa com @supports",
-    "date":"Mar 15 2017",
-    "description":"",
-    "url":"https://codepen.io/afonsopacifer/post/css-feature-detection",
-    "link":"Codepen",
-    "lang":"pt-br"
-  }
+    {
+      "event":"Mindset para aplicações baseadas em componentes no Front-End — Parte 2: react-router",
+      "date":"Sep 27 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-2-react-router-b13259be9360",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Mindset para aplicações baseadas em componentes no Front-End — Parte 1",
+      "date":"Sep 22 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-1-ab15e3733e5c",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Desmistificando um futuro chamado Polymer 3",
+      "date":"Sep 12 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Nem só de Front-End Week SP vive o homem!",
+      "date":"Jul 29 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/nem-s%C3%B3-de-front-end-week-sp-vive-o-homem-9a1cddc2170a",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Não me “importo” em usar Web Components com PUG, afinal, ninguém disse que não podia ;)",
+      "date":"April 30 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/web-components-com-pug-62b265129977",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Polymer 2 e o futuro onde os Web Components dominam a terra",
+      "date":"April 14 2017",
+      "description":"?",
+      "url":"https://medium.com/@afonsopacifer/polymer-2-e-o-futuro-onde-os-web-components-dominam-a-terra-308a42858470",
+      "platform":"Medium",
+      "lang":"pt-br"
+    },
+    {
+      "event":"Entrevista: Como é trabalhar como Evangelista CSS, por Afonso Pacifer",
+      "date":"April 13 2017",
+      "description":"?",
+      "url":"https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-evangelista-css-por-afonso-pacifer-32cc077f4fdd",
+      "platform":"Training Center",
+      "lang":"pt-br"
+    },
+    {
+      "event":"CSS Features detection de forma nativa com @supports",
+      "date":"Mar 15 2017",
+      "description":"?",
+      "url":"https://codepen.io/afonsopacifer/post/css-feature-detection",
+      "platform":"Codepen",
+      "lang":"pt-br"
+    }
   ],
   "articles_2016":[
     {
-      "name":"luz camera ação! - introdução a modelagem 3D com three.js",
+      "event":"luz camera ação! - introdução a modelagem 3D com three.js",
       "date":"Nov 30 2016",
       "description":"Hoje vamos entender os conceitos básicos que envolvem esse mundo e criar nosso primeiro modelo 3D, e claro, com muito javascript porque somos desses ;)",
       "url":"http://codepen.io/afonsopacifer/post/introducao-a-modelagem-3d-com-three-js",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Como foi a #FrontWeekSP para um comedor de biscoito?",
+      "event":"Como foi a #FrontWeekSP para um comedor de biscoito?",
       "date":"Jul 05 2016",
       "description":"Esse é um relato das coisas maravilhosas que aconteceram comigo nessa semana que entrou para a história da comunidade mundial de desenvolvedores Front-End.",
       "url":"https://medium.com/@afonsopacifer/um-relato-sobre-como-foi-a-frontweeksp-para-um-comedor-de-biscoito-85e936052bd#.ucnpbahra",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br"
     },
     {
-      "name":"Como foi o Sampa.JS para um carioca que curte CSS?",
+      "event":"Como foi o Sampa.JS para um carioca que curte CSS?",
       "date":"Jun 27 2016",
       "description":"Fala galera, esse é apenas o relato de um carioca que que teve a oportunidade de participar do já tradicional Sampa.JS, e de cara quero dizer que voltarei nos próximos anos COM CERTEZA!",
       "url":"https://medium.com/@afonsopacifer/como-foi-o-sampa-js-para-um-carioca-que-curte-css-3702665c60cc#.82wcbksfk",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br"
     },
     {
-      "name":"Iniciando seus testes unitários em componentes ReactJS",
+      "event":"Iniciando seus testes unitários em componentes ReactJS",
       "date":"May 08 2016",
       "description":"Vamos testar um componente simples, que escreve hello na página. Como somos descolados vamos usar ES6 e um bundler para organizar nossas dependências e componentes.",
       "url":"https://medium.com/@afonsopacifer/iniciando-seus-testes-unit%C3%A1rios-em-componentes-reactjs-de-forma-moderna-c711977d7143#.cq0htj66o",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br"
     },
     {
-      "name":"Pensando em URLs no Github",
+      "event":"Pensando em URLs no Github",
       "date":"Mar 19 2016",
       "description":"Criar um link em markdown é realmente muito simples, mas existem alguns casos especiais, se você já tentou adicionar um arquivo SVG ou criar uma âncora para um heading que usa caracteres especiais sabe do que estou falando.",
       "url":"https://medium.com/@afonsopacifer/pensando-em-urls-no-github-3517d97249d0#.un4beit6n",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #10 - Hora do Finn",
+      "event":"Hora de aventura com CSS #10 - Hora do Finn",
       "date":"Mar 15 2016",
       "description":"Foi realmente incrível passar esses últimos dias com vocês, recebi tantos feedbacks positivos, vi tantos desenhos irados e conheci muita gente boa. Só tenho a agracer o carinho de todos!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-10-hora-do-finn",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #9 - Flexbox básico",
+      "event":"Hora de aventura com CSS #9 - Flexbox básico",
       "date":"Mar 13 2016",
       "description":"Flexbox é um modulo da CSS3 que define um novo box model otimizado para interfaces, ou seja, agora temos uma especificação focada em interfaces, nada de floats ou tabelas aqui.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-9-flexbox",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #8 - Animações (parte 2)",
+      "event":"Hora de aventura com CSS #8 - Animações (parte 2)",
       "date":"Mar 12 2016",
       "description":"Na parte 1 aprendemos a configurar nossas animações, hoje iremos focar nas animações de fato, em cada movimento e conbinações de movimentos. Vamos nessa <3",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-8-animacoes-parte-2",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #7 - Pseudo-elementos",
+      "event":"Hora de aventura com CSS #7 - Pseudo-elementos",
       "date":"Mar 11 2016",
       "description":"Abordaremos basicamente os pseudo-elementos ::after e ::before, hoje aprenderemos que esses caras são muito importantes para a qualidade de nossos desenhos.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-7-pseudo-elementos",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #6 - Sombras",
+      "event":"Hora de aventura com CSS #6 - Sombras",
       "date":"Mar 11 2016",
       "description":"Sombras com CSS são bem fáceis de criar e entender, tão fáceis, que a partir de hoje você meu caro leitor, nunca mais vai precisar de nenhum box-shadow generator em sua vida ;)",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-6-sombras",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #5 - Animações (parte 1)",
+      "event":"Hora de aventura com CSS #5 - Animações (parte 1)",
       "date":"Mar 11 2016",
       "description":"Chegou a hora de falar sobre umas das coisas mais divertidas da vida! Vamos aprender um pouco sobre animações com CSS3, que é algo tão simples quanto poderoso!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-5-animacoes",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #4 - Desenhando com amor",
+      "event":"Hora de aventura com CSS #4 - Desenhando com amor",
       "date":"Mar 08 2016",
       "description":"Agora que tal juntarmos tudo para desenhar algo que represente o motivo desta série de posts existir? Vamos la!",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-4-desenhando-com-amor",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #3 - Transformações ",
+      "event":"Hora de aventura com CSS #3 - Transformações ",
       "date":"Mar 07 2016",
       "description":"Agora sim! Vamos conhecer umas das melhores features do CSS3, o que vai literalmente transformar sua percepção da linguagem :D",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-3-transformacoes",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #2 - Posicionamento",
+      "event":"Hora de aventura com CSS #2 - Posicionamento",
       "date":"Mar 06 2016",
       "description":"Agora que sabemos como criar formas básicas, podemos dar o próximo passo e preparar nossa folha de papel em branco para posicionarmos nossas formas e montar nosso desenho, a princípio usaremos apenas o bom e velho position, mas nos próximos artigos veremos flexbox e outras coisinhas legais sobre posicionamento.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-2-posicionamento",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     },
     {
-      "name":"Hora de aventura com CSS #1 - Formas básicas",
+      "event":"Hora de aventura com CSS #1 - Formas básicas",
       "date":"Mar 05 2016",
       "description":"Depois de muito tempo sem fazer nada legal, resolvi pegar uma noite e fazer algo para me distrair e acabei criando o Jake apenas com CSS, depois de mostrar para a galera no facebook recebi alguns pedidos para ensinar os macetes para fazer essas coisas fofas com CSS.",
       "url":"http://codepen.io/afonsopacifer/post/hora-de-aventura-com-css-1-formas-basicas",
-      "link":"Codepen",
+      "platform":"Codepen",
       "lang":"pt-br"
     }
   ],
   "articles_2015":[
     {
-      "name":"Como usar variáveis no CSS de forma nativa",
+      "event":"Como usar variáveis no CSS de forma nativa",
       "date":"Nov 17 2015",
       "description":"Olá pessoal, neste artigo irei abordar o básico sobre variáveis nativas com CSS, e como você pode usar essa tecnologia hoje e sem medo de ser feliz.",
       "url":"http://tableless.com.br/como-usar-variaveis-no-css-de-forma-nativa/",
-      "link":"Tableless",
+      "platform":"Tableless",
       "lang":"pt-br",
       "year":"2015"
     },
     {
-      "name":"Commit Wars Episode III: A vingança dos Commits",
+      "event":"Commit Wars Episode III: A vingança dos Commits",
       "date":"Jul 31 2015",
       "description":"Assim que postei o último artigo, o Raphael Amorim me parabenizou pelo repositório commit-wars, e me confessou que já tinha pensando em fazer algo do gênero, porém, um pouco diferente e bem mais completo, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-880d05f61831",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br",
       "year":"2015"
     },
     {
-      "name":"Commit Wars Episode II: Guerra dos Clones",
+      "event":"Commit Wars Episode II: Guerra dos Clones",
       "date":"Jun 30 2015",
       "description":"É pessoal, depois de receber tantos feedbacks positivos sobre o primeiro post, eu não poderia deixar de comentar que escrever sem duvidas é tão importante quando contribuir em projetos. etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-a6cd5372b46",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br",
       "year":"2015"
     },
     {
-      "name":"Commit Wars Episode I: A Ameaça Fantasma",
+      "event":"Commit Wars Episode I: A Ameaça Fantasma",
       "date":"May 31 2015",
       "description":"Tudo começou no último Meetup RioJS de 2014, quando o @raphamorim deu uma talk intitulada Confissões de um contribuidor, basicamente ele apresentou os benefícios de aderir ao movimento Write Code Every Day, etc...",
       "url":"https://medium.com/@afonsopacifer/commit-wars-5c51ddd837cd#.nq1xp6z0w",
-      "link":"Medium",
+      "platform":"Medium",
       "lang":"pt-br",
       "year":"2015"
     }
