@@ -7,10 +7,10 @@ import 'normalize.css';
 import '../../bosons/theme/variables.css';
 import './default-layout.css';
 
-const DefaultLayout = ({ videoSource, children }) => (
+const DefaultLayout = ({ videoSource, transparentHeader, children }) => (
   <div className = { `default-layout ${ videoSource && 'default-layout--video' }` }>
 
-    <Header />
+    <Header className = { `${ transparentHeader && 'header-container--transparent' }` }/>
 
     { videoSource && <Video src = {videoSource} /> }
 
@@ -20,7 +20,7 @@ const DefaultLayout = ({ videoSource, children }) => (
 
     <Footer />
 
-  </div>
+</div>
 );
 
 DefaultLayout.propTypes = {

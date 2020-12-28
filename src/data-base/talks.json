@@ -8,7 +8,8 @@
       "local":"Online - Medellín - Colombia",
       "slides":"https://speakerdeck.com/afonsopacifer/welcome-css-lv5",
       "lang": "en",
-      "icon": "colombia"
+      "icon": "colombia",
+      "highlights": true
     }
   ],
   "talks_2019": [
@@ -20,7 +21,8 @@
       "local":"Hotel Maria do Mar - Florianópolis - SC - Brazil",
       "slides":"",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "highlights": true
     },
     {
       "event":"#30 HTML SP",
@@ -50,7 +52,8 @@
       "local":"Centro de Convenções Rebouças - São Paulo - SP",
       "slides":"",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "highlights": true
     },
     {
       "event":"Hacktoberfest SP - Meetup #01",
@@ -309,7 +312,8 @@
       "slides":"https://speakerdeck.com/afonsopacifer/as-entrelinhas-do-css",
       "video": "https://www.youtube.com/watch?v=5g-ydL4KZMc&t=360s",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "highlights": true
     },
     {
       "event":"Meetup CSS SP",

@@ -6,7 +6,8 @@
       "description":"Building personal projects is one of the must-have habits for any developer, but a big question appears for many developers that make the process stop: What project am I going to do?",
       "url":"https://dev.to/afonsopacifer/5-ideas-for-personal-projects-using-vanilla-javascript-1p2m",
       "platform":"DEV",
-      "lang":"en"
+      "lang":"en",
+      "highlights": true
     },
     {
       "event":"How you can stay motivated to work on personal projects",
@@ -14,15 +15,17 @@
       "description":"I believe this is a simple but deep question. Many people start new side projects and get very excited at the beginning, but after a few days, the energy is gone. WTF happen?",
       "url":"https://dev.to/afonsopacifer/how-you-can-stay-motivated-to-work-on-personal-projects-565a",
       "platform":"DEV",
-      "lang":"en"
+      "lang":"en",
+      "highlights": true
     },
     {
       "event":"How I became a senior javascript developer with personal projects",
-      "date":"Ago 10 2012",
+      "date":"Ago 10 2020",
       "description":"I decided to create my tools, not for commercial propose, but to know how these technologies actually work and to improve my tech skills. This is a short story about how this decision changed my life.",
       "url":"https://dev.to/afonsopacifer/how-i-became-a-senior-javascript-developer-with-personal-projects-1lpo",
       "platform":"DEV",
-      "lang":"en"
+      "lang":"en",
+      "highlights": true
     }
   ],
   "articles_2019":[
@@ -37,12 +40,13 @@
   ],
   "articles_2018":[
     {
-      "event":"Guia para empoderar pessoas através de HTML e Realidade Virtual.",
+      "event":"Guia para empoderar pessoas através de HTML e Realidade Virtual",
       "date":"Jun 22 2018",
       "description":"Durante muito tempo, vários dos ditos “programadores” zombaram dos amiguinhos focados em client side dizendo coisas como “quem trabalha com HTML não é programador de verdade” ou o meu favorito “HTML é coisa de criança”, pois é, quem diria que esse povinho estava parcialmente correto.",
       "url":"https://medium.com/@afonsopacifer/guia-para-empoderar-pessoas-atrav%C3%A9s-de-html-e-realidade-virtual-7798b8e7d57e",
       "platform":"Medium",
-      "lang":"pt-br"
+      "lang":"pt-br",
+      "highlights": true
     },
     {
       "event":"Do Front-End ao Node.js #02: Módulos Globais, dicas de npm e criando sua primeira CLI do zero.",

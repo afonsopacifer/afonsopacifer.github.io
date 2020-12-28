@@ -36,7 +36,8 @@
       "url":"",
       "date": "",
       "tech": "",
-      "platform": "Github"
+      "platform": "Github",
+      "highlights": true
     },
     {
       "event":"nomsjs",
@@ -45,7 +46,8 @@
       "url":"",
       "date": "",
       "tech": "",
-      "platform": "Github"
+      "platform": "Github",
+      "highlights": true
     },
     {
       "event":"do-front-end-ao-nodejs",
@@ -74,7 +76,8 @@
       "url":"",
       "date": "",
       "tech": "",
-      "platform": "Github"
+      "platform": "Github",
+      "highlights": true
     },
     {
       "event":"empathy-and-html",
@@ -256,7 +259,8 @@
       "url":"https://github.com/bananacss/bananacss",
       "date": "July 2016",
       "tech": ["node.svg","mocha.svg","npm.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "highlights": true
     },
     {
       "event":"vue-meditation",

@@ -3,7 +3,6 @@
 }
 
 .default-layout--video {
-  --header-color: transparent;
   --main-margin-top: 0;
 }
 
@@ -27,6 +26,7 @@
 
 .default-layout--video .default-layout__main {
   min-height: auto;
+  max-width: 900px;
 }
 
 .default-layout__article {

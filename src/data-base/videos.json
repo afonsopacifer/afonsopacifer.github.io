@@ -14,7 +14,8 @@
       "date":"Ago 06 2020",
       "platform":"Youtube",
       "url":"https://www.youtube.com/watch?v=zJ8C2nrNEbI",
-      "lang": "pt-br"
+      "lang": "pt-br",
+      "highlights": true
     },
     {
       "event":"PRPL pattern na prática com ReactJS - #34 React SP",
@@ -22,7 +23,8 @@
       "date":"Ago 04 2020",
       "platform":"Youtube",
       "url":"https://www.youtube.com/watch?v=VnvyvBa2WpE",
-      "lang": "pt-br"
+      "lang": "pt-br",
+      "highlights": true
     }
   ],
   "videos_2019":[
@@ -32,7 +34,8 @@
       "date":"Set 25 2019",
       "platform":"Youtube",
       "url":"https://www.youtube.com/watch?v=Lw9Uu_35lco",
-      "lang": "pt-br"
+      "lang": "pt-br",
+      "highlights": true
     },
     {
       "event":"Mudança definitiva e o fim do canal",
@@ -165,7 +168,8 @@
       "date":"Jun 19 2017",
       "platform":"Youtube",
       "url":"https://www.youtube.com/watch?v=OurdACvA3JI",
-      "lang": "pt-br"
+      "lang": "pt-br",
+      "highlights": true
     },
     {
       "event":"Live #02 - Componentes no mundo real com React, Polymer e Vue.JS",

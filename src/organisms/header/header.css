@@ -1,9 +1,13 @@
 .header-container {
-  background-color: var(--header-color,  var(--primary-color, #2F2F2F));
+  background: var(--header-color,  var(--primary-color, #2F2F2F));
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 4;
+  transition: background .3s;
+}
+.header-container--transparent {
+  --header-color: transparent;
 }
 
 .header {
