@@ -11,6 +11,7 @@ const FeatureBox = ({
   url,
   lang,
   event,
+  image,
   }) => {
 
   return (
@@ -35,8 +36,8 @@ const FeatureBox = ({
 
           <img
             className = 'feature-box__image'
-            src = { bg }
-            alt = ''
+            src = { image ? image : bg }
+            alt = { event }
           />
 
           { date && (

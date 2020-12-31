@@ -7,7 +7,8 @@
       "url":"https://dev.to/afonsopacifer/5-ideas-for-personal-projects-using-vanilla-javascript-1p2m",
       "platform":"DEV",
       "lang":"en",
-      "highlights": true
+      "highlights": true,
+      "image": "articles/5-ideas-for-personal-projects.jpg"
     },
     {
       "event":"How you can stay motivated to work on personal projects",
@@ -16,7 +17,8 @@
       "url":"https://dev.to/afonsopacifer/how-you-can-stay-motivated-to-work-on-personal-projects-565a",
       "platform":"DEV",
       "lang":"en",
-      "highlights": true
+      "highlights": true,
+      "image": "articles/how-you-can-stay-motivated.jpg"
     },
     {
       "event":"How I became a senior javascript developer with personal projects",
@@ -25,7 +27,8 @@
       "url":"https://dev.to/afonsopacifer/how-i-became-a-senior-javascript-developer-with-personal-projects-1lpo",
       "platform":"DEV",
       "lang":"en",
-      "highlights": true
+      "highlights": true,
+      "image": "articles/how-i-became-a-senior-javascript-developer.jpg"
     }
   ],
   "articles_2019":[
@@ -46,7 +49,8 @@
       "url":"https://medium.com/@afonsopacifer/guia-para-empoderar-pessoas-atrav%C3%A9s-de-html-e-realidade-virtual-7798b8e7d57e",
       "platform":"Medium",
       "lang":"pt-br",
-      "highlights": true
+      "highlights": true,
+      "image": "articles/guia-para-empoderar-pessoas.jpg"
     },
     {
       "event":"Do Front-End ao Node.js #02: Módulos Globais, dicas de npm e criando sua primeira CLI do zero.",

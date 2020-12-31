@@ -37,10 +37,18 @@
   position: absolute;
   top: 0;
   right: var(--primary-space, 8px);
+  z-index: 2;
 }
 
 .feature-box__image {
   width: 100%;
+  filter: brightness(.8);
+  transition: filter .2s;
+  z-index: 1;
+}
+
+.feature-box:hover .feature-box__image {
+  filter: brightness(1)
 }
 
 .feature-box__date {
@@ -61,4 +69,9 @@
   line-height: 18px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
+  transition: opacity .2s;
+}
+
+.feature-box:hover .feature-box__heading {
+  opacity: .8;
 }

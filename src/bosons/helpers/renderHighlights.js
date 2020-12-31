@@ -11,6 +11,7 @@ const renderHighlights = data => Object.keys(data).flatMap(years => (
         url = { item.url }
         lang = { item.lang }
         event = { item.event }
+        image = { item.image }
         key = { i }
       />
 

@@ -47,7 +47,7 @@
 }
 
 .menu-list__link:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .menu-list__link:focus {

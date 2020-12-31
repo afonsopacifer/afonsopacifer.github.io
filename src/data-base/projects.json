@@ -37,7 +37,8 @@
       "date": "",
       "tech": "",
       "platform": "Github",
-      "highlights": true
+      "highlights": true,
+      "image": "projects/burnout.jpg"
     },
     {
       "event":"nomsjs",
@@ -47,7 +48,8 @@
       "date": "",
       "tech": "",
       "platform": "Github",
-      "highlights": true
+      "highlights": true,
+      "image": "projects/noms.jpg"
     },
     {
       "event":"do-front-end-ao-nodejs",
@@ -77,7 +79,8 @@
       "date": "",
       "tech": "",
       "platform": "Github",
-      "highlights": true
+      "highlights": true,
+      "image": "projects/millennium.jpg"
     },
     {
       "event":"empathy-and-html",
@@ -260,7 +263,8 @@
       "date": "July 2016",
       "tech": ["node.svg","mocha.svg","npm.png"],
       "platform": "Github",
-      "highlights": true
+      "highlights": true,
+      "image": "projects/banana.jpg"
     },
     {
       "event":"vue-meditation",
