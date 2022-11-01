@@ -1,17 +1,17 @@
-module.exports = {
+import type { GatsbyConfig } from "gatsby";
 
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `Afonso Pacifer`,
     siteUrl: `https://afonsopacifer.github.io/`,
     description: `Afonso Pacifer personal website`,
     author: `@afonsopacifer`,
   },
-
   plugins: [
 
     // SEO
 
-    `gatsby-plugin-react-helmet`,
+    // `gatsby-plugin-react-helmet`,
 
     // Images
 
@@ -59,7 +59,7 @@ module.exports = {
           },
           {
             family: `Roboto`,
-            variants: [`400`],
+            variants: [`400`,`300i`],
           },
         ],
       }
@@ -67,13 +67,15 @@ module.exports = {
 
     // Track
 
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-98299009-1",
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "UA-98299009-1",
+    //   },
+    // },
 
   ],
 
-}
+};
+
+export default config;
