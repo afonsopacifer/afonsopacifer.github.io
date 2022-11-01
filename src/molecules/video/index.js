@@ -1,4 +1,5 @@
 import React from 'react';
+import Arrow from '../../assets/icons/arrow.svg';
 import './video.css';
 import '../../atoms/text/text.css';
 
@@ -16,11 +17,15 @@ const Video = ({ src }) => (
         autoplay = 'autoplay'
         className = 'video__player'
         loop
-        autoplay = 'autoplay'
         muted
       >
         <source src = { src } type = 'video/mp4' />
       </video>
+
+      <span  className = 'video__warning'>
+        <span className = 'video__warning__text'> Scroll Down </span>
+        <Arrow className = 'video__warning__icon' />
+      </span>
 
     </div>
 
