@@ -38,7 +38,8 @@
   color: #fff;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
   padding: var(--primary-space, 8px);
@@ -50,11 +51,24 @@
   opacity: .8;
 }
 
+.menu-list__link:active {
+  opacity: .4;
+}
+
 .menu-list__link:focus {
   outline: none;
-  border-color: var(--secondary-color, #F5C416);
+}
+
+.menu-list__link:focus-visible {
+  border-color: var(--highlight-color, #F5C416);
+}
+  
+/* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+.menu-list__link:focus:not(:focus-visible) {
+  outline: none;
+  border-color: transparent;
 }
 
 .menu-list__link--active {
-  color: var(--secondary-color, #F5C416);
+  color: var(--highlight-color, #F5C416);
 }
