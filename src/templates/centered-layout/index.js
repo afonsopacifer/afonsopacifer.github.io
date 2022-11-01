@@ -4,6 +4,7 @@ import Header from '../../organisms/header';
 import Footer from '../../organisms/footer';
 import 'normalize.css';
 import '../../bosons/theme/variables.css';
+import '../common.css';
 import './centered-layout.css';
 
 const CenteredLayout = ({ children }) => (

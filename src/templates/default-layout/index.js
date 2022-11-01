@@ -5,6 +5,7 @@ import Video from '../../molecules/video/';
 import Footer from '../../organisms/footer';
 import 'normalize.css';
 import '../../bosons/theme/variables.css';
+import '../common.css';
 import './default-layout.css';
 
 const DefaultLayout = ({ videoSource, transparentHeader, children }) => (
