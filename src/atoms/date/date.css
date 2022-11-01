@@ -6,5 +6,5 @@
   font-style: italic;
   font-size: 14px;
   padding: 0;
-  color: var(--primary-color, #2F2F2F);
+  color: var(--text-color, #2F2F2F);
 }
