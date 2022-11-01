@@ -1,14 +1,15 @@
 .tag {
   display: inline-block;
-  background-color: var(--secondary-color, #F5C416);
+  background-color: var(--headings-color, #F5C416);
   padding: 4px 8px;
-  color: var(--primary-color, #2F2F2F);
+  color: var(--text-highlights-color, #2F2F2F);
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
   margin: var(--primary-space, 8px) 0;
+  letter-spacing: 1px;
 }
 
 .tag--pt-br {
