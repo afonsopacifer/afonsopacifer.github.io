@@ -3,6 +3,14 @@
   margin: var(--secondary-space, 16px) 0;
 }
 
+.list-box__header {
+  position: relative;
+}
+
+/* .list-box__header {
+
+} */
+
 .list-box__body {
   padding:  var(--primary-space, 8px) 0;
 }

@@ -38,25 +38,29 @@ const ListBox = ({
 
     <article className = 'list-box'>
 
-      {
-        event &&
-        <h3 className = 'heading heading--lv3'>
-          { currentFlag } { event }
-        </h3>
-      }
+      <div className = 'list-box__header'>
 
-      {
-        date &&
-        <small className = 'date'>
-          { date }
-        </small>
-      }
+        {
+          event &&
+          <h3 className = 'heading heading--lv3'>
+            { currentFlag } { event }
+          </h3>
+        }
 
-      { lang &&
-        <span className = {`tag tag--${lang}`}>
-          { lang }
-        </span>
-      }
+        {
+          date &&
+          <small className = 'date'>
+            { date }
+          </small>
+        }
+
+        { lang &&
+          <span className = {`tag tag--${lang}`}>
+            { lang }
+          </span>
+        }
+
+      </div>
 
       <div className = 'list-box__body'>
 
