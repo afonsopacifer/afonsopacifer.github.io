@@ -16,12 +16,12 @@
   display: inline-block;
   text-decoration: none;
   padding: 4px var(--primary-space, 8px);
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 
 .social__link:focus {
   outline: none;
-  border-color: var(--secondary-color, #F5C416);
+  border-color: var(--highlight-color, #F5C416);
 }
 
 .social__icon {
