@@ -4,8 +4,9 @@
   margin: 0;
   padding: var(--secondary-space, 16px) 0;
   font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  color: var(--primary-color, #2F2F2F);
+  font-weight: 600;
+  color: var(--headings-color, #2F2F2F);
+  letter-spacing: 1px;
 }
 
 .heading--lv1 {
@@ -25,7 +26,7 @@
   line-height: 32px;
   padding: var(--primary-space, 8px) 0;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
 }
@@ -36,6 +37,6 @@
 }
 
 .heading--underline {
-  border-bottom: 5px solid var(--secondary-color, #F5C416);
+  border-bottom: 5px solid var(--highlight-color, #F5C416);
   font-weight: inherit;
 }
