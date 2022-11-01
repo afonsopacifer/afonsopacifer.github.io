@@ -30,7 +30,7 @@
 
 .controls__button:focus {
   outline: none;
-  border-color: var(--secondary-color, #F5C416);
+  border-color: var(--highlight-color, #F5C416);
 }
 
 .controls__photo {
@@ -39,5 +39,5 @@
 }
 
 .controls__icon {
-  fill: var(--secondary-color, #F5C416);
+  fill: var(--highlight-color, #F5C416);
 }
