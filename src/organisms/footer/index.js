@@ -1,11 +1,12 @@
 import React from 'react';
 import Heart from '../../assets/icons/heart.svg';
+import ReactIcon from '../../assets/icons/react-icon.svg';
 import './footer.css';
 
 const Footer = () => (
   <footer className = 'footer'>
     <span className = 'footer__text'>
-      Designed with <Heart className = 'footer__icon' /> by me.
+      Design and code made with <Heart className = 'footer__icon footer__icon--pulse' /> and <ReactIcon className = 'footer__icon footer__icon--rotate' /> by me.
     </span>
   </footer>
 );

@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--primary-color, #2F2F2F);
+  background-color: var(--bar-background-color, #2F2F2F);
   width: 100%;
   box-sizing: border-box;
   padding: 0 var(--primary-space, 8px);
@@ -7,29 +7,47 @@
   justify-content:center;
   align-items: center;
   height: var(--bar-height, 48px);
+  margin-top: calc(var(--secondary-space) * 2);
 }
 
 .footer__text {
   color: #fff;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   display: flex;
   align-items: center;
+  letter-spacing: 1px;
 }
 
 .footer__icon {
-  fill: var(--secondary-color, #F5C416);
-  width: 16px;
-  margin: 0 4px;
+  fill: var(--highlight-color, #F5C416);
+  width: 20px;
+  margin: 0 var(--primary-space);
+}
+
+.footer__icon--pulse {
   animation: pulse 1s infinite alternate ease-in-out;
 }
 
 @keyframes pulse {
   0% {
-    transform: scale(.9);
+    transform: scale(.8);
   }
   100% {
     transform: scale(1.1);
+  }
+}
+
+.footer__icon--rotate {
+  animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
