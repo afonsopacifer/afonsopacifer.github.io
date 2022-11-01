@@ -1,0 +1,21 @@
+.link {
+	text-decoration: underline;
+	color: var(--highlight-color, #F5C416);
+	border: 1px solid transparent;
+	display: inline-block;
+	/* border-bottom: 1px solid var(--highlight-color, #F5C416); */
+}
+
+.link:hover {
+	cursor: pointer;
+  opacity: .7;
+}
+
+.link:focus {
+	outline: none;
+	border-color: var(--highlight-color, #F5C416);
+}
+
+/* .link:active {
+	opacity: .7;
+} */
