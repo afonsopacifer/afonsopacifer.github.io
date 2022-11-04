@@ -1,13 +1,34 @@
+.comment-bar-container {
+  display: flex;
+}
+
 .comment-bar {
   background-color: var(--bar-background-color);
   padding: var(--secondary-space);
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 300;
-  color: var(--text-color, #2F2F2F);
-  letter-spacing: 1px;
   margin: var(--secondary-space) 0;
-  display: flex;
-  align-items: center;
+}
+
+.comment-bar__title {
+  display: block;
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: var(--highlight-color, #F5C416);
+  font-weight: 300;
+  margin-bottom: var(--primary-space);
+}
+
+.comment-bar__text {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: var(--text-color, #2F2F2F);
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
 }
