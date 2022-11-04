@@ -35,7 +35,6 @@ const ListBox = ({
   }
 
   return (
-
     <article className = 'list-box'>
 
       <div className = 'list-box__header'>

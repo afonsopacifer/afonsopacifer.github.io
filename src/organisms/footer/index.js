@@ -5,9 +5,9 @@ import './footer.css';
 
 const Footer = () => (
   <footer className = 'footer'>
-    <span className = 'footer__text'>
+    <small className = 'footer__text'>
       Design and code made with <Heart className = 'footer__icon footer__icon--pulse' /> and <ReactIcon className = 'footer__icon footer__icon--rotate' /> by me.
-    </span>
+    </small>
   </footer>
 );
 

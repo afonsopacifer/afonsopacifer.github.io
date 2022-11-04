@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   box-sizing: border-box;
   border: 0;
   padding: 0;

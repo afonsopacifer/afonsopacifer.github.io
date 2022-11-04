@@ -21,6 +21,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: var(--bar-height, 48px);
+  color: #dcdcdc;
 }
 
 @media screen and (max-width: 700px) {

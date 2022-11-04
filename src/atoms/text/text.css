@@ -1,5 +1,6 @@
 .text {
   display: block;
+  width: 100%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;

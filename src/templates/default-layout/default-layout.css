@@ -29,6 +29,10 @@
   max-width: 900px;
 }
 
+.default-layout--video .page-header {
+  max-width: 900px;
+}
+
 .default-layout__article {
   width: 100%;
   display: flex;

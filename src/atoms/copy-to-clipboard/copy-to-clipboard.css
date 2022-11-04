@@ -1,5 +1,4 @@
 .copy-to-clipboard-container {
-  margin-left: var(--primary-space);
   position: relative;
 }
 
@@ -37,14 +36,15 @@
 }
 
 .copy-to-clipboard svg {
-  width: 20px;
-  fill: var(--text-color);  
+  width: 18px;
+  fill: var(--text-color);
+  vertical-align: middle;
 }
 
 .copy-to-clipboard__tooltip {
   background-color: #b7f198;
   position: absolute;
-  bottom: -40px;
+  bottom: -55px;
   left: calc(50% - 35px);
   width: 70px;
   padding: 8px 0;

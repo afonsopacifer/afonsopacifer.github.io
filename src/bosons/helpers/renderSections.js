@@ -6,7 +6,7 @@ const renderSections = data => Object.keys(data).map(years => (
 
   <section className = 'default-layout__article'>
 
-    <h2 className = 'heading heading--lv2'>
+    <h2 className = 'heading heading--lv2 heading--container'>
       <strong className = 'heading--underline'> { years.split('_')[1] } </strong>
     </h2>
 
