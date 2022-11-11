@@ -1,4 +1,5 @@
 import React from 'react';
+import renderTechIcons from '../../bosons/helpers/renderTechIcons';
 import Link from '../../atoms/link/';
 import '../../atoms/headings/headings.css';
 import '../../atoms/date/date.css';
@@ -15,6 +16,7 @@ const ListBox = ({
   lang,
   platform,
   description,
+  tech,
   slides,
   video,
   attendees,
@@ -97,6 +99,8 @@ const ListBox = ({
           { description }
         </p>
       }
+
+      { tech && renderTechIcons(tech) }
 
       </div>
 
