@@ -49,6 +49,7 @@
   position: absolute;
   top: 0;
   right: var(--primary-space, 8px);
+  margin-right: 0;
   z-index: 2;
 }
 
@@ -79,9 +80,16 @@
 }
 
 .feature-box__heading {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
+  color: var(--highlight-color);
+  margin: var(--primary-space) 0;
+}
+
+.feature-box__text {
+  font-size: 14px;
+  padding: 0;
 }

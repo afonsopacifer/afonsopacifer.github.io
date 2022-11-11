@@ -1,7 +1,6 @@
 import React from 'react';
 import Arrow from '../../assets/icons/arrow.svg';
 import './video.css';
-import '../../atoms/text/text.css';
 
 const Video = ({ src }) => (
   <div className = 'video-container'>
@@ -9,8 +8,8 @@ const Video = ({ src }) => (
     <div className = 'video'>
 
       <span className = 'video__text'>
-        Hack <br/>
-        and share<span className = 'text--highlight'>.</span>
+        Working for <span className = 'video__text--highlight'> build </span><br/>
+        <span className = 'video__text--highlight'> Developer </span> Experiences
       </span>
 
       <video

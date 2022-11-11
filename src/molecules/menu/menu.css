@@ -5,7 +5,7 @@
   flex: 1;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .menu {
     width: 100%;
     margin-bottom: var(--primary-space, 8px);
@@ -21,7 +21,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .menu-list {
     display: flex;
     justify-content: space-between;

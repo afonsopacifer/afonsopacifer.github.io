@@ -12,7 +12,16 @@ const FeatureBox = ({
   lang,
   event,
   image,
+  description,
   }) => {
+
+  const x = (y) => {
+    if (typeof y === 'string' && y.length > 59) {
+      return y.slice(0, 60) + '...';
+    }
+
+    return y;
+  }
 
   return (
 
@@ -53,6 +62,10 @@ const FeatureBox = ({
         <h3 className = 'heading heading--lv3 feature-box__heading'>
           { event }
         </h3>
+
+        <p className = 'text feature-box__text'>
+          { x(description) }
+        </p>
 
       </a>
 

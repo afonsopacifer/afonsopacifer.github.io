@@ -48,9 +48,9 @@ const ListBox = ({
 
         {
           date &&
-          <small className = 'date'>
+          <span className = 'tag tag--date'>
             { date }
-          </small>
+          </span>
         }
 
         { lang &&

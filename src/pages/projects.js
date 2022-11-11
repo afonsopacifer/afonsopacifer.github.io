@@ -30,11 +30,10 @@ const Projects = () => {
 
         <p className = 'text'>
           I started and maintained <b className = 'text--highlight'>open source projects in every company</b> I worked for.
-          In my current job, I work on the company's first open source product focusing on <b className = 'text--highlight'>developer experience</b>, and I love it.
         </p>
 
         <CommentBar title = '⚠️ Disclaimer!'>
-          I list below only company projects that I still mantain or personal projects.
+          I list below only company projects that I still mantain or my personal projects.
         </CommentBar>
 
         <Link href = 'https://github.com/afonsopacifer'> 

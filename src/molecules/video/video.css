@@ -71,31 +71,38 @@
 .video__text {
   box-sizing: border-box;
   width: 100%;
+  height: 160px;
   margin: 0;
-  padding: 32px;
+  padding: 0 32px;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  color: #fff;
+  color: var(--headings-color);
   position: absolute;
-  bottom: 0;
+  bottom: calc(50% - 80px);
   left: 0;
-  font-size: 92px;
+  font-size: 62px;
   z-index: 3;
   opacity: 0;
   animation: show 1s 1s forwards;
+  text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .video__text {
-    font-size: 62px;
+    font-size: 32px;
+    bottom: 20px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .video__text {
-    font-size: 42px;
-  }
+.video__text--highlight {
+  color: var(--highlight-color, #F5C416);
 }
+
+/* @media screen and (max-width: 600px) {
+  .video__text {
+    font-size: 32px;
+  }
+} */
 
 .video__warning {
   position: absolute;

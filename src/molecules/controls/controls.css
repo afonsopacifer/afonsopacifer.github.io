@@ -3,7 +3,7 @@
   width: 150px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .controls {
     width: 50%;
     order: 1;

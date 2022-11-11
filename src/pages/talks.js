@@ -24,16 +24,19 @@ const Talks = () => (
       </h1>
 
       <p className = 'text'>
-        For many years, I worked as a <b className = 'text--highlight'>full-time web evangelist</b> (especially with CSS and web components), 
-        at this time, I spoken at the biggest front-end conferences in my country (Brazil) to thousands of people.
+        For many years <em className = 'text--hand-drawing'> (2015 ~ 2018), </em> I worked as a <b className = 'text--highlight'>full-time web evangelist</b> 
+        <em className = 'text--hand-drawing'>
+          &nbsp;(especially with CSS and web components)
+        </em>,
+        at this time, I spoke at the biggest front-end conferences in my country <em className = 'text--hand-drawing'> (Brazil) </em> to <b className = 'text--highlight'> thousands of people. </b>
       </p>
 
       <p className = 'text'>
-        Nowadays with my  <b className = 'text--highlight'>developer relations</b> role, i do a lot of internal presentations, but i still participate in communities meetups and conferences.
+        Currently in my <b className = 'text--highlight'> developer relations </b> role, I do a lot of companay presentations and work to <b className = 'text--highlight'>engage more people to speak </b> up in our internal tech community.
       </p>
 
       <CommentBar title = '🎤 Want me to speak?'>
-        Send me an e-mail for afonsopolis@gmail.com <CopyToClipBoard text = 'afonsopolis@gmail.com' />
+        E-mail me at afonsopolis@gmail.com <CopyToClipBoard text = 'afonsopolis@gmail.com' />
       </CommentBar>
 
       <Link href = 'https://speakerdeck.com/afonsopacifer'> 

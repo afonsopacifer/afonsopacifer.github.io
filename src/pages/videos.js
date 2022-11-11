@@ -21,13 +21,13 @@ const Videos = () => (
       </h1>
 
       <p className = 'text'>
-        In 2016 I created a youtube channel called <b className = 'text--highlight'>CSS CastShow</b>, 
-        after a few years of partnerships it ended up becoming the official channel of <a href='https://github.com/frontendbr' className = 'link'>Front-end Brasil</a> community.
+        In 2016 I created a youtube channel called <b className = 'text--highlight'> CSS CastShow </b>. 
+        After a few years of partnerships with tech communities, I ceded my channel to the Brazilian community, which became the official channel of the <a href='https://github.com/frontendbr' className = 'link'> Front-end Brasil </a> community.
       </p>
 
       <p className = 'text'>
-        Today I am one of the <b className = 'text--highlight'>hosts</b> of the  <a href='https://neowaylabs.github.io/' className = 'link'>Neoway Labs Tech</a> youtube channel,
-        an initiative conceived by Neoway's tech team and aims to exchange experiences, tips and knowledge with the tech communities.
+        Today I'm one of the <b className = 'text--highlight'>hosts</b> of the  <a href='https://neowaylabs.github.io/' className = 'link'>Neoway Labs Tech</a> youtube channel
+        <em className = 'text--hand-drawing'> (An initiative conceived by Neoway's tech team to exchanging experiences, tips and knowledge with external tech communities).</em>
       </p>
 
       <Link href = 'https://www.youtube.com/c/frontendbr'> 

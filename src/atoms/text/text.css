@@ -8,7 +8,7 @@
   padding: var(--secondary-space, 16px) 0;
   font-weight: 300;
   color: var(--text-color, #2F2F2F);
-  line-height: 20px;
+  line-height: 22px;
   letter-spacing: 1px;
 }
 
@@ -27,4 +27,8 @@
 .text--hand-drawing {
   font-style: italic;
   color: rgb(148, 148, 148);
+}
+
+.text .tag {
+  margin-right: var(--primary-space, 8px);
 }

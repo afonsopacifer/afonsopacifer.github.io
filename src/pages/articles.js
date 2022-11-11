@@ -26,7 +26,7 @@ const Articles = () => (
       <p className = 'text'>
         I started writing to record my journey through the <a href='https://johnresig.com/blog/write-code-every-day/' className = 'link'>write code every day</a> challenge in 2015
         <em className = 'text--hand-drawing'>
-          (inpired by <a href='https://raphamorim.io/about/' target = '_blank' className = 'link'>Raphael Amorim</a> and <a href='https://johnresig.com/about/' target = '_blank' className = 'link'>John Resig</a>) 
+          &nbsp;(inpired by <a href='https://raphamorim.io/about/' target = '_blank' className = 'link'>Raphael Amorim</a> and <a href='https://johnresig.com/about/' target = '_blank' className = 'link'>John Resig</a>) 
         </em>.
       </p>
 
