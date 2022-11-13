@@ -1,4 +1,17 @@
 {
+  "talks_2022": [
+    {
+      "event":"#26 FloripaJS",
+      "title":"State of JS 2022",
+      "attendees":"40",
+      "date":"Aug 20 2022",
+      "local":"Neoway - Florianópolis - SC - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/state-of-js-2022",
+      "video": "https://www.youtube.com/watch?v=u-dwqRL2qKw",
+      "lang": "pt-br",
+      "icon": "brazil"
+    }
+  ],
   "talks_2020": [
     {
       "event":"Medellín CSS",
@@ -7,9 +20,11 @@
       "date":"Aug 29 2020",
       "local":"Online - Medellín - Colombia",
       "slides":"https://speakerdeck.com/afonsopacifer/welcome-css-lv5",
+      "video": "https://www.youtube.com/watch?v=YREnX_Pjgkc",
       "lang": "en",
       "icon": "colombia",
-      "highlights": true
+      "highlights": true,
+      "image": "talks/medelin-css.jpg"
     }
   ],
   "talks_2019": [
@@ -19,24 +34,26 @@
       "attendees":"200",
       "date":"Nov 30 2019",
       "local":"Hotel Maria do Mar - Florianópolis - SC - Brazil",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/no-pain-no-gain",
       "lang": "pt-br",
       "icon": "brazil",
-      "highlights": true
+      "highlights": true,
+      "image": "talks/front-in-floripa.jpg"
     },
     {
       "event":"#30 HTML SP",
       "title":"A liberdade vem do ether",
-      "attendees":"?",
+      "attendees":"20",
       "date":"Nov 27 2019",
       "local":"C6 Bank - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/a-liberdade-vem-do-ether",
+      "videos": "https://www.youtube.com/watch?v=zJ8C2nrNEbI",
       "lang": "pt-br",
       "icon": "brazil"
     },
     {
       "event":"Hacktoberfest SP - Meetup #03",
-      "title":"Workshop: ?",
+      "title":"Estudos avançados da bipolaridade no JS (Workshop)",
       "attendees":"20",
       "date":"Sep 03 2019",
       "local":"Stone - São Paulo - SP",
@@ -47,17 +64,19 @@
     {
       "event":"Front in Sampa",
       "title":"Front-End 101: A resposta sobre “estudar a base”",
-      "attendees":"?",
+      "attendees":"400",
       "date":"Jul 13 2019",
       "local":"Centro de Convenções Rebouças - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-101-a-resposta-sobre-estudar-a-base",
+      "video": "https://www.youtube.com/watch?v=Lw9Uu_35lco",
       "lang": "pt-br",
       "icon": "brazil",
-      "highlights": true
+      "highlights": true,
+      "image": "talks/front-in-sampa.jpg"
     },
     {
       "event":"Hacktoberfest SP - Meetup #01",
-      "title":"?",
+      "title":"Carreira Open Source",
       "attendees":"20",
       "date":"Jul 02 2019",
       "local":"Wirecard - São Paulo - SP",
@@ -68,10 +87,11 @@
     {
       "event":"#34 React SP",
       "title":"PRPL Pattern com React na prática",
-      "attendees":"?",
+      "attendees":"25",
       "date":"May 30 2019",
       "local":"Jusbrasil - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/prpl-pattern-na-pratica-com-react",
+      "video": "https://www.youtube.com/watch?v=VnvyvBa2WpE",
       "lang": "pt-br",
       "icon": "brazil"
     }
@@ -80,27 +100,28 @@
     {
       "event":"#18 HTML SP",
       "title":"Google Chrome as a Plataform",
-      "attendees":"?",
+      "attendees":"40",
       "date":"Sep 06 2018",
       "local":"Pagar.me - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/google-chrome-as-a-platform",
       "lang": "pt-br",
       "icon": "brazil"
     },
     {
       "event":"7Masters - Programação Funcional",
       "title":"Copiando dados de forma funcional",
-      "attendees":"?",
+      "attendees":"25",
       "date":"Jul 25 2018",
       "local":"iMasters Developer Hub - São Paulo - SP",
       "slides":"",
+      "video": "https://www.youtube.com/watch?v=kI_VeDHfzOs",
       "lang": "pt-br",
       "icon": "brazil"
     },
     {
       "event":"#13 Frontend SP Meetup - Edição Especial FrontendWeek",
       "title":"Testes Universais (isomórficos) em Javascript",
-      "attendees":"?",
+      "attendees":"30",
       "date":"Jul 13 2018",
       "local":"Accenture Interactive - São Paulo - SP",
       "slides":"",
@@ -110,17 +131,17 @@
     {
       "event":"#26 Meetup CSS SP",
       "title":"CSS e as relíquias da morte",
-      "attendees":"?",
+      "attendees":"30",
       "date":"May 24 2018",
       "local":"FCamara - São Paulo - SP",
-      "slides":"",
+      "slides":"https://www.youtube.com/watch?v=a0PI3WGi7X4",
       "lang": "pt-br",
       "icon": "brazil"
     },
     {
       "event":"#50 Nerdzão",
       "title":"CSS VR: Correr ou morrer",
-      "attendees":"?",
+      "attendees":"30",
       "date":"May 08 2018",
       "local":"Moip - São Paulo - SP",
       "slides":"",
@@ -133,7 +154,7 @@
       "attendees":"35",
       "date":"Mar 01 2018",
       "local":"iMasters Developer Hub - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/style-strategies-in-vue-dot-js",
       "lang": "pt-br",
       "icon": "brazil"
     },
@@ -143,7 +164,7 @@
       "attendees":"40",
       "date":"Fev 26 2018",
       "local":"Lambda3 - São Paulo - SP",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parsecs",
       "lang": "pt-br",
       "icon": "brazil"
     },
@@ -153,7 +174,7 @@
       "attendees":"20",
       "date":"Jan 31 2018",
       "local":"Hi Platform - São Paulo - SP",
-      "slides":"",
+      "slides":"https://afonsopacifer.github.io/empathy-and-html/",
       "lang": "pt-br",
       "icon": "brazil"
     }
@@ -165,7 +186,7 @@
       "attendees":"50",
       "date":"Dez 16 2017",
       "local":"FICR - Recife - PE",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/front-end-development-in-less-than-12-parsecs",
       "lang": "pt-br",
       "icon": "brazil"
     },
@@ -175,7 +196,7 @@
       "attendees":"20",
       "date":"Dez 15 2017",
       "local":"Thoughtworks - Recife - PE",
-      "slides":"",
+      "slides":"https://afonsopacifer.github.io/empathy-and-html/",
       "lang": "pt-br",
       "icon": "brazil"
     },
@@ -313,7 +334,8 @@
       "video": "https://www.youtube.com/watch?v=5g-ydL4KZMc&t=360s",
       "lang": "pt-br",
       "icon": "brazil",
-      "highlights": true
+      "highlights": true,
+      "image": "talks/front-in-vale.jpg"
     },
     {
       "event":"Meetup CSS SP",
