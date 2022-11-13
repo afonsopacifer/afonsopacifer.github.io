@@ -1,14 +1,22 @@
 {
   "articles_2020":[
     {
+      "event":"如何保持对个人项目的热情？",
+      "date":"Sep 11 2020",
+      "description":"我觉得这是一个简单但深刻的问题。许多人下定决心开始做自己的个人项目，刚开始的几天感到非常兴奋，但是没过多久热情就消失了——这中间发生了什么？",
+      "url":"https://mp.weixin.qq.com/s/xHgadCpm18MW7JTcEVGfsg",
+      "platform":"WeChat",
+      "lang":"zh",
+      "highlights": true,
+      "image": "articles/how-you-can-stay-motivated-zh.jpg"
+    },
+    {
       "event":"5 ideas for personal projects using vanilla javascript",
-      "date":"Set 02 2020",
+      "date":"Sep 02 2020",
       "description":"Building personal projects is one of the must-have habits for any developer, but a big question appears for many developers that make the process stop: What project am I going to do?",
       "url":"https://dev.to/afonsopacifer/5-ideas-for-personal-projects-using-vanilla-javascript-1p2m",
       "platform":"DEV",
-      "lang":"en",
-      "highlights": true,
-      "image": "articles/5-ideas-for-personal-projects.jpg"
+      "lang":"en"
     },
     {
       "event":"How you can stay motivated to work on personal projects",
@@ -73,7 +81,7 @@
     {
       "event":"Mindset para aplicações baseadas em componentes no Front-End — Parte 2: react-router",
       "date":"Sep 27 2017",
-      "description":"?",
+      "description":"Agora que aprendermos alguns termos e princípios durante o primeiro artigo da série, temos uma base para construir nosso primeiro exemplo com códigos, vamos lá!",
       "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-2-react-router-b13259be9360",
       "platform":"Medium",
       "lang":"pt-br"
@@ -81,7 +89,7 @@
     {
       "event":"Mindset para aplicações baseadas em componentes no Front-End — Parte 1",
       "date":"Sep 22 2017",
-      "description":"?",
+      "description":"Hoje vamos conversar sobre uma mudança de mindset que todo desenvolvedor Front-End precisa ter. Não veremos códigos neste artigo, apenas a base teórica sobre como devemos compor nossas aplicações utilizando componentes.",
       "url":"https://medium.com/@afonsopacifer/mindset-para-aplica%C3%A7%C3%B5es-baseadas-em-componentes-no-front-end-parte-1-ab15e3733e5c",
       "platform":"Medium",
       "lang":"pt-br"
@@ -89,7 +97,7 @@
     {
       "event":"Desmistificando um futuro chamado Polymer 3",
       "date":"Sep 12 2017",
-      "description":"?",
+      "description":"Fala pessoal, hoje vou desmistificar um pouco a história do Polymer Project, tentar tirar algumas dúvidas frequentes, localiza-los na linha do tempo e apresentar um futuro chamado Polymer 3.",
       "url":"https://medium.com/@afonsopacifer/desmistificando-um-futuro-chamado-polymer-3-ae0476cf8c0a",
       "platform":"Medium",
       "lang":"pt-br"
@@ -97,7 +105,7 @@
     {
       "event":"Nem só de Front-End Week SP vive o homem!",
       "date":"Jul 29 2017",
-      "description":"?",
+      "description":"Durante a Front-End Week SP 2017, eu e o Diogo Moretti fizemos uma cobertura no Youtube de todos os eventos e tivemos vários feedbacks, muita gente que participou dos eventos curtiu rever o que vivenciaram, porém tivemos muitos feedbacks de pessoas fora de São Paulo querendo ter algo do tipo em suas cidades e com os olhinhos brilhando vendo os encontros.",
       "url":"https://medium.com/@afonsopacifer/nem-s%C3%B3-de-front-end-week-sp-vive-o-homem-9a1cddc2170a",
       "platform":"Medium",
       "lang":"pt-br"
@@ -105,7 +113,7 @@
     {
       "event":"Não me “importo” em usar Web Components com PUG, afinal, ninguém disse que não podia ;)",
       "date":"April 30 2017",
-      "description":"?",
+      "description":"Hoje vamos conversar sobre duas coisas que sou pessoalmente apaixonado: Web Components e HTML Template Engines. Vou apresentar uma abordagem diferente para compor nossas páginas utilizando apenas três das quatro especificações que compõem um Web Component.",
       "url":"https://medium.com/@afonsopacifer/web-components-com-pug-62b265129977",
       "platform":"Medium",
       "lang":"pt-br"
@@ -113,7 +121,7 @@
     {
       "event":"Polymer 2 e o futuro onde os Web Components dominam a terra",
       "date":"April 14 2017",
-      "description":"?",
+      "description":"Vamos começar falando sobre o que ele não é. Definitivamente não é mais framework de javascript, muito menos um Polyfill para Web Components.",
       "url":"https://medium.com/@afonsopacifer/polymer-2-e-o-futuro-onde-os-web-components-dominam-a-terra-308a42858470",
       "platform":"Medium",
       "lang":"pt-br"
@@ -121,7 +129,7 @@
     {
       "event":"Entrevista: Como é trabalhar como Evangelista CSS, por Afonso Pacifer",
       "date":"April 13 2017",
-      "description":"?",
+      "description":"Esse post é parte de uma série de entrevistas para o Training Center sobre o que um profissional pode dizer sobre sua área de atuação visando mostrar para outras pessoas como é trabalhar no que fazem.",
       "url":"https://medium.com/trainingcenter/como-%C3%A9-trabalhar-como-evangelista-css-por-afonso-pacifer-32cc077f4fdd",
       "platform":"Training Center",
       "lang":"pt-br"
@@ -129,7 +137,7 @@
     {
       "event":"CSS Features detection de forma nativa com @supports",
       "date":"Mar 15 2017",
-      "description":"?",
+      "description":"Quando falamos em desenvolvimento Front-End, a adoção de novas tecnologias se torna uma tarefa relativamente complicada pela necessidade de dar suporte a diversos browsers, nesse cenário temos basicamente duas abordagens: Graceful Degradation e Progressive Enhancement.",
       "url":"https://codepen.io/afonsopacifer/post/css-feature-detection",
       "platform":"Codepen",
       "lang":"pt-br"
