@@ -1,7 +1,7 @@
 import React from 'react';
-import Controls from '../../molecules/Controls';
-import Menu from '../../molecules/Menu';
-import Social from '../../molecules/Social';
+import Controls from '../../molecules/controls';
+import Menu from '../../molecules/menu';
+import Social from '../../molecules/social';
 import './header.css';
 
 const Header = ({ className }) => (
