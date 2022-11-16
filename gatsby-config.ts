@@ -50,19 +50,21 @@ const config: GatsbyConfig = {
     // Fonts
 
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-omni-font-loader`,
       options: {
-        fonts: [
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
           {
-            family: `Poppins`,
-            variants: [`400`, `600`, `800`],
+            name: `Poppins`,
+            file: `https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap`,
           },
           {
-            family: `Roboto`,
-            variants: [`400`,`300i`],
+            name: `Roboto`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto:wght@400;300i&display=swap`,
           },
         ],
-      }
+      },
     },
 
     // Track

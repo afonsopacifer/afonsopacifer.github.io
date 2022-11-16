@@ -5,16 +5,16 @@
   "version": "6.0.0",
   "author": {
     "name": "Afonso Pacifer",
-    "email": "afonsopacifer@live.com"
+    "email": "afonsopolis@gmail.com"
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.5",
     "clipboard": "^2.0.11",
     "gatsby": "^4.24.5",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-mdx": "^4.3.0",
     "gatsby-plugin-offline": "^5.24.0",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-svg": "^3.1.0",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-plugin-sitemap": "^5.24.0",

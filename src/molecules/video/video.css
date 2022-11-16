@@ -75,7 +75,7 @@
   margin: 0;
   padding: 0 32px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--headings-color);
   position: absolute;
   bottom: calc(50% - 80px);
