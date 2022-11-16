@@ -1,0 +1,33 @@
+.header-container {
+  background: var(--header-color,  var(--bar-background-color, #2F2F2F));
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  transition: background .3s;
+}
+
+.header-container--transparent {
+  --header-color: transparent;
+}
+
+.header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 var(--secondary-space, 16px);
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--bar-height, 48px);
+  color: #dcdcdc;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-wrap: wrap;
+    padding-top: var(--primary-space, 8px);
+    padding-bottom: var(--primary-space, 8px);
+  }
+}

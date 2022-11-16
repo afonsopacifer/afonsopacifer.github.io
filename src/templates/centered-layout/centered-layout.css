@@ -1,0 +1,20 @@
+.centered-layout {
+  box-sizing: border-box;
+}
+
+.centered-layout__main {
+  box-sizing: border-box;
+  padding: var(--secondary-space, 16px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Stick Footer */
+  --header-and-footer-heights: calc(var(--bar-height, 48px) * 2);
+  min-height: calc(100vh - var(--header-and-footer-heights));
+}
+
+.centered-layout__image {
+  width: 100%;
+  max-width: 500px;
+}

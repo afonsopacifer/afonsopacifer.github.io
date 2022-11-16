@@ -1,0 +1,35 @@
+.social {
+  box-sizing: border-box;
+  display: flex;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .social {
+    width: 50%;
+    order: 2;
+  }
+}
+
+.social__link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px var(--primary-space, 8px);
+  border: 1px solid transparent;
+}
+
+.social__link:focus {
+  outline: none;
+  border-color: var(--highlight-color, #F5C416);
+}
+
+.social__icon {
+  fill: #fff;
+  width: 20px;
+  transition: opacity .2s;
+}
+
+.social__link:hover .social__icon {
+  opacity: .8;
+}

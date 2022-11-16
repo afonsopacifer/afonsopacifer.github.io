@@ -1,0 +1,34 @@
+.text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: var(--secondary-space, 16px) 0;
+  font-weight: 300;
+  color: var(--text-color, #2F2F2F);
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.text--short {
+  padding: 0;
+  line-height: 24px;
+}
+
+.text--highlight {
+  color: var(--highlight-color, #F5C416);
+  font-weight: 300;
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.text--hand-drawing {
+  font-style: italic;
+  color: rgb(148, 148, 148);
+}
+
+.text .tag {
+  margin-right: var(--primary-space, 8px);
+}

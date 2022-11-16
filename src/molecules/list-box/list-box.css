@@ -1,0 +1,39 @@
+.list-box {
+  width: 100%;
+  margin: var(--secondary-space, 16px) 0;
+}
+
+.list-box__header {
+  position: relative;
+}
+
+/* .list-box__header {
+
+} */
+
+.list-box__body {
+  padding:  var(--primary-space, 8px) 0;
+}
+
+.list-box__techs {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: var(--secondary-space, 16px);
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.list-box__techs__item {
+  list-style: none;
+  margin-right: var(--primary-space, 8px);
+}
+
+.list-box__techs__icon {
+  width: 32px;
+}
+
+
+.list-box__footer {
+  margin:  var(--primary-space, 8px) 0;
+}

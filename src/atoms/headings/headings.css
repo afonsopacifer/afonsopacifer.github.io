@@ -1,0 +1,49 @@
+.heading {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: var(--secondary-space, 16px) 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--headings-color, #2F2F2F);
+  letter-spacing: 1px;
+}
+
+.heading--lv1 {
+  font-size: 36px;
+  line-height: 50px;
+  margin: var(--secondary-space, 16px) 0;
+}
+
+.heading--lv2 {
+  font-size: 28px;
+  line-height: 40px;
+  margin: var(--secondary-space, 16px) 0;
+}
+
+.heading--lv3 {
+  font-size: 22px;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: var(--primary-space, 8px);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.heading__icon {
+  width: 24px;
+  margin-right: var(--primary-space, 8px);
+}
+
+.heading--underline {
+  border-bottom: 5px solid var(--highlight-color, #F5C416);
+  font-weight: inherit;
+}
+
+.heading--container {
+  max-width: var(--page-width, 700px);
+  margin-left: auto;
+  margin-right: auto;
+}

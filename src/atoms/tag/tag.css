@@ -1,0 +1,28 @@
+.tag {
+  display: inline-block;
+  background-color: var(--headings-color, #F5C416);
+  padding: 4px 8px;
+  color: var(--text-highlights-color, #2F2F2F);
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: var(--primary-space, 8px);
+  margin-right: var(--primary-space, 8px);
+  margin-bottom: var(--primary-space, 8px);
+  margin-left: 0;
+  letter-spacing: 1px;
+}
+
+.tag--pt-br {
+  background-color: #a9eb80;
+}
+
+.tag--en {
+  background-color: #eb809b;
+}
+
+.tag--date {
+  background-color: var(--highlight-color);
+}

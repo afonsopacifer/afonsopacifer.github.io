@@ -1,0 +1,151 @@
+.video-container {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: block;
+  opacity: .6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.video {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+}
+
+.video:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 100%;
+  background-image: linear-gradient(to right, #000, transparent);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.video:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 100%;
+  background-image: linear-gradient(to left, #000, transparent);
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.video__player {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  max-height: 800px;
+  opacity: 0;
+  animation: show 1s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.video__text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding: 0 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--headings-color);
+  position: absolute;
+  bottom: calc(50% - 80px);
+  left: 0;
+  font-size: 62px;
+  z-index: 3;
+  opacity: 0;
+  animation: show 1s 1s forwards;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .video__text {
+    font-size: 32px;
+    bottom: 20px;
+  }
+}
+
+.video__text--highlight {
+  color: var(--highlight-color, #F5C416);
+}
+
+/* @media screen and (max-width: 600px) {
+  .video__text {
+    font-size: 32px;
+  }
+} */
+
+.video__warning {
+  position: absolute;
+  z-index: 3;
+  bottom: 32px;
+  left: calc(50% - 28px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: jump .4s infinite alternate ease-in;
+  opacity: .5;
+  overflow: hidden;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.video__warning__text {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  transform: translateY(-16px);
+  transition: transform .3s;
+}
+
+.video__warning__text:hover {
+  cursor: default;
+}
+
+.video__warning:hover > .video__warning__text {
+  transform: translateY(8px);
+}
+
+.video__warning__icon {
+  width: 56px;
+  fill: #fff;
+}

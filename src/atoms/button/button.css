@@ -1,0 +1,79 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin-right: var(--primary-space, 8px);
+  text-decoration: none;
+  margin-top: var(--primary-space, 8px);
+  margin-bottom: var(--primary-space, 8px);
+}
+
+.button__content {
+  box-sizing: border-box;
+  padding: var(--primary-space, 8px) var(--secondary-space, 16px);
+  background-color: var(--page-background-color, #fff);
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: var(--text-color, #2F2F2F);
+  border: 1px solid var(--text-color, #2F2F2F);
+  transition: box-shadow .2s, opacity .2s;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.button__content svg {
+  width: 18px;
+  fill: var(--text-color, #2F2F2F);
+  margin-right: var(--primary-space, 8px);
+}
+
+.button__content:hover svg {
+  fill: var(--highlight-color, #F5C416);
+}
+
+.button:hover > .button__content {
+  cursor: pointer;
+  box-shadow: 4px 5px var(--highlight-color, #F5C416);
+}
+
+.button:active > .button__content {
+  transition: box-shadow .08s;
+  opacity: 0.8;
+  box-shadow: 2px 3px var(--highlight-color, #F5C416);
+}
+
+.button:focus > .button__content {
+  text-decoration: underline;
+  box-shadow: 4px 5px var(--highlight-color, #F5C416);
+}
+
+.button--primary {
+  background-color: var(--text-color, #2F2F2F);
+  border-color: var(--text-color, #2F2F2F);
+  color: #fff;
+}
+
+.button--secondary {
+  background-color: var(--highlight-color, #F5C416);
+  border-color: var(--highlight-color, #F5C416);
+}
+
+.button:hover > .button--secondary {
+  box-shadow: 4px 5px var(--text-color, #2F2F2F);
+}
+
+.button:active > .button--secondary {
+  box-shadow: 2px 3px var(--text-color, #2F2F2F);
+}
+
+.button:focus > .button--secondary {
+  box-shadow: 4px 5px var(--text-color, #2F2F2F);
+}
+
+.button:focus,
+.button__content:focus {
+  outline: none;
+}

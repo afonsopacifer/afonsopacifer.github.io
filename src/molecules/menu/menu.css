@@ -1,0 +1,74 @@
+.menu {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 100%;
+    margin-bottom: var(--primary-space, 8px);
+    order: 0;
+    flex: auto;
+  }
+}
+
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.menu-list__item {
+  display: inline-block;
+}
+
+.menu-list__link {
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: var(--primary-space, 8px);
+  transition: opacity .2s;
+  border: 1px solid transparent
+}
+
+.menu-list__link:hover {
+  opacity: .8;
+}
+
+.menu-list__link:active {
+  opacity: .4;
+}
+
+.menu-list__link:focus {
+  outline: none;
+}
+
+.menu-list__link:focus-visible {
+  border-color: var(--highlight-color, #F5C416);
+}
+  
+/* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+.menu-list__link:focus:not(:focus-visible) {
+  outline: none;
+  border-color: transparent;
+}
+
+.menu-list__link--active {
+  color: var(--highlight-color, #F5C416);
+}

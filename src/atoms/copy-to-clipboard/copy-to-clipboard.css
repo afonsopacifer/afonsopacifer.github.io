@@ -1,0 +1,81 @@
+.copy-to-clipboard-container {
+  position: relative;
+}
+
+.copy-to-clipboard {
+  background-color:unset;
+  border: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.copy-to-clipboard:hover {
+  cursor: pointer;
+}
+
+.copy-to-clipboard:hover > svg {
+  fill: #fff;
+}
+
+.copy-to-clipboard:focus {
+  outline: none;
+}
+
+.copy-to-clipboard:focus-visible {
+  border-color: var(--highlight-color, #F5C416);
+}
+  
+/* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+.copy-to-clipboard:focus:not(:focus-visible) {
+  outline: none;
+  border-color: transparent;
+}
+
+.copy-to-clipboard:active > svg {
+  opacity: .7;
+}
+
+.copy-to-clipboard svg {
+  width: 18px;
+  fill: var(--text-color);
+  vertical-align: middle;
+}
+
+.copy-to-clipboard__tooltip {
+  background-color: #b7f198;
+  position: absolute;
+  bottom: -55px;
+  left: calc(50% - 35px);
+  width: 70px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 4px;
+  color: var( --text-highlights-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  animation: hidden 1s ease-in-out forwards;
+}
+
+@keyframes hidden {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.copy-to-clipboard__tooltip::after {
+  background-color: #b7f198;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+}

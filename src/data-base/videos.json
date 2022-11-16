@@ -1,0 +1,487 @@
+{
+  "videos_2022":[
+    {
+      "event":"State of JS 2022",
+      "time":"2:32:44",
+      "date":"Ago 20 2022",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=u-dwqRL2qKw",
+      "lang": "pt-br"
+    }
+  ],
+  "videos_2020":[
+    {
+      "event":"Welcome CSS Lv5",
+      "time":"1:40:46",
+      "date":"Aug 29 2020",
+      "url": "https://www.youtube.com/watch?v=YREnX_Pjgkc",
+      "platform":"Youtube",
+      "lang": "en"
+    },
+    {
+      "event":"Drawing Digivice with pure CSS",
+      "time":"4:31",
+      "date":"Ago 09 2020",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=MKPElhLz92s",
+      "lang": "en"
+    },
+    {
+      "event":"A liberdade vem do Ether - #30 HTML SP",
+      "time":"1:02:19",
+      "date":"Ago 06 2020",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=zJ8C2nrNEbI",
+      "lang": "pt-br",
+      "highlights": true,
+      "image": "videos/a-liberdade-vem-do-ether.jpg"
+    },
+    {
+      "event":"PRPL pattern na prática com ReactJS - #34 React SP",
+      "time":"1:11:07",
+      "date":"Ago 04 2020",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=VnvyvBa2WpE",
+      "lang": "pt-br",
+      "highlights": true,
+      "image": "videos/prpl-pattern-na-pratica.jpg"
+    }
+  ],
+  "videos_2019":[
+    {
+      "event":"Front-End 101: A resposta sobre “estudar a base” - Front In Sampa",
+      "time":"44:21",
+      "date":"Set 25 2019",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Lw9Uu_35lco",
+      "lang": "pt-br",
+      "highlights": true,
+      "image": "videos/front-end-101.jpg"
+    },
+    {
+      "event":"Mudança definitiva e o fim do canal",
+      "time":"2:12",
+      "date":"Jul 11 2019",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=375ePnkMv9g",
+      "lang": "pt-br"
+    },
+    {
+      "event":"The Velopers #38 - Afonso Pacifer",
+      "time":"34:42",
+      "date":"Mai 25 2019",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=ALjRWVJIJ4c",
+      "lang": "pt-br"
+    }
+  ],
+  "videos_2018":[
+    {
+      "event":"Copiando dados de forma funcional - 7Masters",
+      "time":"12:24",
+      "date":"Out 25 2018",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=kI_VeDHfzOs",
+      "lang": "pt-br"
+    }
+  ],
+  "videos_2017":[
+    {
+      "event":"Momentos de tensão | Google Dev Fest Rio de Janeiro | Vlog #002",
+      "time":"9:29",
+      "date":"Nov 29 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=CC2BK7G4LYQ",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Dia a dia como Evangelista Web | Google Dev Fest BH | Vlog #001",
+      "time":"16:22",
+      "date":"Nov 24 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=QJmYDTwClao",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Dev Na Estrada 132 - Afonso Pacifer",
+      "time":"59:06",
+      "date":"Nov 23 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=CJmdvSydcsQ",
+      "lang": "pt-br"
+    },
+
+    {
+      "event":"React Router #05 - Criando links para navegar entre views através de rotas",
+      "time":"3:46",
+      "date":"Set 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=AeA7naGvWLc",
+      "lang": "pt-br"
+    },
+    {
+      "event":"React Router #04 - Injetando views e definindo rotas",
+      "time":"8:18",
+      "date":"Set 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=EiIHmOqSinE",
+      "lang": "pt-br"
+    },
+    {
+      "event":"React Router #03 - Criando as views",
+      "time":"3:16",
+      "date":"Set 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=FgEEpM_Y56Q",
+      "lang": "pt-br"
+    },
+    {
+      "event":"React Router #02 - Definindo a APP Shell",
+      "time":"3:28",
+      "date":"Set 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=0ufJuo7ceos",
+      "lang": "pt-br"
+    },
+    {
+      "event":"React Router #01 - Configurando ambiente",
+      "time":"7:05",
+      "date":"Set 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Sk5MxLeQMUA",
+      "lang": "pt-br"
+    },
+    {
+      "event":"O que rolou no primeiro Rio.css",
+      "time":"6:54",
+      "date":"Ago 16 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=rVVwNTTkNpc",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Como foi o Code In The Dark Recife 2017",
+      "time":"3:56",
+      "date":"Jul 29 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=awnUCysIZQ4",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#UseThePlatform with Polymer Project",
+      "time":"1:42:34",
+      "date":"Jul 19 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=e7nl-T1dfAM",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Criando efeito 3D Flip Card",
+      "time":"1:19",
+      "date":"Jun 22 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=rxIy2-ynLRM",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Desenhando cubo do Minecraft em 3D com CSS",
+      "time":"1:50",
+      "date":"Jun 19 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=OurdACvA3JI",
+      "lang": "pt-br",
+      "highlights": true,
+      "image": "videos/desenhando-cubo.jpg"
+    },
+    {
+      "event":"Live #02 - Componentes no mundo real com React, Polymer e Vue.JS",
+      "time":"2:08:41",
+      "date":"Mar 30 2017",
+      "platform":"Youtube",
+      "url":"https://youtu.be/H9uHU_asbFI",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Planejando a semântica na Web",
+      "time":"10:49",
+      "date":"Mar 29 2017",
+      "platform":"Youtube",
+      "url":"https://youtu.be/6zMYkmdXbQw",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Webschool.io - Pacificicando no Front com Threejs",
+      "time":"21:43",
+      "date":"Feb 04 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=sZypsYCIXIQ&list=PL77JVjKTJT2jKfRAPt1-MboqCKI2urwOz&index=1",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#027 - Design Responsivo e dinâmico com Style API (Parte 3) - Quick Tip #009",
+      "time":"08:17",
+      "date":"Jan 30 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=JGJgdZ1_tBo&t=",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#026 - Design Responsivo e dinâmico com Style API (Parte 2) - Quick Tip #008",
+      "time":"05:12",
+      "date":"Jan 29 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=92TCD25dOl0&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#025 - Design Responsivo e dinâmico com Style API (Parte 1) - Quick Tip #007",
+      "time":"07:26",
+      "date":"Jan 28 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=djCoT_50h_A&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#024 - Manipulando Custom Properties com Javascript - Quick Tip #006",
+      "time":"06:01",
+      "date":"Jan 27 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=SuidRypbtz4&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#023 - Custom Properties Progressivas com Stylus (suporte para IE6+) - Quick Tip #005",
+      "time":"08:19",
+      "date":"Jan 26 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=rPRTNMR2kgY&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#022 - Construindo uma Style API com HTML e CSS - Quick Tip #004",
+      "time":"08:57",
+      "date":"Jan 25 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=KYym_KyiVm8&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#021 - Criando mixins com CSS nativo - Quick Tip #003",
+      "time":"06:28",
+      "date":"Jan 24 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=hs1mASz6coA&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"GDG-BH Hangout - #UseThePlatform with Polymer Project",
+      "time":"1:53:22",
+      "date":"Jan 24 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=AfOis1W-pkU",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#020 - Fallback nativo em variáveis CSS - Quick Tip #002",
+      "time":"04:10",
+      "date":"Jan 23 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=3joOXJkSM58&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#019 - Trabalhando com CSS Custom Properties - Quick Tip #001",
+      "time":"05:55",
+      "date":"Jan 22 2017",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=NAp1FX9mGPU",
+      "lang": "pt-br"
+    }
+  ],
+  "videos_2016":[
+    {
+      "event":"Live #01 - Organização do CSS, variáveis nativas e mais.",
+      "time":"1:39:40",
+      "date":"Dez 22 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=-zeLj8F4iP0",
+      "lang": "pt-br"
+    },
+    {
+      "event":"As entrelinhas do CSS - FrontinVale 2016",
+      "time":"45:23",
+      "date":"2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=5g-ydL4KZMc",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#018 - Iniciando com Acessibilidade Web",
+      "time":"11:31",
+      "date":"Dez 04 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=YjA7woDBryg&t",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#017 - Desmistificando o CSS4, ou não :) - Rio Dev Day 2016 ",
+      "time":"36:02",
+      "date":"Nov 21 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=47DYkx_WvrE&t=1906s",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#016 - Ser especialista ou saber um pouco de tudo (generalista)?",
+      "time":"12:30",
+      "date":"Nov 15 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=yPC55-QOa8M",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#015 - Eventos e métodos - Polymer #04",
+      "time":"06:27",
+      "date":"Nov 06 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=6a1wxfKC5hE",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#014 - Trabalhando com propriedades e data binding - Polymer #03",
+      "time":"04:21",
+      "date":"Out 30 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=aD7bGR8ijwE",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#013 - Entendendo Web components + Criando primeiro elemento - Polymer #02",
+      "time":"15:10",
+      "date":"Out 28 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=A5syBa8DFvY",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#012 - O que estudar? React, VueJS ou Angular? Feat. Yan Magalhães",
+      "time":"38:09",
+      "date":"Out 23 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=lFsubBeWviE",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#011 - Setup básico, bower + polymer-cli - Polymer #01",
+      "time":"03:16",
+      "date":"Out 20 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Yh3KBO17I8E",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#010 - Desafio CSS #02 - Logo do ReactJS",
+      "time":"02:32",
+      "date":"Out 16 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=GOl96CvGItM",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#009 - Hora de revisar o desafio #01!",
+      "time":"04:59",
+      "date":"Jul 24 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Ms3WF8dQnNw",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#008 - Desafio CSS #01 - Logo do Instagram",
+      "time":"25:15",
+      "date":"Jul 15 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=7qGvEwSpxyo",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#007 - CSS4 Não faz sentido!",
+      "time":"12:25",
+      "date":"Jul 10 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=N1EuAO_M6q0",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#006 - Review: Tudo o que rolou no Sampa.JS",
+      "time":"25:15",
+      "date":"Jun 26 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=aGnQs_w-sl4",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#005 - O que é Polymer Project e por que usar? - Polymer #00",
+      "time":"05:37",
+      "date":"Jun 22 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Jr_Xoy3Pbkw",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#004 - Mobile First está errado?",
+      "time":"12:17",
+      "date":"Jun 19 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=Rrys1PVR5tQ",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#003 - Como declarar seu amor apenas com CSS.",
+      "time":"17:22",
+      "date":"Jun 12 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=I3m8gWgUUto",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#002 - Grids semânticos VS não semânticos.",
+      "time":"38:57",
+      "date":"Jun 05 2016",
+      "platform":"Youtube",
+      "url":"https://youtu.be/fHM2MUn1gwg",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#001 - Flexbox Layout: O guia definitivo.",
+      "time":"50:17",
+      "date":"May 29 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=qBxGXb4iTQw&feature=youtu.be",
+      "lang": "pt-br"
+    },
+    {
+      "event":"PodTech #1 - Entrevista com Afonso Pacifer",
+      "time":"1:03:30",
+      "date":"May 14 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=ck7pYoDDD5s",
+      "lang": "pt-br"
+    },
+    {
+      "event":"Escrever Código Todo Dia - Vale a pena?",
+      "time":"24:59",
+      "date":"May 11 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=n9967Iw6Ql0",
+      "lang": "pt-br"
+    },
+    {
+      "event":"#000 - Episódio piloto + Propriedades customizadas e variáveis.",
+      "time":"15:17",
+      "date":"Mar 19 2016",
+      "platform":"Youtube",
+      "url":"https://www.youtube.com/watch?v=TkEdCWshqag",
+      "lang": "pt-br"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+:root {
+
+  /* Layout colors */
+
+  --page-background-color: rgb(34, 34, 34);
+  --bar-background-color: #141313;
+  --highlight-color: #c582f6;
+
+  /* Texts colors */
+  
+  --headings-color: rgb(226, 226, 226);
+  --text-color: rgb(183, 183, 183);
+  --text-highlights-color: rgb(42, 42, 42);
+
+  /* Spacing patterns */
+
+  --page-width: 740px;
+  --bar-height: 48px;
+  --primary-space: 8px;
+  --secondary-space: 16px;
+
+  /* Breakpoints */
+
+}

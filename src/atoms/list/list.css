@@ -1,0 +1,9 @@
+.list {
+  margin-top: 0;
+  margin-bottom: var(--secondary-space);
+  padding-left: var(--primary-space);
+}
+
+/* .list__item {
+  margin: var(--primary-space) 0;
+} */

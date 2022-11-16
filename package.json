@@ -1,0 +1,52 @@
+{
+  "name": "afonsopacifer.github.io",
+  "private": true,
+  "description": "Afonso Pacifer | DevRel and Software Engineer",
+  "version": "6.0.0",
+  "author": {
+    "name": "Afonso Pacifer",
+    "email": "afonsopolis@gmail.com"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "clipboard": "^2.0.11",
+    "gatsby": "^4.24.5",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-google-gtag": "^5.0.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-plugin-offline": "^5.24.0",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-sitemap": "^5.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  },
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonsopacifer/afonsopacifer.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/afonsopacifer/afonsopacifer.github.io/issues"
+  }
+}
