@@ -1,17 +1,24 @@
-name: Gatsby Publish
-
+name: Build and Deploy
 on:
   push:
-    branches:
-      - dev
-
+      branches:
+        - dev
+permissions:
+  contents: write
 jobs:
-  build:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧
+        run: |
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          node-version: 18
+          folder: public # The folder the action should deploy.
           access-token: ${{ secrets.ACCESS_TOKEN }}
