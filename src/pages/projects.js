@@ -33,7 +33,7 @@ const Projects = () => {
         </p>
 
         <CommentBar title = '⚠️ Disclaimer!'>
-          I list below only company projects that I still mantain or my personal projects.
+          I list below only projects of companies that I still maintain or my personal projects.
         </CommentBar>
 
         <Link href = 'https://github.com/afonsopacifer'> 

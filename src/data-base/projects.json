@@ -67,7 +67,7 @@
     {
       "event":"pynotes",
       "user":"afonsopacifer",
-      "description":"Create daily notes/log with markdown.",
+      "description":"CLI tool for create daily notes/log with markdown.",
       "url":"https://github.com/afonsopacifer/pynotes",
       "tech": ["python.svg"],
       "platform": "Github"
@@ -284,7 +284,7 @@
     {
       "event":"bananacss",
       "user":"bananacss",
-      "description":"The brazilian CSS superset writen in NodeJS.",
+      "description":"🍌 The brazilian CSS superset writen in NodeJS.",
       "url":"https://github.com/bananacss/bananacss",
       "tech": ["node.svg","mocha.svg"],
       "platform": "Github",

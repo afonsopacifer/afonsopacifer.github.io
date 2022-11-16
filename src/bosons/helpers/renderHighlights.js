@@ -9,6 +9,8 @@ const renderHighlights = data => Object.keys(data).flatMap(years => (
       <FeatureBox
         date = { item.date }
         url = { item.url }
+        video = { item.video }
+        slides = { item.slides }
         lang = { item.lang }
         event = { item.event }
         image = { item.image }
