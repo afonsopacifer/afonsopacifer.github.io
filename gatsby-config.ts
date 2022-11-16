@@ -4,7 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Afonso Pacifer`,
     siteUrl: `https://afonsopacifer.github.io/`,
-    description: `Afonso Pacifer personal website`,
+    description: `Afonso Pacifer | DevRel and Software Engineer`,
     author: `@afonsopacifer`,
   },
   plugins: [
@@ -69,12 +69,18 @@ const config: GatsbyConfig = {
 
     // Track
 
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "UA-98299009-1",
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-X73Z2039T2",
+        ],
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },
 
   ],
 

@@ -1,7 +1,7 @@
 {
   "name": "afonsopacifer.github.com",
   "private": true,
-  "description": "Afonso Pacifer personal website",
+  "description": "Afonso Pacifer | DevRel and Software Engineer",
   "version": "6.0.0",
   "author": {
     "name": "Afonso Pacifer",
@@ -12,6 +12,7 @@
     "clipboard": "^2.0.11",
     "gatsby": "^4.24.5",
     "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-google-gtag": "^5.0.0",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-mdx": "^4.3.0",
     "gatsby-plugin-offline": "^5.24.0",
