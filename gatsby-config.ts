@@ -1,5 +1,9 @@
 import type { GatsbyConfig } from "gatsby";
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Afonso Pacifer`,
@@ -73,7 +77,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-X73Z2039T2",
+          process.env.GA_ID,
         ],
         pluginConfig: {
           head: true,
