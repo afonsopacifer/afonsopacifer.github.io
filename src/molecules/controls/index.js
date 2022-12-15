@@ -11,18 +11,18 @@ const Controls = () => {
     <div className = 'controls'>
 
       <div className = 'controls__title'>
-        <button
+        {/* <button
         className = 'controls__button'
         onClick = { magic }
-        >
+        > */}
 
           <img
             src = 'https://avatars0.githubusercontent.com/u/6748866?s=460&u=5f68f71ae1b3fb3c7030281a77e815161973374c&v=4'
             alt = 'Afonso Pacifer'
-            className = 'controls__photo'
+            className = 'controls__photo controls__button'
           />
 
-        </button>
+        {/* </button> */}
       </div>
 
     </div>

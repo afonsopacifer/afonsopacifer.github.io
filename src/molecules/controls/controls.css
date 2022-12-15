@@ -24,9 +24,9 @@
   border: 1px solid transparent;
 }
 
-.controls__button:hover {
+/* .controls__button:hover {
   cursor: pointer;
-}
+} */
 
 .controls__button:focus {
   outline: none;
