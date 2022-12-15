@@ -18,7 +18,7 @@ const FeatureBox = ({
   description,
   }) => (
 
-  <article className = 'feature-box'>
+  <article className = 'feature-box' lang = { lang }>
 
     <a
       className = 'feature-box__link'
