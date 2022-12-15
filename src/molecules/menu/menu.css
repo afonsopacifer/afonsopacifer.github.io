@@ -44,7 +44,7 @@
   text-decoration: none;
   padding: var(--primary-space, 8px);
   transition: opacity .2s;
-  border: 1px solid transparent
+  border: 1px solid transparent;
 }
 
 .menu-list__link:hover {

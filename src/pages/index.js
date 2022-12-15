@@ -38,6 +38,9 @@ const Index = () => {
 
       <SEO title = 'About' />
 
+      {/* Only for Smooth Scrolling */}
+      <div id = 'content'></div>
+
       <PageHeader>
 
         <h1 className = 'heading heading--lv1'>

@@ -21,10 +21,10 @@ const Video = ({ src }) => (
         <source src = { src } type = 'video/mp4' />
       </video>
 
-      <span  className = 'video__warning'>
+      <a className = 'video__warning' href = '#content'>
         <span className = 'video__warning__text'> Scroll Down </span>
         <Arrow className = 'video__warning__icon' />
-      </span>
+      </a>
 
     </div>
 
