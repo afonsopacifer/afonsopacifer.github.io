@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.1.5",
+    "balloon-css": "^1.2.0",
     "clipboard": "^2.0.11",
     "gatsby": "^4.24.5",
     "gatsby-omni-font-loader": "^2.0.2",
@@ -36,7 +37,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "gatsby develop -p 8001",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",

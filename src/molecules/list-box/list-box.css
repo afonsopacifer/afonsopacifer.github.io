@@ -31,8 +31,8 @@
 
 .list-box__techs__icon {
   width: 32px;
+  cursor: auto;
 }
-
 
 .list-box__footer {
   margin:  var(--primary-space, 8px) 0;

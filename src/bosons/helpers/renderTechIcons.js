@@ -1,16 +1,29 @@
 import React from 'react';
+import 'balloon-css';
+import normalizeFileName from './normalizeFileName';
 
 const renderTechIcons = techIcons => {
 
-  const icons = techIcons.map(techIcon => (
-    <li className = 'list-box__techs__item'>
-      <img 
-        className = 'list-box__techs__icon'
-        src = { `/techs/${techIcon}` } 
-        alt = { techIcon }
-      />
-    </li>
-  ));
+  const icons = techIcons.map(techIcon => {
+    
+    const techName = normalizeFileName(techIcon);
+
+    return (
+      <li
+        className = 'list-box__techs__item'
+        aria-label = { techName }
+        data-balloon-pos = 'up-left'
+        data-balloon-blunt
+      >
+        <img 
+          className = 'list-box__techs__icon'
+          src = { `/techs/${techIcon}` } 
+          alt = { techName }
+        />
+      </li>
+    );
+
+  });
 
   return (
     <ul className = 'list-box__techs'>
