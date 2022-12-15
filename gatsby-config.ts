@@ -43,7 +43,7 @@ const config: GatsbyConfig = {
       options: {
         name: `afonsopacifer.github.io`,
         short_name: `pacifer`,
-        start_url: `https://afonsopacifer.github.io/`,
+        start_url: `.`,
         background_color: `#2F2F2F`,
         theme_color: `#F5C416`,
         display: `minimal-ui`,
@@ -65,7 +65,7 @@ const config: GatsbyConfig = {
           },
           {
             name: `Roboto`,
-            file: `https://fonts.googleapis.com/css2?family=Roboto:wght@400;300i&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap`,
           },
         ],
       },

@@ -17,7 +17,7 @@ const renderList = (data, year) => data[year].map((item, i) => (
     event = { item.event }
     icon = { item.icon }
     time = { item.time }
-    key = { i }
+    key = { `${item.event}_${i}` }
   />
 ));
 

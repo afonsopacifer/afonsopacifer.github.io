@@ -4,7 +4,7 @@ import normalizeFileName from './normalizeFileName';
 
 const renderTechIcons = techIcons => {
 
-  const icons = techIcons.map(techIcon => {
+  const icons = techIcons.map((techIcon, i) => {
     
     const techName = normalizeFileName(techIcon);
 
@@ -14,6 +14,7 @@ const renderTechIcons = techIcons => {
         aria-label = { techName }
         data-balloon-pos = 'up-left'
         data-balloon-blunt
+        key = { `${techName}_${i}` }
       >
         <img 
           className = 'list-box__techs__icon'

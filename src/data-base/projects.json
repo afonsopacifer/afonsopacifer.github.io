@@ -392,7 +392,7 @@
       "user":"afonsopacifer",
       "description":"An illusion created only with CSS.",
       "url":"https://github.com/afonsopacifer/css-magic",
-      "tech": ["css.png"],
+      "tech": ["css.svg"],
       "platform": "Github"
     },
     {
@@ -400,7 +400,7 @@
       "user":"afonsopacifer",
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
       "url":"http://afonsopacifer.github.io/egg-emergency/",
-      "tech": ["css.png"],
+      "tech": ["css.svg"],
       "platform": "Github"
     }
 
@@ -475,7 +475,7 @@
       "user":"afonsopacifer",
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
       "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
-      "tech": ["markdown.png","css.png"],
+      "tech": ["markdown.png","css.svg"],
       "platform": "Github"
     },
     {
@@ -515,7 +515,7 @@
       "user":"afonsopacifer",
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox",
-      "tech": ["markdown.png","css.png"],
+      "tech": ["markdown.png","css.svg"],
       "platform": "Github"
     },
     {

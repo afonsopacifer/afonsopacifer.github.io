@@ -25,7 +25,7 @@ const Button = ({
 
       <span
         className = { `button__content ${customClass}` }
-        tabindex = '-1'
+        tabIndex = '-1'
       >
         { children }
       </span>

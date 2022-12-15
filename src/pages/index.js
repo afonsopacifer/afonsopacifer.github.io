@@ -71,7 +71,7 @@ const Index = () => {
           <strong className = 'heading--underline'> Links </strong> to get to know me better: 
         </h2>
 
-        <p className = 'text'>
+        <div className = 'text'>
 
           <ul className = 'list'>
             
@@ -129,7 +129,7 @@ const Index = () => {
           
           </ul>
 
-        </p>
+        </div>
 
         <Link href = 'https://github.com/afonsopacifer'> 
           <Github />

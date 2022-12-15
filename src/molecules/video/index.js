@@ -13,7 +13,7 @@ const Video = ({ src }) => (
       </span>
 
       <video
-        autoplay = 'autoplay'
+        autoPlay = 'autoPlay'
         className = 'video__player'
         loop
         muted
