@@ -7,6 +7,12 @@
   transition: background .3s;
 }
 
+@media screen and (max-width: 490px) {
+  .header-container {
+    background: var(--bar-background-color, #2F2F2F);
+  }
+}
+
 .header-container--transparent {
   --header-color: transparent;
 }
