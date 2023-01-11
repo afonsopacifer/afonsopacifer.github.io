@@ -36,7 +36,12 @@ const config: GatsbyConfig = {
 
     // PWA
 
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/articles/`, `/talks/`, `/videos/`, `/projects/`],
+      },
+    },
 
     {
       resolve: `gatsby-plugin-manifest`,
@@ -48,6 +53,10 @@ const config: GatsbyConfig = {
         theme_color: `#F5C416`,
         display: `minimal-ui`,
         icon: `src/assets/images/afonso_pacifer_logo.png`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
+        cache_busting_mode: 'none',
       },
     },
 
