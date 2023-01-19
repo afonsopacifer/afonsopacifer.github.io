@@ -1,4 +1,16 @@
 {
+    "talks_2023": [
+    {
+      "event":"HTML SP - FrontendWeek",
+      "title":"HTML 5.3: O que existe além de a11y e SEO?",
+      "attendees":"40",
+      "date":"Jan 18 2023",
+      "local":"Thoughtworks - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/html-5-dot-3-o-que-existe-alem-de-a11y-e-seo",
+      "lang": "pt-br",
+      "icon": "brazil"
+    }
+  ],
   "talks_2022": [
     {
       "event":"#26 FloripaJS",
