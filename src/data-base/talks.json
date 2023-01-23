@@ -1,6 +1,16 @@
 {
     "talks_2023": [
     {
+      "event":"Conferência CSS Brasil",
+      "title":"O caminho para se tornar um(a) mestre(a) dos estilos com CSS LV 5.",
+      "attendees":"200",
+      "date":"Jan 21 2023",
+      "local":"Teatro Gazeta - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/o-caminho-para-se-tornar-um-a-mestre-a-dos-estilos-com-css-lv-5",
+      "lang": "pt-br",
+      "icon": "brazil"
+    },
+    {
       "event":"HTML SP - FrontendWeek",
       "title":"HTML 5.3: O que existe além de a11y e SEO?",
       "attendees":"40",
