@@ -1,33 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './button.css';
+import Toggle from '../../assets/icons/toggle.svg';
 
 const Button = ({
   onClick,
   children,
-  customStyle,
+  disabled,
+  toggle,
   }) => {
 
-  let customClass;
+  const [toggled, setToggled] = useState(false);
 
-  if (customStyle === 'primary') {
-    customClass = 'button--primary';
+  const attributes = {
+
+    className: `button ${disabled ? 'button--disabled' : ''}`,
+
+    ['aria-pressed']: toggle ? toggled : null,
+
+    disabled: disabled,
+
+    onClick: () => {
+      if(toggle) setToggled(!toggled);
+      onClick();
+    }
+
   }
-
-  if (customStyle === 'secondary') {
-    customClass = 'button--secondary';
-  }
-
+  
   return (
-    <button
-      className = 'button'
-      onClick = { onClick }
-    >
+    <button { ...attributes }>
 
       <span
-        className = { `button__content ${customClass}` }
+        className = { `button__content` }
         tabIndex = '-1'
       >
         { children }
+
+        { toggle && (<Toggle className = 'button__toggle__icon' />) }        
+
       </span>
 
     </button>
