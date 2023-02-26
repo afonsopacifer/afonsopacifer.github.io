@@ -2,18 +2,26 @@ import React from 'react';
 import '../../atoms/headings/headings.css';
 import renderList from './renderLists';
 
-const renderSections = data => Object.keys(data).map((years, i) => (
+const renderSections = (data, filters) => Object.keys(data).map((year, i) => {  
 
-  <section className = 'default-layout__article' key = { `${years}_${i}` }>
+  const $list = renderList(data[year], filters);
 
-    <h2 className = 'heading heading--lv2 heading--container'>
-      <strong className = 'heading--underline'> { years.split('_')[1] } </strong>
-    </h2>
+  if($list.length) {
+    
+    return (
+      <section className = 'default-layout__article' key = { `${year}_${i}` }>
 
-    { renderList(data, years) }
+        <h2 className = 'heading heading--lv2 heading--container'>
+          <strong className = 'heading--underline'> { year.split('_')[1] } </strong>
+        </h2>
+    
+        { $list  }
+  
+      </section>
+    );
 
-  </section>
+  }
 
-));
+});
 
 export default renderSections;
