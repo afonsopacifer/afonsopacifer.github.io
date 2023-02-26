@@ -93,4 +93,49 @@ describe('<Button />', () => {
 
   });
 
+  it('Should render a haspopup <Button />', () => {
+  
+    const { asFragment } = render(
+      <Button haspopup id = 'demo'> Developer Experience </Button>
+    );
+
+    expect(asFragment()).toMatchSnapshot();
+
+    const button = screen.getByRole('button');
+    
+    expect(button.hasAttribute('id')).toBeTruthy();
+    expect(button.getAttribute('id')).toEqual('demo');
+
+    expect(button.hasAttribute('aria-haspopup')).toBeTruthy();
+    expect(button.getAttribute('aria-haspopup')).toEqual('true');
+
+    expect(button.hasAttribute('aria-controls')).toBeTruthy();
+    expect(button.getAttribute('aria-controls')).toEqual('demo-popup');
+
+    expect(button.hasAttribute('aria-expanded')).toBeTruthy();
+    expect(button.getAttribute('aria-expanded')).toEqual('false');
+
+  });
+
+  it('Should change the aria-expanded attribute value when click on haspopup <Button />', async () => {
+  
+    render(
+      <Button haspopup id = 'demo'> Developer Experience </Button>
+    );
+
+    const button = screen.getByRole('button');
+    
+    expect(button.getAttribute('aria-expanded')).toEqual('false');
+
+    await fireEvent.click(button);
+
+    expect(button.getAttribute('aria-expanded')).toEqual('true');
+
+    await fireEvent.click(button);
+
+    expect(button.getAttribute('aria-expanded')).toEqual('false');
+
+  });
+
+
 });

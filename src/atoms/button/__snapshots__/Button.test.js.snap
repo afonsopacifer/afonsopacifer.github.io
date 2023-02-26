@@ -44,6 +44,25 @@ exports[`<Button /> Should render a disabled <Button /> 1`] = `
 </DocumentFragment>
 `;
 
+exports[`<Button /> Should render a haspopup <Button /> 1`] = `
+<DocumentFragment>
+  <button
+    aria-controls="demo-popup"
+    aria-expanded="false"
+    aria-haspopup="true"
+    class="button "
+    id="demo"
+  >
+    <span
+      class="button__content"
+      tabindex="-1"
+    >
+       Developer Experience 
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
 exports[`<Button /> Should render a toggle <Button /> 1`] = `
 <DocumentFragment>
   <button

@@ -78,11 +78,11 @@
   width: 12px;
 }
 
-.button[aria-pressed=true] .button__content {
+.button[aria-expanded=true] .button__content {
   border-color: var(--highlight-color);
 }
 
-.button[aria-pressed=true] .button__toggle__icon {
+.button[aria-expanded=true] .button__toggle__icon {
   fill: var(--highlight-color);
   transform: rotate(-180deg);
 }

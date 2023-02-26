@@ -7,6 +7,8 @@ const Button = ({
   children,
   disabled,
   toggle,
+  haspopup,
+  id,
   }) => {
 
   const [toggled, setToggled] = useState(false);
@@ -15,12 +17,20 @@ const Button = ({
 
     className: `button ${disabled ? 'button--disabled' : ''}`,
 
+    id,
+
     ['aria-pressed']: toggle ? toggled : null,
+
+    ['aria-expanded']: haspopup ? toggled : null,
+
+    ['aria-controls']: haspopup ? id + '-popup' : null,
+
+    ['aria-haspopup']: haspopup ? 'true' : null,
 
     disabled: disabled,
 
     onClick: () => {
-      if(toggle) setToggled(!toggled);
+      if(toggle || haspopup) setToggled(!toggled);
       if(onClick) onClick();
     }
 
@@ -36,7 +46,7 @@ const Button = ({
 
         { children }
 
-        { toggle && (<Toggle className = 'button__toggle__icon' />) }        
+        { haspopup && (<Toggle className = 'button__toggle__icon' />) }        
 
       </span>
 
