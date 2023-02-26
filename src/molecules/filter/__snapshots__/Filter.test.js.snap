@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> Should render a <Filter /> popup with five options 1`] = `
+<DocumentFragment>
+  <div
+    class="filter"
+  >
+    <button
+      aria-controls="tagsFilter-popup"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="button "
+      id="tagsFilter"
+    >
+      <span
+        class="button__content"
+        tabindex="-1"
+      >
+        Tags
+      </span>
+    </button>
+    <div
+      aria-labelledby="tagsFilter"
+      class="filter__dropdown false"
+      data-testid="popup"
+      id="tagsFilter-popup"
+    >
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="react"
+          name="react"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="react"
+        >
+          React
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="vite"
+          name="vite"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="vite"
+        >
+          Vite
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="ci"
+          name="ci"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="ci"
+        >
+          CI
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="testing-library"
+          name="testing-library"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="testing-library"
+        >
+          Testing Library
+        </label>
+      </div>
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="jest"
+          name="jest"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="jest"
+        >
+          Jest
+        </label>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Filter /> Should render a <Filter /> popup with one option 1`] = `
+<DocumentFragment>
+  <div
+    class="filter"
+  >
+    <button
+      aria-controls="tagsFilter-popup"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="button "
+      id="tagsFilter"
+    >
+      <span
+        class="button__content"
+        tabindex="-1"
+      >
+        Tags
+      </span>
+    </button>
+    <div
+      aria-labelledby="tagsFilter"
+      class="filter__dropdown false"
+      data-testid="popup"
+      id="tagsFilter-popup"
+    >
+      <div
+        class="checkbox"
+      >
+        <input
+          class="checkbox__input"
+          id="react"
+          name="react"
+          type="checkbox"
+        />
+        <label
+          class="checkbox__label"
+          for="react"
+        >
+          React
+        </label>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Filter /> Should render a closed <Filter /> (only button) with aria-controls vinculed to popup 1`] = `
+<DocumentFragment>
+  <div
+    class="filter"
+  >
+    <button
+      aria-controls="tagsFilter-popup"
+      aria-expanded="false"
+      aria-haspopup="true"
+      class="button "
+      id="tagsFilter"
+    >
+      <span
+        class="button__content"
+        tabindex="-1"
+      >
+        Tags
+      </span>
+    </button>
+    <div
+      aria-labelledby="tagsFilter"
+      class="filter__dropdown false"
+      data-testid="popup"
+      id="tagsFilter-popup"
+    />
+  </div>
+</DocumentFragment>
+`;
