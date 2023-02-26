@@ -137,5 +137,32 @@ describe('<Button />', () => {
 
   });
 
+  it('Should render a default pressed toggle <Button />', () => {
+
+    const { asFragment } = render(
+      <Button toggle pressed> Developer Experience </Button>
+    );
+
+    const button = screen.getByRole('button');
+
+    expect(asFragment()).toMatchSnapshot();
+
+    expect(button.getAttribute('aria-pressed')).toEqual('true');
+
+  });
+
+  it('Should render a default pressed haspopup <Button />', () => {
+
+    const { asFragment } = render(
+      <Button haspopup id = 'demo' pressed> Developer Experience </Button>
+    );
+
+    const button = screen.getByRole('button');
+
+    expect(asFragment()).toMatchSnapshot();
+
+    expect(button.getAttribute('aria-expanded')).toEqual('true');
+
+  });
 
 });

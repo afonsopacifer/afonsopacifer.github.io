@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './button.css';
 import Toggle from '../../assets/icons/toggle.svg';
 
@@ -9,9 +9,12 @@ const Button = ({
   toggle,
   haspopup,
   id,
+  pressed = false,
   }) => {
 
   const [toggled, setToggled] = useState(false);
+
+  useEffect(() => { if(toggle || haspopup) setToggled(pressed) }, [pressed]);
 
   const attributes = {
 
