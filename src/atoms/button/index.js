@@ -21,7 +21,7 @@ const Button = ({
 
     onClick: () => {
       if(toggle) setToggled(!toggled);
-      onClick();
+      if(onClick) onClick();
     }
 
   }
@@ -33,6 +33,7 @@ const Button = ({
         className = { `button__content` }
         tabIndex = '-1'
       >
+
         { children }
 
         { toggle && (<Toggle className = 'button__toggle__icon' />) }        
