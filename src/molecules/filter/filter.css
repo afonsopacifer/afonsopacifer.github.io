@@ -1,0 +1,36 @@
+.filter {
+  position: relative;
+}
+
+.filter__counter {
+  width: 18px;
+  height: 18px;
+  background-color: var(--highlight-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-highlights-color);
+  margin-right: var(--primary-space);
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.filter__dropdown {
+  width: 180px;
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: var(--primary-space, 8px);
+  background-color: var(--bar-background-color);
+  position: absolute;
+  top: 58px;
+  left: 0;
+  z-index: 2;
+  box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+}
+
+.filter__dropdown--show {
+  display: flex;
+}
