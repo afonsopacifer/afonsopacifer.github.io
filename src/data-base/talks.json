@@ -1,6 +1,16 @@
 {
     "talks_2023": [
     {
+      "event":"Front in Sampa",
+      "title":"Recriando o React do Zero em 10 minutos",
+      "attendees":"100",
+      "date":"Jul 29 2023",
+      "local":"Teatro Gazeta - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/recriando-o-react-do-zero-em-10-minutos",
+      "lang": "pt-br",
+      "icon": "brazil"
+    },
+    {
       "event":"Conferência CSS Brasil",
       "title":"O caminho para se tornar um(a) mestre(a) dos estilos com CSS LV 5.",
       "attendees":"200",
