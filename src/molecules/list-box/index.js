@@ -24,6 +24,7 @@ const ListBox = ({
   event,
   icon,
   time,
+  image,
   }) => {
 
   let currentFlag;
@@ -39,75 +40,91 @@ const ListBox = ({
   return (
     <article className = 'list-box' lang = { lang }>
 
-      <div className = 'list-box__header'>
+      {/* { image && (
+        <div className = 'list-box__picture'>
 
-        {
-          event &&
-          <h3 className = 'heading heading--lv3'>
-            { currentFlag } { event }
-          </h3>
-        }
+          <img
+            className = 'list-box__image'
+            src = { image }
+            alt = { event }
+          />
 
-        {
-          date &&
-          <span className = 'tag tag--date'>
-            { date }
-          </span>
-        }
+        </div>
+      )} */}
 
-        { lang &&
-          <span className = {`tag tag--${lang}`}>
-            { lang }
-          </span>
-        }
+      <div>
 
-      </div>
+        <div className = 'list-box__header'>
 
-      <div className = 'list-box__body'>
+          {
+            event &&
+            <h3 className = 'heading heading--lv3'>
+              { currentFlag } { event }
+            </h3>
+          }
 
-        {
-          title &&
-          <small className = 'text text--short'>
-            Theme: { title }
-          </small>
-        }
+          {
+            date &&
+            <span className = 'tag tag--date'>
+              { date }
+            </span>
+          }
 
-        {
-          attendees &&
-          <small className = 'text text--short'>
-            Attendance: ≈ { attendees }
-          </small>
-        }
+          { lang &&
+            <span className = {`tag tag--${lang}`}>
+              { lang }
+            </span>
+          }
 
-        {
-          local &&
-          <small className = 'text text--short'>
-            Local: { local }
-          </small>
-        }
+        </div>
 
-        {
-          time &&
-          <small className = 'text text--short'>
-            Duration: { time }
-          </small>
-        }
+        <div className = 'list-box__body'>
 
-      {
-        description &&
-        <p className = 'text text--short'>
-          { description }
-        </p>
-      }
+          {
+            title &&
+            <small className = 'text text--short'>
+              Theme: { title }
+            </small>
+          }
 
-      { tech && renderTechIcons(tech) }
+          {
+            attendees &&
+            <small className = 'text text--short'>
+              Attendance: ≈ { attendees }
+            </small>
+          }
 
-      </div>
+          {
+            local &&
+            <small className = 'text text--short'>
+              Local: { local }
+            </small>
+          }
 
-      <div className = 'list-box__footer'>
-        { platform && <Link href = { url }> Available on { platform } </Link> }
-        { slides && <Link href = { slides }> Slides </Link> }
-        { video && <Link href = { video }> Video </Link> }
+          {
+            time &&
+            <small className = 'text text--short'>
+              Duration: { time }
+            </small>
+          }
+
+          {
+            description &&
+            <p className = 'text text--short'>
+              { description }
+            </p>
+          }
+
+          { tech && renderTechIcons(tech) }
+
+        </div>
+
+        <div className = 'list-box__footer'>
+          { platform && <Link href = { url }> Available on { platform } </Link> }
+          { slides && <Link href = { slides }> Slides </Link> }
+          { video && <Link href = { video }> Video </Link> }
+        </div>
+
       </div>
 
     </article>

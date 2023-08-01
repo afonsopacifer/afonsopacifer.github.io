@@ -16,7 +16,7 @@ const Checkbox = ({ label, id, onChange }) => {
 
       <label
         className = 'checkbox__label'
-        for = { id }
+        htmlFor = { id }
       > 
 
         { label }

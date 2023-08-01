@@ -1,6 +1,19 @@
 .list-box {
   width: 100%;
   margin: var(--secondary-space, 16px) 0;
+  display: flex;
+}
+
+.list-box__picture {
+  padding-top: var(--primary-space);
+  padding-right: var(--primary-space);
+  padding-bottom: var(--primary-space);
+}
+
+.list-box__image {
+  width: 200px;
+  border-radius: 4px;
+  filter: grayscale(1);
 }
 
 .list-box__header {

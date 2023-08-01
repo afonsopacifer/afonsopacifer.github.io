@@ -1,5 +1,5 @@
 import React from 'react';
-import shortText from '../../bosons/helpers/shortText'
+import shortText from '../../bosons/helpers/shortText';
 import '../../atoms/headings/headings.css';
 import '../../atoms/date/date.css';
 import '../../atoms/text/text.css';
@@ -22,7 +22,7 @@ const FeatureBox = ({
 
     <a
       className = 'feature-box__link'
-      href = { video || url || slides}
+      href = { video || url || slides }
       target = '_blank'
     >
 
