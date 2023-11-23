@@ -5,14 +5,14 @@ import Footer from '../../organisms/footer';
 import 'normalize.css';
 import '../../bosons/theme/variables.css';
 import '../common.css';
-import './centered-layout.css';
+import './landing-page-layout.css';
 
-const CenteredLayout = ({ children }) => (
-  <div className = 'centered-layout'>
+const LandingPageLayout = ({ children }) => (
+  <div className = 'lp-layout'>
 
     <Header />
 
-    <main className = 'centered-layout__main'>
+    <main className = 'lp-layout__main'>
       { children }
     </main>
 
@@ -21,8 +21,8 @@ const CenteredLayout = ({ children }) => (
   </div>
 );
 
-CenteredLayout.propTypes = {
+LandingPageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default CenteredLayout;
+export default LandingPageLayout;

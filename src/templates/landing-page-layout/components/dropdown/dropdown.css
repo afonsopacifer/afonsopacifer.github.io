@@ -1,0 +1,36 @@
+.lp-layout__dropdown {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0;
+}
+
+.lp-layout__dropdown__icon {
+  width: 42px;
+  fill: var(--soft-color);
+  margin-left: 24px;
+}
+
+.lp-layout__dropdown__box {
+  box-sizing: border-box;
+  margin-top: 16px;
+}
+
+.lp-layout__checklist {
+  padding-left: 24px;
+  margin: 0;
+}
+
+.lp-layout__checklist li {
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="green"><path d="M9 22l-10-10.598 2.798-2.859 7.149 7.473 13.144-14.016 2.909 2.806z"/></svg>');
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  padding-inline-start: 1ch;
+  min-height: 26px;
+  margin-bottom: 8px;
+}

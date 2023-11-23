@@ -56,6 +56,16 @@ const Menu = () => (
         </Link>
       </li>
 
+      {/* <li className = 'menu-list__item'>
+        <Link
+          to = '/mentorship'
+          className = 'menu-list__link'
+          activeClassName = 'menu-list__link--active'
+        >
+          Mentorship
+        </Link>
+      </li> */}
+
     </ul>
   </nav>
 );

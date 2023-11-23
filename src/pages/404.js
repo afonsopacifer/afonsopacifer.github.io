@@ -1,11 +1,11 @@
 import React from 'react';
-import CenteredLayout from '../templates/centered-layout';
+import LandingPageLayout from '../templates/landing-page-layout';
 import '../atoms/headings/headings.css';
 import SEO from '../bosons/seo';
 import Image404 from '../assets/images/404.gif';
 
 const NotFoundPage = () => (
-  <CenteredLayout>
+  <LandingPageLayout>
 
     <SEO title='Page not found' />
 
@@ -24,7 +24,7 @@ const NotFoundPage = () => (
 
     </div>
 
-  </CenteredLayout>
+  </LandingPageLayout>
 );
 
 export default NotFoundPage;
