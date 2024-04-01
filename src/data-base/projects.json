@@ -6,7 +6,8 @@
       "description":"🧑🏽‍💻 This awesome website.",
       "url":"https://github.com/afonsopacifer/afonsopacifer.github.io",
       "tech": ["react.svg", "typescript.svg", "gatsby.svg", "css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
     },
     {
       "event":"neowaylabs.github.io",
@@ -14,7 +15,8 @@
       "description":"🦄 NeowayLabs landing page.",
       "url":"https://github.com/NeowayLabs/neowaylabs.github.io/tree/landing-page",
       "tech": ["html.svg", "css.svg", "vite.svg", "lit.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app","demo"]
     }
   ],
   "projects_2021":[
@@ -24,7 +26,8 @@
       "description":"Elixir boilerplate for RESTFull APIs 🙆‍♀️",
       "url":"https://github.com/afonsopacifer/elixir-api-boilerplate",
       "tech": ["elixir.svg", "couchdb.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["back-end","web-app","boilerplate"]
     }
   ],
   "projects_2020":[
@@ -34,7 +37,8 @@
       "description":"🐍 Python Rest API for create and write excel reports.",
       "url":"https://github.com/afonsopacifer/excel-writer-api",
       "tech": ["python.svg", "flask.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["back-end","web-app"]
     },
     {
       "event":"custom-mvc-express-api",
@@ -42,7 +46,8 @@
       "description":"(Article demo) Node.js Rest API with custom MVC architecture.",
       "url":"https://github.com/afonsopacifer/custom-mvc-express-api",
       "tech": ["node.svg", "express.svg", "mongodb.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["back-end","web-app","boilerplate","demo"]
     }
   ],
   "projects_2019":[
@@ -52,7 +57,8 @@
       "description":"(Talk demo) A simple boilerplate for PRPL pattern with React.",
       "url":"https://github.com/afonsopacifer/react-prpl-boilerplate",
       "tech": ["react.svg", "css.svg", "webpack.svg","babel.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","web-app","boilerplate","demo"]
     },
     {
       "event":"rocket-mongodb-boilerplate",
@@ -60,7 +66,8 @@
       "description":"RestFull API with Rust (Rocket) and mongoDB boilerplate.",
       "url":"https://github.com/afonsopacifer/rocket-mongodb-boilerplate",
       "tech": ["rust.svg", "rocket.png", "mongodb.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["back-end","web-app","boilerplate"]
     }
   ],
   "projects_2018":[
@@ -70,7 +77,8 @@
       "description":"CLI tool for create daily notes/log with markdown.",
       "url":"https://github.com/afonsopacifer/pynotes",
       "tech": ["python.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["cli","developer-tool"]
     },
     {
       "event":"burnout-keyboard-controls-plugin",
@@ -78,7 +86,8 @@
       "description":"🎮 Provide keyboard controls for burnout game engine.",
       "url":"https://github.com/burnoutjs/burnout-keyboard-controls-plugin",
       "tech": ["rollup.svg", "babel.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"burnoutjs",
@@ -88,7 +97,8 @@
       "tech": ["rollup.svg", "babel.svg"],
       "platform": "Github",
       "highlights": true,
-      "image": "projects/burnout.jpg"
+      "image": "projects/burnout.jpg",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"nomsjs",
@@ -98,7 +108,8 @@
       "tech": ["mocha.svg", "babel.svg"],
       "platform": "Github",
       "highlights": true,
-      "image": "projects/noms.jpg"
+      "image": "projects/noms.jpg",
+      "tags": ["cli","developer-tool"]
     },
     {
       "event":"do-front-end-ao-nodejs",
@@ -106,7 +117,8 @@
       "description":"(Article demo) Node.js CLI demo.",
       "url":"https://github.com/afonsopacifer/do-front-end-ao-nodejs",
       "tech": ["node.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["cli","demo"]
     }
   ],
   "projects_2017":[
@@ -116,7 +128,8 @@
       "description":"A boilerplate for start a new project with millennium, redux and other cool things.",
       "url":"https://github.com/millenniumjs/millennium-redux-boilerplate",
       "tech": ["millennium.jpeg", "redux.svg", "mocha.svg", "webpack.svg", "babel.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","web-app","boilerplate"]
     },
     {
       "event":"millenniumjs",
@@ -126,7 +139,8 @@
       "tech": ["rollup.svg", "mocha.svg", "chai.svg", "babel.svg"], 
       "platform": "Github",
       "highlights": true,
-      "image": "projects/millennium.jpg"
+      "image": "projects/millennium.jpg",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"empathy-and-html",
@@ -134,7 +148,8 @@
       "description":"Dynamic presentation (Created using the generator-pacifer-presentation).",
       "url":"https://afonsopacifer.github.io/empathy-and-html/",
       "tech": ["html.svg", "css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","docs"]
     },
     {
       "event":"generator-pacifer-presentation",
@@ -142,7 +157,8 @@
       "description":"Yeoman generator for awesome presentations",
       "url":"https://github.com/afonsopacifer/generator-pacifer-presentation",
       "tech": ["yeoman.svg", "gulp.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app","boilerplate"]
     },
     {
       "event":"t-rex-gamepad",
@@ -150,7 +166,8 @@
       "description":"(Talk demo) Google Chrome Extension for provide a Gamepad controls for T-Rex Chrome Offline Game.",
       "url":"https://github.com/afonsopacifer/t-rex-gamepad",
       "tech": ["chrome.svg", "javascript.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     },
     {
       "event":"devfest-xp-2017",
@@ -158,7 +175,8 @@
       "description":"Slides presented in GDG DevFest XP 2017 - Recife, Brazil.",
       "url":"https://github.com/afonsopacifer/devfest-xp-2017",
       "tech": ["chrome.svg", "javascript.svg","webpack.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app","demo"]
     },
     {
       "event":"react-router-example",
@@ -166,7 +184,8 @@
       "description":"(Article demo) Simple SPA project.",
       "url":"https://github.com/afonsopacifer/react-router-example",
       "tech": ["react.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","web-app","demo"]
     },
     {
       "event":"hippie-element-boilerplate",
@@ -174,7 +193,8 @@
       "description":"<🍂></🍂> Boilerplate for create hippie elements using Polymer 1x.",
       "url":"https://github.com/hippie-elements/hippie-element-boilerplate",
       "tech": ["hippie.png", "polymer.svg", "bower.svg", "travis-ci.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","boilerplate"]
     },
     {
       "event":"hippie-elements.github.io",
@@ -182,7 +202,8 @@
       "description":"🍁 Hippie elements website.",
       "url":"https://github.com/hippie-elements/hippie-elements.github.io",
       "tech": ["polymer.svg", "bower.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
     },
     {
       "event":"web-components-good-practices",
@@ -190,7 +211,8 @@
       "description":"Good Practices for build Web Components.",
       "url":"https://github.com/afonsopacifer/web-components-good-practices",
       "tech": ["webcomponents.svg","markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"polymer-redux",
@@ -198,14 +220,16 @@
       "description":"Implementing Redux with Polymer.",
       "url":"https://github.com/afonsopacifer/polymer-redux",
       "tech": ["polymer.svg","redux.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","web-app","boilerplate"]
     },
     {
       "event":"afonsopacifer.github.io (Legacy)",
       "user":"afonsopacifer",
       "description":"My personal website.",
       "tech": ["pug.png","babel.svg","gulp.png","banana.png","senna.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
     },
     {
       "event":"2017-goals",
@@ -213,7 +237,8 @@
       "description":"My Goals for 2017 :)",
       "url":"https://github.com/afonsopacifer/2017-goals",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"learn-english-every-single-day",
@@ -221,7 +246,8 @@
       "description":"A challenge to improve my English while studying CSS and Polymer.",
       "url":"https://github.com/afonsopacifer/learn-english-every-single-day",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     }
   ],
   "projects_2016":[
@@ -231,7 +257,8 @@
       "description":"Simple abstraction for scroll interactions.",
       "url":"https://afonsopacifer.github.io/scrollindo.js/",
       "tech": ["javascript.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"n64-3d",
@@ -239,7 +266,8 @@
       "description":"Nintendo 64 3D logo made with Three.JS <3",
       "url":"https://afonsopacifer.github.io/n64-3d/index.html",
       "tech": ["threejs.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     },
     {
       "event":"slush-banana",
@@ -247,7 +275,8 @@
       "description":"Generator for BananaCSS Projects.",
       "url":"https://github.com/bananacss/slush-banana",
       "tech": ["slush.png","banana.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"slush-gulp-plugin",
@@ -255,7 +284,8 @@
       "description":"A slush generator for gulp plugins.",
       "url":"https://github.com/afonsopacifer/slush-gulp-plugin",
       "tech": ["slush.png","gulp.png","node.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"gulp-banana",
@@ -263,7 +293,8 @@
       "description":"Gulp plugin for compile Banana code to CSS.",
       "url":"https://github.com/bananacss/gulp-banana",
       "tech": ["gulp.png","banana.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"css-ast-iterations",
@@ -271,7 +302,8 @@
       "description":"Provide a very simple API for complex iterations on the CSS abstract syntax tree (AST).",
       "url":"https://github.com/bananacss/css-ast-iterations",
       "tech": ["node.svg","mocha.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"banana-style-guide",
@@ -279,7 +311,8 @@
       "description":"Banana NodeJS code style guide.",
       "url":"https://github.com/bananacss/banana-style-guide",
       "tech": ["markdown.png","node.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"bananacss",
@@ -289,7 +322,8 @@
       "tech": ["node.svg","mocha.svg"],
       "platform": "Github",
       "highlights": true,
-      "image": "projects/banana.jpg"
+      "image": "projects/banana.jpg",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"vue-meditation",
@@ -297,7 +331,8 @@
       "description":"Timer for meditation built with Vue.JS",
       "url":"https://afonsopacifer.github.io/vue-meditation/",
       "tech": ["vue.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
     },
     {
       "event":"slush-node-cli",
@@ -305,7 +340,8 @@
       "description":"A slush generator for Nodejs CLI programs.",
       "url":"https://github.com/afonsopacifer/slush-node-cli",
       "tech": ["slush.png","node.svg","sh.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["back-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"friday",
@@ -313,7 +349,8 @@
       "description":"Shell Script to help with daily tasks.",
       "url":"https://github.com/afonsopacifer/friday",
       "tech": ["sh.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["cli"]
     },
     {
       "event":"awesome-firebase",
@@ -321,7 +358,8 @@
       "description":"A curated list of Firebase.",
       "url":"https://github.com/afonsopacifer/awesome-firebase",
       "tech": ["markdown.png","firebase.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"skip-to-content",
@@ -329,7 +367,8 @@
       "description":"A Polymer element for Skip to Content.",
       "url":"https://github.com/afonsopacifer/skip-to-content",
       "tech": ["polymer.svg","bower.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","developer-tool"]
     },
     {
       "event":"hamburguer-menu",
@@ -337,7 +376,8 @@
       "description":"A Polymer element for Off-canvas Menu.",
       "url":"https://github.com/afonsopacifer/hamburguer-menu",
       "tech": ["polymer.svg","bower.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","developer-tool"]
     },
     {
       "event":"github-corner",
@@ -345,7 +385,8 @@
       "description":"A Polymer element for Github Corner.",
       "url":"https://github.com/afonsopacifer/github-corner",
       "tech": ["polymer.svg","bower.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"react-unit-test-example",
@@ -353,7 +394,8 @@
       "description":"Exemplo de teste unitário em componentes ReactJS.",
       "url":"https://github.com/afonsopacifer/react-unit-test-example",
       "tech": ["react.svg","babel.svg","webpack.svg","mocha.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     },
     {
       "event":"slush-react-start",
@@ -361,7 +403,8 @@
       "description":"Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel).",
       "url":"https://github.com/afonsopacifer/slush-react-start",
       "tech": ["slush.png","react.svg","babel.svg","webpack.svg","browserify.svg","mocha.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"react-pomodoro",
@@ -369,7 +412,8 @@
       "description":"Pomodoro timer for developers.",
       "url":"http://afonsopacifer.github.io/react-pomodoro/",
       "tech": ["react.svg","babel.svg","webpack.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
     },
     {
       "event":"react-comments",
@@ -377,7 +421,8 @@
       "description":"A React comment feed.",
       "url":"http://afonsopacifer.github.io/react-comments/",
       "tech": ["react.svg","browserify.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app","demo"]
     },
     {
       "event":"da-vinci-css",
@@ -385,7 +430,8 @@
       "description":"Creating shapes and drawings with CSS.",
       "url":"https://github.com/afonsopacifer/da-vinci-css",
       "tech": ["stylus.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"css-magic",
@@ -393,7 +439,8 @@
       "description":"An illusion created only with CSS.",
       "url":"https://github.com/afonsopacifer/css-magic",
       "tech": ["css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     },
     {
       "event":"egg-emergency",
@@ -401,7 +448,8 @@
       "description":"A remake of the most fun mini game that existed in Pokemon Stadium with only CSS.",
       "url":"http://afonsopacifer.github.io/egg-emergency/",
       "tech": ["css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     }
 
   ],
@@ -412,7 +460,8 @@
       "description":"A template to help you create open source projects more organized.",
       "url":"https://github.com/afonsopacifer/open-source-boilerplate",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["boilerplate"]
     },
     {
       "event":"SPA-example",
@@ -420,7 +469,8 @@
       "description":"Exemplo de uma SPA utilizando Jquery e History API.",
       "url":"https://github.com/afonsopacifer/SPA-example",
       "tech": ["jquery.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","demo"]
     },
     {
       "event":"pacificator",
@@ -428,7 +478,8 @@
       "description":"Adds a standard syntax and indentation to css.",
       "url":"https://github.com/afonsopacifer/pacificator",
       "tech": ["node.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["cli","developer-tool"]
     },
     {
       "event":"microscope",
@@ -436,7 +487,8 @@
       "description":"A simple and fast boilerplate that assists the development of Atomic Design Systems.",
       "url":"https://github.com/afonsopacifer/microscope",
       "tech": ["grunt.svg","stylus.svg","jade.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"slush-tangerine",
@@ -444,7 +496,8 @@
       "description":"Front-End boilerplate with tangerine flavor.",
       "url":"https://github.com/afonsopacifer/slush-tangerine",
       "tech": ["slush.png","gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","cli","developer-tool","boilerplate"]
     },
     {
       "event":"open-source-checklist",
@@ -452,7 +505,8 @@
       "description":"A guide to help you remember important things when creating an open source project ;D",
       "url":"http://afonsopacifer.github.io/open-source-checklist/",
       "tech": ["grunt.svg","jade.svg","stylus.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"write-code-every-day",
@@ -460,7 +514,8 @@
       "description":"A project to honor those developers who believed in the challenge.",
       "url":"http://raphamorim.io/write-code-every-day/",
       "tech": ["javascript.svg","stylus.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"commit-wars",
@@ -468,7 +523,8 @@
       "description":"Minhas aventuras pelo mundo Open Source na jornada Write Code Every Day.",
       "url":"https://github.com/afonsopacifer/commit-wars",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"learning-css-grid-layout",
@@ -476,7 +532,8 @@
       "description":"List of resources to learn CSS Grid Layout Module or only CSS Grid.",
       "url":"https://github.com/afonsopacifer/learning-css-grid-layout",
       "tech": ["markdown.png","css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"front-end-checklist",
@@ -484,7 +541,8 @@
       "description":"work in progress.",
       "url":"https://github.com/afonsopacifer/front-end-checklist",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"flex-grid-framework",
@@ -492,7 +550,8 @@
       "description":"The Flex Semantic Grid focusing on performance.",
       "url":"https://afonsopacifer.github.io/flex-grid-framework/",
       "tech": ["sass.svg","stylus.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","developer-tool"]
     },
     {
       "event":"dev-notes",
@@ -500,7 +559,8 @@
       "description":"Anotações de um Dev Front-End.",
       "url":"https://github.com/afonsopacifer/dev-notes",
       "tech": ["markdown.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"pumpkin",
@@ -508,7 +568,8 @@
       "description":"A halloween theme, inspired on Github Halloween Themed Contribution Graph.",
       "url":"https://github.com/afonsopacifer/pumpkin",
       "tech": ["sublime.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["design","developer-tool"]
     },
     {
       "event":"awesome-flexbox",
@@ -516,7 +577,8 @@
       "description":"A curated list of CSS Flexible Box Layout Module or only Flexbox.",
       "url":"https://github.com/afonsopacifer/awesome-flexbox",
       "tech": ["markdown.png","css.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     },
     {
       "event":"my-personal-website (Legacy)",
@@ -524,7 +586,8 @@
       "description":"My personal website.",
       "url":"https://github.com/afonsopacifer/my-personal-website",
       "tech": ["gulp.png","jade.svg","postcss.svg","babel.svg","jasmine.svg","phantom.png","karma.svg"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["front-end","design","web-app"]
 
     }
   ],
@@ -535,7 +598,8 @@
       "description":"My packages, configs, dotfiles, plugins, etc...",
       "url":"https://github.com/afonsopacifer/afonsoconfigs",
       "tech": ["markdown.png","sh.png"],
-      "platform": "Github"
+      "platform": "Github",
+      "tags": ["docs"]
     }
   ]
 }

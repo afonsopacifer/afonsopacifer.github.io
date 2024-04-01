@@ -1,8 +1,8 @@
 .tag {
   display: inline-block;
-  background-color: var(--headings-color, #F5C416);
+  background-color: #575757;
   padding: 4px 8px;
-  color: var(--text-highlights-color, #2F2F2F);
+  color: #fff;
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
@@ -17,12 +17,38 @@
 
 .tag--pt-br {
   background-color: #a9eb80;
+  color: var(--text-highlights-color, #2F2F2F);
 }
 
 .tag--en {
   background-color: #eb809b;
+  color: var(--text-highlights-color, #2F2F2F);
+}
+
+.tag--zh {
+  background-color: #f4f4f4;
+  color: var(--text-highlights-color, #2F2F2F);
 }
 
 .tag--date {
   background-color: var(--highlight-color);
+  color: var(--text-highlights-color, #2F2F2F);
+}
+
+.tag--front-end {
+  background-color: #f16529;
+}
+
+.tag--back-end {
+  background-color: #b3db45;
+  color:#222222;
+}
+
+.tag--cli {
+  background-color: #5cd8e7;
+  color:#222222;
+}
+
+.tag--design {
+  background-color: #bc28d0;
 }

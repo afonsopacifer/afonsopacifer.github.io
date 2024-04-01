@@ -25,6 +25,7 @@ const ListBox = ({
   icon,
   time,
   image,
+  tags,
   }) => {
 
   let currentFlag;
@@ -36,6 +37,14 @@ const ListBox = ({
   if(icon === 'colombia') {
     currentFlag = <ColombiaFlag className = 'heading__icon' />
   }
+
+  const _renderTags = () => tags.map(tag => {
+    return (
+      <span className = {`tag tag--${tag}`}>
+        { tag }
+      </span>
+    )
+  })
 
   return (
     <article className = 'list-box' lang = { lang }>
@@ -64,13 +73,18 @@ const ListBox = ({
           }
 
           {
+            tags && _renderTags()
+          }
+
+          {
             date &&
             <span className = 'tag tag--date'>
               { date }
             </span>
           }
 
-          { lang &&
+          { 
+            lang &&
             <span className = {`tag tag--${lang}`}>
               { lang }
             </span>
