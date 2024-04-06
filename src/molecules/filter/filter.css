@@ -1,5 +1,6 @@
 .filter {
   position: relative;
+  margin-top: var(--tertiary-space);
 }
 
 .filter__counter {

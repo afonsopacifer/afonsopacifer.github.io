@@ -8,6 +8,7 @@ import SEO from '../bosons/seo';
 import Link from '../atoms/link/';
 import CommentBar from '../atoms/comment-bar';
 import PageHeader from '../organisms/page-header/';
+import renderHighlights from '../bosons/helpers/renderHighlights';
 import Github from '../assets/icons/github.svg';
 import Codepen from '../assets/icons/codepen.svg';
 
@@ -21,20 +22,20 @@ const Projects = () => {
       <PageHeader>
 
         <h1 className = 'heading heading--lv1'>
-          <strong className = 'heading--underline'> Side </strong> projects and open source initiatives in companies.
+          <strong className = 'heading--underline'> Side projects </strong> and open source initiatives in companies.
         </h1>
 
         <p className = 'text'>
-          I love open source and code for fun, this passion made me <a href='https://dev.to/afonsopacifer/how-i-became-a-senior-javascript-developer-with-personal-projects-1lpo' target = '_blnak' className = 'link'>a senior javascript developer with personal projects</a>.
+          I love learning about new technologies by creating my own developer tools, this passion made me <a href='https://dev.to/afonsopacifer/how-i-became-a-senior-javascript-developer-with-personal-projects-1lpo' target = '_blnak' className = 'link'>a senior javascript developer with personal projects</a>.
         </p>
 
         <p className = 'text'>
-          I started and maintained <b className = 'text--highlight'>open source projects in every company</b> I worked for.
+          One interesting thing about my career is that I started and maintained <b className = 'text--highlight'>open source</b> projects at <b className = 'text--highlight'>every company</b> I worked for.
         </p>
 
-        <CommentBar title = '⚠️ Disclaimer!'>
-          I list below only projects of companies that I still maintain or my personal projects.
-        </CommentBar>
+        {/* <CommentBar title = '⚠️ Disclaimer!'>
+          Below I list some projects that are no longer open, in these cases I added a case study explaining my <b className = 'text--highlight'>architectural</b> decisions, <b className = 'text--highlight'>technology</b> choices and development <b className = 'text--highlight'>process.</b>
+        </CommentBar> */}
 
         <Link href = 'https://github.com/afonsopacifer'> 
           <Github />
@@ -47,6 +48,14 @@ const Projects = () => {
         </Link>
 
       </PageHeader>
+
+      <h2 className = 'heading heading--lv2'>
+        <strong className = 'heading--underline'> Featured </strong> personal projects.
+      </h2>
+
+      <section className = 'feature-box-container'>
+        { renderHighlights(projects) }
+      </section>
 
       { renderSections(projects) }
 

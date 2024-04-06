@@ -86,10 +86,15 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   color: var(--highlight-color);
-  margin: var(--primary-space) 0;
+  margin-top: var(--primary-space);
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
 }
 
 .feature-box__text {
   font-size: 14px;
   padding: 0;
+  margin-top: var(--primary-space);
 }

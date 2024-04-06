@@ -14,10 +14,11 @@
 
   /* Spacing patterns */
 
-  --page-width: 740px;
+  --page-width: 880px;
   --bar-height: 48px;
   --primary-space: 8px;
   --secondary-space: 16px;
+  --tertiary-space: 32px;
 
   /* Breakpoints */
 

@@ -103,7 +103,7 @@
     {
       "event":"nomsjs",
       "user":"afonsopacifer",
-      "description":"🔮 Universal/isomorphic javascript unit tests for witches.",
+      "description":"🔮 Universal / isomorphic javascript unit tests for witches.",
       "url":"https://github.com/afonsopacifer/nomsjs",
       "tech": ["mocha.svg", "babel.svg"],
       "platform": "Github",
