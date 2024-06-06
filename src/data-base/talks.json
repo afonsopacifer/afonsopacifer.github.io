@@ -1,4 +1,16 @@
 {
+  "talks_2024": [
+    {
+      "event":"DevTec 2024",
+      "title":"Guia para se tornar uma Pessoa Desenvolvedora Front-end Especialista",
+      "attendees":"100",
+      "date":"May 15 2024",
+      "local":"Faculdade Senac Tubarão - Tubarão - SC - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/guia-para-se-tornar-uma-pessoa-desenvolvedora-front-end-especialista",
+      "lang": "pt-br",
+      "icon": "brazil"
+    }
+  ],
     "talks_2023": [
     {
       "event":"Front in Sampa",
