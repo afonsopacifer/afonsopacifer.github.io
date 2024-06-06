@@ -56,9 +56,13 @@ const FeatureBox = ({
         { event }
       </h3>
 
-      <p className = 'text feature-box__text'>
-        { shortText(description, 60) }
-      </p>
+      {
+        description && (
+          <p className = 'text feature-box__text'>
+            { shortText(description, 60) }
+          </p>
+        )
+      }
 
     </a>
 

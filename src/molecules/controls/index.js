@@ -17,7 +17,7 @@ const Controls = () => {
         > */}
 
           <img
-            src = 'https://avatars0.githubusercontent.com/u/6748866?s=460&u=5f68f71ae1b3fb3c7030281a77e815161973374c&v=4'
+            src = 'logo/afonso_pacifer_logo_white.svg'
             alt = 'Afonso Pacifer'
             className = 'controls__photo controls__button'
           />

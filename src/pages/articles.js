@@ -13,6 +13,7 @@ import Dev from '../assets/icons/dev.svg';
 import Medium from '../assets/icons/medium.svg';
 import Filter from '../molecules/filter/';
 import filterRules from '../bosons/helpers/filterRules/filterRules';
+import renderHighlights from '../bosons/helpers/renderHighlights';
 
 const Articles = () => {
   
@@ -51,6 +52,14 @@ const Articles = () => {
         </Link>
 
       </PageHeader>
+
+      <h2 className = 'heading heading--lv2'>
+        <strong className = 'heading--underline'> Featured </strong> articles.
+      </h2>
+
+      <section className = 'feature-box-container'>
+        { renderHighlights(articles) }
+      </section>
 
       <Filter
         label = 'Filter by lang'

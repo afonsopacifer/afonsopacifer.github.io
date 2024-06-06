@@ -4,7 +4,7 @@
 
   --page-background-color: rgb(34, 34, 34);
   --bar-background-color: #141313;
-  --highlight-color: #c582f6;
+  --highlight-color: #ff8ff9;
 
   /* Texts colors */
   
@@ -14,10 +14,11 @@
 
   /* Spacing patterns */
 
-  --page-width: 740px;
+  --page-width: 880px;
   --bar-height: 48px;
   --primary-space: 8px;
   --secondary-space: 16px;
+  --tertiary-space: 32px;
 
   /* Breakpoints */
 

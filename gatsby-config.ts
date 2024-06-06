@@ -52,7 +52,7 @@ const config: GatsbyConfig = {
         background_color: `#2F2F2F`,
         theme_color: `#F5C416`,
         display: `minimal-ui`,
-        icon: `src/assets/images/afonso_pacifer_logo.png`,
+        icon: `static/logo/afonso_pacifer_logo_white.svg`,
         icon_options: {
           purpose: `any maskable`,
         },
@@ -74,7 +74,7 @@ const config: GatsbyConfig = {
           },
           {
             name: `Roboto`,
-            file: `https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'`,
           },
         ],
       },

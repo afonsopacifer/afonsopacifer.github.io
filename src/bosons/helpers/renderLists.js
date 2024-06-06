@@ -22,6 +22,7 @@ const renderList = (items, filters = () => true) => items
       icon = { item.icon }
       time = { item.time }
       image = { item.image }
+      tags = { item.tags }
       key = { `${item.event}_${i}` }
     />
   ));

@@ -138,12 +138,12 @@ const Index = () => {
 
         <Link href = 'https://twitter.com/afonsopacifer'> 
           <Twitter />
-          Follow me on Twitter / <b className = 'text--highlight'> +3k Followers</b>
+          Follow me on X / <b className = 'text--highlight'> +3k Followers</b>
         </Link>
 
       </PageHeader>
 
-      <h2 className = 'heading heading--lv2'>
+      {/* <h2 className = 'heading heading--lv2'>
         <strong className = 'heading--underline'> Featured </strong> blog posts.
       </h2>
 
@@ -173,7 +173,7 @@ const Index = () => {
 
       <div className = 'feature-box-container'>
         { renderHighlights(videos) }
-      </div>
+      </div> */}
 
     </DefaultLayout>
   );

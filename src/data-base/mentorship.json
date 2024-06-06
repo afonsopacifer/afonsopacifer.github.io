@@ -1,0 +1,48 @@
+{
+  "products":[
+    {
+      "title": "Exclusive Content",
+      "price": "29,99",
+      "duration": "Month",
+      "items": [
+        "Conteúdo exclusivo",
+        "Entrevista prévia",
+        "4h de mentoria",
+        "Suporte via e-mail por 3 messes"
+      ]
+    },
+    {
+      "title": "Mentorship",
+      "price": "374,99",
+      "duration": "Hour",
+      "items": [
+        "Conteúdo exclusivo",
+        "Entrevista prévia",
+        "4h de mentoria",
+        "Suporte via e-mail por 3 messes"
+      ]
+    },
+    {
+      "title": "Complete Program",
+      "price": "1.299,99",
+      "duration": "Month",
+      "items": [
+        "Conteúdo exclusivo",
+        "Entrevista prévia",
+        "4h de mentoria",
+        "Suporte via e-mail por 3 messes"
+      ]
+    },
+    {
+      "title": "For Companies",
+      "price": "1.299,99",
+      "duration": "Month",
+      "items": [
+        "Conteúdo exclusivo",
+        "Entrevista prévia",
+        "4h de mentoria",
+        "Suporte via e-mail por 3 messes"
+      ]
+    }
+  ]
+}

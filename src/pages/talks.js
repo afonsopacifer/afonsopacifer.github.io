@@ -9,6 +9,7 @@ import SEO from '../bosons/seo';
 import Link from '../atoms/link/';
 import CommentBar from '../atoms/comment-bar';
 import PageHeader from '../organisms/page-header/';
+import renderHighlights from '../bosons/helpers/renderHighlights';
 import CopyToClipBoard from '../atoms/copy-to-clipboard';
 import SpeakerDeck from '../assets/icons/speaker-deck.svg';
 
@@ -45,6 +46,14 @@ const Talks = () => (
       </Link>
 
     </PageHeader>
+
+    <h2 className = 'heading heading--lv2'>
+      <strong className = 'heading--underline'> Featured </strong> talks.
+    </h2>
+
+    <section className = 'feature-box-container'>
+      { renderHighlights(talks) }
+    </section>
 
     { renderSections(talks) }
 
