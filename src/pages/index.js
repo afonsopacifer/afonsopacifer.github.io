@@ -138,7 +138,7 @@ const Index = () => {
 
         <Link href = 'https://twitter.com/afonsopacifer'> 
           <Twitter />
-          Follow me on Twitter / <b className = 'text--highlight'> +3k Followers</b>
+          Follow me on X / <b className = 'text--highlight'> +3k Followers</b>
         </Link>
 
       </PageHeader>

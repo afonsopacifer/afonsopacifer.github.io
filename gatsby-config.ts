@@ -52,7 +52,7 @@ const config: GatsbyConfig = {
         background_color: `#2F2F2F`,
         theme_color: `#F5C416`,
         display: `minimal-ui`,
-        icon: `src/assets/images/afonso_pacifer_logo.png`,
+        icon: `static/logo/afonso_pacifer_logo_white.svg`,
         icon_options: {
           purpose: `any maskable`,
         },

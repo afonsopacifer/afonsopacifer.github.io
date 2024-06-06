@@ -3,6 +3,7 @@ import 'balloon-css';
 import Linkedin from '../../assets/icons/linkedin.svg';
 import Github from '../../assets/icons/github.svg';
 import Twitter from '../../assets/icons/twitter.svg';
+import Instagram from '../../assets/icons/instagram.svg';
 import './social.css';
 
 const Social = () => (
@@ -34,11 +35,22 @@ const Social = () => (
       className = 'social__link'
       href = 'https://twitter.com/afonsopacifer'
       target = '_blank'
-      aria-label = 'twitter'
+      aria-label = 'X'
       data-balloon-pos = 'down-right'
       data-balloon-blunt
     >
       <Twitter className = 'social__icon' />
+    </a>
+
+    <a
+      className = 'social__link'
+      href = 'https://www.instagram.com/afonsopacifer'
+      target = '_blank'
+      aria-label = 'Instagram'
+      data-balloon-pos = 'down-right'
+      data-balloon-blunt
+    >
+      <Instagram className = 'social__icon' />
     </a>
 
   </div>
