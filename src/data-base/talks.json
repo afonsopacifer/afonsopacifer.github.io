@@ -30,7 +30,9 @@
       "local":"Teatro Gazeta - São Paulo - SP - Brazil",
       "slides":"https://speakerdeck.com/afonsopacifer/o-caminho-para-se-tornar-um-a-mestre-a-dos-estilos-com-css-lv-5",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "highlights": true,
+      "image": "talks/conf-css-brasil.jpg"
     },
     {
       "event":"HTML SP - FrontendWeek",
@@ -80,9 +82,7 @@
       "local":"Hotel Maria do Mar - Florianópolis - SC - Brazil",
       "slides":"https://speakerdeck.com/afonsopacifer/no-pain-no-gain",
       "lang": "pt-br",
-      "icon": "brazil",
-      "highlights": true,
-      "image": "talks/front-in-floripa.jpg"
+      "icon": "brazil"
     },
     {
       "event":"#30 HTML SP",
