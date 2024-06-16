@@ -1,4 +1,16 @@
 {
+  "articles_2024":[
+    {
+      "event":"Criando componentes para Web #01: Acessibilidade (a11y) na prática com WAI-ARIA",
+      "date":"Jun 16 2024",
+      "description":"WAI ou Web Accessibility Initiative (Iniciativa de Acessibilidade na Web), é uma iniciativa da W3C para desenvolver padrões e materiais de apoio que nos ajudam a compreender e implementar a acessibilidade.",
+      "url":"https://dev.to/afonsopacifer/criando-componentes-para-web-01-acessibilidade-a11y-na-pratica-com-wai-aria-45ef",
+      "platform":"Dev",
+      "lang":"pt-br",
+      "highlights": true,
+      "image": "articles/components-01-wai-aria.png"
+    }
+  ],
   "articles_2020":[
     {
       "event":"如何保持对个人项目的热情？",
@@ -57,7 +69,6 @@
       "url":"https://medium.com/@afonsopacifer/guia-para-empoderar-pessoas-atrav%C3%A9s-de-html-e-realidade-virtual-7798b8e7d57e",
       "platform":"Medium",
       "lang":"pt-br",
-      "highlights": true,
       "image": "articles/guia-para-empoderar-pessoas.jpg"
     },
     {
