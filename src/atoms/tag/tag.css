@@ -52,3 +52,15 @@
 .tag--design {
   background-color: #bc28d0;
 }
+
+@keyframes gradient-rainbow {
+  0% { background-position: 0% 50%; transform: scale(1); }
+  100% { background-position: 100% 50%; transform: scale(1.1); }
+}
+
+.tag--new  {
+  background: linear-gradient(to right, rgb(244, 159, 98), rgb(229, 255, 0));
+  background-size: 200% 100%;
+  animation: gradient-rainbow .4s linear infinite alternate;
+  color: #000;
+}

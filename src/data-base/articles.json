@@ -8,7 +8,8 @@
       "platform":"Dev",
       "lang":"pt-br",
       "highlights": true,
-      "image": "articles/components-01-wai-aria.png"
+      "image": "articles/components-01-wai-aria.png",
+      "tags": ["new"]
     }
   ],
   "articles_2020":[

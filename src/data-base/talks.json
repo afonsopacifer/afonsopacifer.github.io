@@ -8,7 +8,8 @@
       "local":"FCamara - São Paulo - SP - Brazil",
       "slides":"",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "tags": ["new"]
     }
   ],
   "talks_2024": [
@@ -20,7 +21,8 @@
       "local":"Faculdade Senac Tubarão - Tubarão - SC - Brazil",
       "slides":"https://speakerdeck.com/afonsopacifer/guia-para-se-tornar-uma-pessoa-desenvolvedora-front-end-especialista",
       "lang": "pt-br",
-      "icon": "brazil"
+      "icon": "brazil",
+      "tags": ["new"]
     }
   ],
     "talks_2023": [
