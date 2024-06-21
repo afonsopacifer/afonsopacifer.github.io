@@ -1,6 +1,17 @@
 {
   "articles_Upcoming":[
     {
+      "event":"Campus Party Brasil 16",
+      "title":"Conhecendo a área de Developer Experience (DevEx)",
+      "attendees":"",
+      "date":"Jul 12 2024",
+      "local":"Expo Center Norte - São Paulo - SP - Brazil",
+      "slides":"",
+      "lang": "pt-br",
+      "icon": "brazil",
+      "tags": ["new"]
+    },
+    {
       "event":"GitTogether São Paulo",
       "title":"Do Zero ao Sênior Apenas com Projetos Open Source",
       "attendees":"",
