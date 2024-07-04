@@ -10,20 +10,20 @@
       "lang": "pt-br",
       "icon": "brazil",
       "tags": ["new"]
-    },
-    {
-      "event":"GitTogether São Paulo",
-      "title":"Do Zero ao Sênior Apenas com Projetos Open Source",
-      "attendees":"",
-      "date":"Jun 28 2024",
-      "local":"FCamara - São Paulo - SP - Brazil",
-      "slides":"",
-      "lang": "pt-br",
-      "icon": "brazil",
-      "tags": ["new"]
     }
   ],
   "talks_2024": [
+    {
+      "event":"GitTogether São Paulo",
+      "title":"Do Zero ao Sênior Apenas com Projetos Open Source",
+      "attendees":"30",
+      "date":"Jun 28 2024",
+      "local":"FCamara - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/do-zero-ao-senior-apenas-com-projetos-open-source",
+      "lang": "pt-br",
+      "icon": "brazil",
+      "tags": ["new"]
+    },
     {
       "event":"DevTec 2024",
       "title":"Guia para se tornar uma Pessoa Desenvolvedora Front-end Especialista",
