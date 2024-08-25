@@ -1,11 +1,11 @@
 {
   "articles_Upcoming":[
     {
-      "event":"Campus Party Brasil 16",
-      "title":"Conhecendo a área de Developer Experience (DevEx)",
+      "event":"TDC São Paulo",
+      "title":"Developer Experience (DevEx) no mundo Front-End: Do Ruby ao Next.js",
       "attendees":"",
-      "date":"Jul 12 2024",
-      "local":"Expo Center Norte - São Paulo - SP - Brazil",
+      "date":"Sep 20 2024",
+      "local":"PRO MAGNO - São Paulo - SP - Brazil",
       "slides":"",
       "lang": "pt-br",
       "icon": "brazil",
@@ -13,6 +13,28 @@
     }
   ],
   "talks_2024": [
+    {
+      "event":"Itaú Linux Launch Day",
+      "title":"Open Source e Developer Experience (DevEx)",
+      "attendees":"50",
+      "date":"Ago 22 2024",
+      "local":"Centro de Tecnologia Itaú - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/open-source-e-developer-experience",
+      "lang": "pt-br",
+      "icon": "brazil",
+      "tags": ["new"]
+    },
+    {
+      "event":"Campus Party Brasil 16",
+      "title":"Conhecendo a área de Developer Experience (DevEx)",
+      "attendees":"30",
+      "date":"Jul 12 2024",
+      "local":"Expo Center Norte - São Paulo - SP - Brazil",
+      "slides":"https://speakerdeck.com/afonsopacifer/conhecendo-a-area-de-developer-experience-devex",
+      "lang": "pt-br",
+      "icon": "brazil",
+      "tags": ["new"]
+    },
     {
       "event":"GitTogether São Paulo",
       "title":"Do Zero ao Sênior Apenas com Projetos Open Source",
