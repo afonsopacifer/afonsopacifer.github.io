@@ -48,18 +48,22 @@ const Index = () => {
         </h1>
 
         <p className = 'text'>
-          My name is <b className = 'text--highlight'>Afonso Pacifer</b> and I'm a <b className = 'text--highlight'>Software Engineer</b> from São Paulo - Brazil. <br/>
+          My name is <b className = 'text--highlight'>Afonso Pacifer</b>
+           and I'm a <b className = 'text--highlight'>Software Engineer</b> from São Paulo - Brazil. <br/>
           I started as a web developer in 2010, working with Front-End web standards.
-        </p>
-  
-        <p className = 'text'>
-          I'm currently working full-time with <b className = 'text--highlight'>DevRel</b> and <b className = 'text--highlight'>Platform Front-End Specialist</b> at <a href='https://www.neoway.com.br/' className = 'link'>Neoway</a> 
-          <em className = 'text--hand-drawing'> (The biggest Data Analytics and Artificial Intelligence company for businesses in Latin America) </em>. 
         </p>
 
         <p className = 'text'>
-          Before that, I was the  <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>
-          , host at <a href='https://github.com/frontendbr' target = '_blank' className = 'link'>Front-end Brasil</a> <em className = 'text--hand-drawing'>(The biggest brazilian Front-End community)</em>, full-time <b className = 'text--highlight'>web evangelist</b> and much more.
+          I'm currently working full-time with <b className = 'text--highlight'>Senior Software Engineer</b> at <a href='https://www.getambush.com/' className = 'link'>Ambush</a>. 
+        </p>
+
+        <p className = 'text'>
+          Before that, I was the <b className = 'text--highlight'>DevRel</b> and <b className = 'text--highlight'>Platform Front-End Specialist</b> at <a href='https://www.neoway.com.br/' className = 'link'>Neoway</a>
+          ,  <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>
+          {/* <em className = 'text--hand-drawing'> (The biggest Data Analytics and Artificial Intelligence company for businesses in Latin America) </em>, <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>, */}
+          , host at <a href='https://github.com/frontendbr' target = '_blank' className = 'link'>Front-end Brasil</a> {/* <em className = 'text--hand-drawing'>(The biggest brazilian Front-End community)</em>, */}
+          , full-time <b className = 'text--highlight'>web evangelist</b>,
+          professional <b className = 'text--highlight'>tech instructor</b> and more.
         </p>
 
         <CommentBar title = 'Work together?'>
