@@ -1,6 +1,7 @@
 .controls {
   box-sizing: border-box;
   width: 150px;
+  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 800px) {

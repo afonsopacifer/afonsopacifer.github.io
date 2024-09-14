@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './menu.css';
+import Training from '../../assets/icons/trainings.svg';
 
 const Menu = () => (
   <nav className = 'menu'>
@@ -59,10 +60,11 @@ const Menu = () => (
       {/* <li className = 'menu-list__item'>
         <Link
           to = '/mentorship'
-          className = 'menu-list__link'
+          className = 'menu-list__link menu-list__link--highlight'
           activeClassName = 'menu-list__link--active'
         >
-          Mentorship
+          <Training className = 'menu-list__icon' />
+          Dev Trainings
         </Link>
       </li> */}
 

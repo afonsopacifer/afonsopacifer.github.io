@@ -59,7 +59,7 @@ const Index = () => {
 
         <p className = 'text'>
           Before that, I was the <b className = 'text--highlight'>DevRel</b> and <b className = 'text--highlight'>Platform Front-End Specialist</b> at <a href='https://www.neoway.com.br/' className = 'link'>Neoway</a>
-          ,  <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>
+          , <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>
           {/* <em className = 'text--hand-drawing'> (The biggest Data Analytics and Artificial Intelligence company for businesses in Latin America) </em>, <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'> Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>, */}
           , host at <a href='https://github.com/frontendbr' target = '_blank' className = 'link'>Front-end Brasil</a> {/* <em className = 'text--hand-drawing'>(The biggest brazilian Front-End community)</em>, */}
           , full-time <b className = 'text--highlight'>web evangelist</b>,
