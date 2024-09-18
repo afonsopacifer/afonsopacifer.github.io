@@ -32,3 +32,4 @@ jobs:
         with:
           folder: public # The folder the action should deploy.
           access-token: ${{ secrets.ACCESS_TOKEN }}
+          clean-exclude: CNAME
