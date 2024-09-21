@@ -1,18 +1,19 @@
 {
   "articles_Upcoming":[
+
+  ],
+  "talks_2024": [
     {
       "event":"TDC São Paulo",
       "title":"Developer Experience (DevEx) no mundo Front-End: Do Ruby ao Next.js",
-      "attendees":"",
+      "attendees":"70",
       "date":"Sep 20 2024",
       "local":"PRO MAGNO - São Paulo - SP - Brazil",
-      "slides":"",
+      "slides":"https://speakerdeck.com/afonsopacifer/developer-experience-devex-no-mundo-front-end-do-ruby-ao-next-dot-js",
       "lang": "pt-br",
       "icon": "brazil",
       "tags": ["new"]
-    }
-  ],
-  "talks_2024": [
+    },
     {
       "event":"Itaú Linux Launch Day",
       "title":"Open Source e Developer Experience (DevEx)",
