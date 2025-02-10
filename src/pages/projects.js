@@ -21,8 +21,8 @@ const Projects = () => {
 
       <PageHeader>
 
-        <h1 className = 'heading heading--lv1'>
-          <strong className = 'heading--underline'> Side projects </strong> and open source initiatives in companies.
+        <h1 className = 'heading heading--lv1 heading--gradient'>
+          Personal projects and open source initiatives in companies.
         </h1>
 
         <p className = 'text'>

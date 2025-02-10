@@ -17,8 +17,8 @@ const Videos = () => (
 
     <PageHeader>
 
-      <h1 className = 'heading heading--lv1'>
-        <strong className = 'heading--underline'> Screencasts,</strong> talks and tech tips.
+      <h1 className = 'heading heading--lv1 heading--gradient'>
+        Screencasts, talks and tech tips.
       </h1>
 
       <p className = 'text'>

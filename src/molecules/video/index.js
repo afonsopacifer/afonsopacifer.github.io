@@ -8,8 +8,8 @@ const Video = ({ src }) => (
     <div className = 'video'>
 
       <span className = 'video__text'>
-        Working for <span className = 'video__text--highlight'> build </span><br/>
-        <span className = 'video__text--highlight'> Developer </span> Experiences
+        Working to Build an<br/>
+        <span className = 'video__text--highlight'> Awesome DevEx</span>
       </span>
 
       <video

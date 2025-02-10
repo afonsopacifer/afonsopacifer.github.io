@@ -1,4 +1,4 @@
 .page-header {
-  margin: calc(var(--secondary-space, 16px) * 2) auto;
+  margin: calc(var(--tertiary-space, 32px) * 3) auto;
   max-width: var(--page-width, 700px);
 }

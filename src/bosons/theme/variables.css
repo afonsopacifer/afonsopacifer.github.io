@@ -2,15 +2,15 @@
 
   /* Layout colors */
 
-  --page-background-color: rgb(34, 34, 34);
-  --bar-background-color: #141313;
-  --highlight-color: #ff8ff9;
+  --page-background-color: #0d0d0d;
+  --bar-background-color: #1c1c1c;
+  --highlight-color: #98b0ff;
 
   /* Texts colors */
   
-  --headings-color: rgb(226, 226, 226);
-  --text-color: rgb(183, 183, 183);
-  --text-highlights-color: rgb(42, 42, 42);
+  --headings-color: #e8e8e8;
+  --text-color: #cccccc;
+  --text-highlights-color: #2a2a2a;
 
   /* Spacing patterns */
 

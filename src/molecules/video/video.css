@@ -19,7 +19,7 @@
   height: 100%;
   background-color: #000;
   display: block;
-  opacity: .6;
+  opacity: .7;
   position: absolute;
   top: 0;
   left: 0;
@@ -86,11 +86,14 @@
   position: absolute;
   bottom: calc(50% - 80px);
   left: 0;
-  font-size: 62px;
+  font-size: 72px;
   z-index: 3;
   opacity: 0;
   animation: show 1s 1s forwards;
   text-align: center;
+  background: -webkit-linear-gradient(-75deg, #f17979, var(--highlight-color) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 800px) {

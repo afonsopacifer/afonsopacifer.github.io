@@ -20,8 +20,8 @@ const Talks = () => (
 
     <PageHeader>
 
-      <h1 className = 'heading heading--lv1'>
-        <strong className = 'heading--underline'> Presentations </strong> in wonderful tech communities.
+      <h1 className = 'heading heading--lv1 heading--gradient'>
+        Presentations in wonderful tech communities.
       </h1>
 
       <p className = 'text'>

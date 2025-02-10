@@ -26,8 +26,8 @@ const Articles = () => {
 
       <PageHeader>
 
-        <h1 className = 'heading heading--lv1'>
-          <strong className = 'heading--underline'> Blog posts </strong> about the tech world.
+        <h1 className = 'heading heading--lv1 heading--gradient'>
+          Blog posts about the tech world.
         </h1>
 
         <p className = 'text'>
