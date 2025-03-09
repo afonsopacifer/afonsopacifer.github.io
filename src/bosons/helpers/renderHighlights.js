@@ -13,7 +13,7 @@ const renderHighlights = data => Object.keys(data).flatMap(years => (
         slides = { item.slides }
         lang = { item.lang }
         event = { item.event }
-        image = { item.image }
+        image = { "../" + item.image }
         description = { item.description }
         key = { `${item.event}_${i}`}
       />

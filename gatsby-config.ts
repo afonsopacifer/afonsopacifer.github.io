@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `Afonso Pacifer`,
     siteUrl: `https://afonsopacifer.github.io/`,
-    description: `Afonso Pacifer | DevRel and Software Engineer`,
+    description: `Afonso Pacifer | Software Engineer and DevRel`,
     author: `@afonsopacifer`,
   },
   plugins: [

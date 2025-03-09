@@ -73,7 +73,7 @@ const Index = () => {
 
           {/* I'm currently working full-time with <b className = 'text--highlight'>Senior Software Engineer</b> at <a href='https://www.getambush.com/' className = 'link'>Ambush</a>. 
    */}
-          Before that, I was the <b className = 'text--highlight'>DevRel</b> and <b className = 'text--highlight'>Platform Front-End Specialist</b> at <a href='https://www.neoway.com.br/' className = 'link'>Neoway</a>, 
+          Before that, I was the <b className = 'text--highlight'>DevRel</b> and <b className = 'text--highlight'>Specialist Front-End Engineer</b> at <a href='https://www.neoway.com.br/' className = 'link'>Neoway</a>, 
           <b className = 'text--highlight'>Tech Lead</b> and <b className = 'text--highlight'>Senior Javascript Full Stack Developer</b> at <a href='https://vallesistemas.com.br/' className = 'link'>valleweb</a>,
           host at <a href='https://github.com/frontendbr' target = '_blank' className = 'link'>Front-end Brasil</a>,
           full-time <b className = 'text--highlight'>web evangelist</b>,

@@ -17,7 +17,7 @@ const Controls = () => {
         > */}
 
           <img
-            src = 'logo/afonso_pacifer_logo_white.svg'
+            src = '../logo/afonso_pacifer_logo_white.svg'
             alt = 'Afonso Pacifer'
             className = 'controls__photo controls__button'
           />
